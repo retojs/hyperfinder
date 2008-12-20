@@ -1,7 +1,7 @@
 <project name="concat_js" default="concat" basedir=".">
 	
 	<description>
-		Concants all javascript-files together to two files named js.js and new.js.
+		Concats all javascript-files together to 3 files named js.js, new.js and ctrl.js
 		see: http://ant.apache.org/manual/CoreTasks/concat.html
 	</description>
 	
@@ -16,6 +16,11 @@
 		
 		<concat destfile="${destdir}/news.js" append="false">
 			<fileset dir="news" includes="_feeds.js, _settings.js, _share.js, _ticker.js, _vars.js"/>
+		</concat>
+		
+		<concat destfile="${destdir}/ctrl.js" append="false">
+			<fileset dir="util" includes="_ajax.js"/>		
+			<fileset dir="ctrl" includes="_polling.js"/>
 		</concat>
    
 	</target>
