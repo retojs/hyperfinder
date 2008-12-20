@@ -13,6 +13,16 @@ function existsForward($key) {
 	}
 }
 
+function getForward($key) {
+	if (!isset($key) || trim($key) == "") {
+		return false;
+	}
+	$result = execQuery("SELECT forward FROM ctrl_links WHERE linkK = '$key'");
+	if (isset($result) && mysql_numrows($result) > 0) {
+		return mysql_result($result, 0, "forward");
+	}
+}
+
 if (isset($_REQUEST["setForward"])) {
 	$key = $_REQUEST["key"];
 	$forward = $_REQUEST["forward"];
@@ -37,10 +47,11 @@ if (isset($_REQUEST["setForward"])) {
 
 <form action="controller.php" method="POST"><label>KEY:</label> <input type="text" name="key"
 	value="<?php if (isset($key)) { print $key;}?>" /> <br />
-<label>URL:</label> <input type="text" style="width: 400px" name="forward"
-	value="<?php if (isset($forward)) { print $forward;} else { print "http://";} ?>" />
+<label>URL: http://</label> <input type="text" style="width: 400px" name="forward"
+	value="<?php if (isset($forward)) print $forward; ?>" />
 <button type="submit" name="setForward">Go!</button>
 
+<div>forward set to: <?php print "http://" . getForward($key); ?></div>
 </form>
 
 </body>

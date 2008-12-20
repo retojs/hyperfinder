@@ -10,7 +10,7 @@ if (isset($_REQUEST["getForward"])) {
 }
 
 $forward = $_REQUEST["forward"];
-$content = $forward;
+$content = "http://" . $forward;
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -20,11 +20,11 @@ $content = $forward;
 <script type="text/javascript" src="../js/ctrl.js"></script>
 <title>IPhone Remote</title>
 </head>
-<body onload="setPollTimeout()" style="margin: 0px; background-image:url(../img/b.png); background-repeat: repeat-x">
+<body onload="setPollTimeout()" style="margin: 0px; background-image: url(../img/b.png); background-repeat: repeat-x">
 
 <form action="listener.php" method="POST"><label>&nbsp;Key:</label><input type="text" name="key"
-	value="<?php if (isset($key)) { print $key;}?>" />
-<button type="submit" name="getForward">Add Listener</button>
+	value="<?php if (isset($key)) print $key;?>" />
+<button type="submit" name="getForward">Set as Listener</button>
 </form>
 
 <iframe src="<?php print $content;?>" width="100%" height="900px"></iframe>

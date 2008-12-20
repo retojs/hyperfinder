@@ -15,7 +15,7 @@ function doPoll() {
 function doPoll_callback(intID) {
 	if ("ok" != checkAjaxResponse(intID)) { return; }
 
-	//alert("doPoll_callback "+xmlHttp.responseText);
+	// alert("doPoll_callback "+xmlHttp.responseText);
 
 	forward = eval(xmlHttp.responseText);
 	
@@ -26,3 +26,4 @@ function doPoll_callback(intID) {
 		setPollTimeout();
 	}
 }
+

@@ -18,8 +18,8 @@ function getForward($key) {
 $key = $_SESSION["key"];
 $forward = getForward($key);
 print "({";
-if ($_SESSION["forward"] != $forward) {
-	$_SESSION["forward"] = $forward;
+if ($_SESSION["forward_session"] != $forward) {
+	$_SESSION["forward_session"] = $forward;
 	print "'url':'$forward', 'key':'$key'";
 }
 print "})";
