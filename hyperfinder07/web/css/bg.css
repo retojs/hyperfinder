@@ -1,0 +1,31 @@
+/* The identifiers (Basic, Nav, Wetter etc. need to match */
+/* the keys of the array named slots in maintable.php */ 
+
+.css_Basic td {
+	background-color:#eee;
+	/*
+	background-image: url(../img/shadow_Basic.gif);
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: repeat-x;
+	*/
+}
+/*
+.css_Basic_nowshadow td {
+	background-color:#eee;
+	background-image: url();
+}
+*/
+
+.css_Nav td {
+	background-color:#ddd;
+}
+.css_Wetter td {
+	background-color:#ccc;
+}
+.css_Fun td {
+	background-color:#bbb;
+}
+.css_Handel td {
+	background-color:#aaa;
+}

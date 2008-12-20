@@ -1,0 +1,127 @@
+Dank dem Internet haben wir heute Zugang zu allen nur erdenklichen Informationen
+Per Mausklick
+Doch es gibt Leute, denen ist ein Mausklick noch zuviel.
+"Wieso muss ich zuerst eine URL eintippen, mir mein Textfeld neben der Werbung heraussuchen, einen Knopf klicken bevor ich ein einfaches Wort von Deutsch nach Englisch übersetzt habe??"
+Fragte sich R. aus Z. und erfand cmd.hyperfinder.ch
+Die Seite präsentiert sich schlicht: als einzelnes Textfeld.
+Die Mutterseite hyperfinder.ch zeigt wie alles funktionert: 
+Sie ist eine Sammlung der Suchformulare der wichtigsten Datenbanken und Suchportale: Google, Wikipedia, Leo, Adressen, Telefonnummern, Routenplaner, Fahrplan, Wetter, Börsen und Wechselkurse, Fernseh- und Kinoprogramm, Amazon, Ebay, Ricardo, um die wichtigsten zu nennen.
+Der Nutzen ist klar: so braucht man sich nicht mehr die Mühe zu machen, auf die Seite der einzelnen Datenbanken / Suhdienste zu surfen.
+Doch R. aus Z. war das nicht genug. Darum erfand er die Hyperfinder Kommandozeile, die nun die Sammlung auf hyperfinder.ch anführt oder unter cmd.hyperfinder.ch als schlichtes Eingabefeld zur Verfügung steht.
+"Mit der Kommandozeile spart man sich auch noch die Arbeit, das richtige Textfeld auszuwählen. Man schreibt alles ins selbe Feld. An welche Datenbank die Anfrage gerichtet wird, bestimmt das erste Wort der Eingabe."
+Ein Beispiel erklärt die Sache am besten: um ein Wort im Deutsch-Englisch Wörterbuch nachzuschlagen schreibt man "en (und dann das Wort)".
+Analog für Französisch: "fr" und "it" für Italienisch etc.
+Um sich ÖV-Verbindung von Zürich nach davos anzuzeigen, und zwar nächsten Freitag um halb 7, schreibt man "öv zh, davos, fr, 1830"
+Um wie das Wetter in davos wird am Wochenende: "wetter davos". den schneebericht gibts unter "snow davos" und am freitag kann man mit "cam davos" noch kurz selber einen blick auf die piste werfen.
+ 
+
+
+----
+
+Dank dem Internet steht uns heute eine Fülle von Informationen zur Verfügung. Per Mausklick.
+Doch es gibt tatsächlich Leute, denen ist selbst ein Mausklick noch zuviel.
+"Wieso muss ich zuerst eine URL auswendig lernen, oder irgendwo heraussuchen, warten bis das mit Werbung zugepflasterte Suchformular geladen ist, mir in der zwischen Popups das richtige Textfeld heraussuchen, bevor ich dann endlich eintippen kann, welche CD ich kaufen will?"
+Fragte sich R. aus Z. und erfand Hyperfinder.ch
+Hyperfinder.ch ist nicht viel mehr als eine Liste der Such-Eingabe-formulare der wichtigsten Datenbanken und Informationsquellen: ....
+Der Nutzen ist klar: Anstatt zwischen viele verschiedenen Seiten zu wechseln hat man eine Miniversion davon auf Hyperfinder.
+Doch ein bischen unübersichtlich ist das schon. Da nützt auch die Sortierung nach Kategorien (Basic, Navigation, Wetter, Unterhaltung, Handel) nicht wirklich weiter.
+Auf Hyperfinder das richtige Textfeld zu finden, war dem chronisch ungeduldigen R. bald auch zu mühsam und er erfand die Hyperfinder Kommandozeile
+"Mit der Kommandozeile spart man sich auch noch die Arbeit, das richtige Textfeld auszuwählen. Man schreibt alles ins selbe Feld. An welche Datenbank die Anfrage gerichtet wird, bestimmt das erste Wort der Eingabe."
+Ein Beispiel: um ein Wort im Deutsch-Englisch Wörterbuch nachzuschlagen setzt man also einfach das Kommando "en" vor das Wort. Also z.B: "en hyperaktiv"
+Analog: "fr nonchalance", "it dolce farniente" etc.
+Um sich ÖV-Verbindung von Zürich nach Davos anzuzeigen, und zwar nächsten Freitag um halb 7, schreibt man kurz: "öv zh, davos, fr, 1830"
+Wie das Wetter in Davos wird findet man raus mit: "wetter davos". Den Schneebericht gibts unter "snow davos" und am freitag kann man mit "cam davos" noch kurz selber einen blick auf die piste werfen.
+
+Da diese Art der Eingabe für Handys und PDAs ja ideal ist, gibt es pda.hyperfinder.ch
+Und mit Firefox oder IE7 kann man sich die Hyperfinder Kommandozeile sogar als Search Plugin oben rechts in den Browser integrieren. 
+
+----
+
+Dank dem Internet steht uns heute eine Fülle von Informationen zur 
+Verfügung. Per Mausklick.
+Und doch gibt es tatsächlich Leute, denen ist selbst das noch zu 
+umständlich.
+"Wieso muss ich zuerst eine URL auswendig lernen oder irgendwo heraussuchen, 
+warten bis ein mit Werbung zugepflastertes Suchformular geladen ist, mir 
+dort das richtige Textfeld heraussuchen, bevor ich dann endlich eintippen 
+kann, welche CD ich zum Beispiel kaufen will?", fragte sich R. aus Z. und 
+erfand hyperfinder.ch
+
+Hyperfinder.ch ist nicht viel mehr als eine Liste der Eingabefelder der 
+wichtigsten Datenbanken und Informationsquellen, wie Google, Wikipedia, Leo, 
+ein Adressverzeichnis, das Telefonbuch, ein Routenplaner, der SBB-Fahrplan, 
+Wetter, Börsen- und Wechselkurse, Fernseh- und Kinoprogramm, Amazon, Ebay, 
+Ricardo um so ungefähr die wichtigsten zu nennen. Der Nutzen dabei ist 
+offensichtlich: Anstatt zwischen vielen verschiedenen Seiten zu wechseln hat 
+man eine Miniversion jeder Seite direkt auf seiner Startseite: 
+Hyperfinder.ch.
+
+Der Nachteil dabei: die Seite ist tendeziell unübersichtlich. Dagegen nützt 
+auch die Sortierung nach Kategorien (Basic, Navigation, Wetter, 
+Unterhaltung, Handel) nicht wirklich. Auf Hyperfinder das richtige Textfeld 
+zu finden, war dem chronisch ungeduldigen R. bald auch zu mühsam und so 
+erfand er die Hyperfinder Kommandozeile
+"Mit der Kommandozeile spart man sich die Mühe, das richtige Textfeld 
+auszuwählen. Es gibt nur noch ein einziges Feld: die Kommandozeile. An 
+welche Datenbank die Anfrage gerichtet wird, bestimmt das erste Wort der 
+Eingabe." Ein Beispiel: um ein Wort im Deutsch-Englisch-Wörterbuch 
+nachzuschlagen, setzt man also einfach das Kommando "en" vor das Wort. Z.B: 
+"en hyperaktiv". Analog dazu: "fr nonchalance" für Französisch, "it dolce 
+farniente" für Italienisch etc.
+Um sich ÖV-Verbindung von Zürich nach Davos anzuzeigen, und zwar nächsten 
+Freitag um halb 7, schreibt man kurz: "öv zh, davos, fr, 1830"
+Wie das Wetter in Davos wird findet man raus mit: "wetter davos". Den 
+Schneebericht gibts unter "snow davos" und am freitag kann man mit "cam 
+davos" noch kurz selber einen blick auf die piste werfen. Und für unter der 
+Woche liefert das Kommando "tv8" das Fernsehprogramm ab 20:15.
+
+Da diese Art der Eingabe für Handys und PDAs ja ideal ist, gibt es 
+pda.hyperfinder.ch. Mit Firefox oder IE7 kann man sich die Hyperfinder 
+Kommandozeile auch als Search Plugin oben rechts in den Browser integrieren.
+
+
+Hyperfinder
+So haben Sie alles Interessante bereits beim Aufstarten auf dem Computer
+
+Dank dem Internet steht uns heute eine Fülle von Informationen zur 
+Verfügung. Per Mausklick.
+Und doch gibt es tatsächlich Leute, denen ist selbst das noch zu 
+umständlich.
+"Wieso muss ich zuerst eine URL auswendig lernen oder irgendwo heraussuchen, 
+warten bis ein mit Werbung zugepflastertes Suchformular geladen ist, mir 
+dort das richtige Textfeld heraussuchen, bevor ich dann endlich eintippen 
+kann, welche CD ich zum Beispiel kaufen will?", fragte sich R. aus Z. und 
+erfand hyperfinder.ch
+
+Hyperfinder.ch ist nicht viel mehr als eine Liste der Eingabefelder der 
+wichtigsten Datenbanken und Informationsquellen, wie Google, Wikipedia, Leo, 
+ein Adressverzeichnis, das Telefonbuch, ein Routenplaner, der SBB-Fahrplan, 
+Wetter, Börsen- und Wechselkurse, Fernseh- und Kinoprogramm, Amazon, Ebay, 
+Ricardo um so ungefähr die wichtigsten zu nennen. Der Nutzen dabei ist 
+offensichtlich: Anstatt zwischen vielen verschiedenen Seiten zu wechseln hat 
+man eine Miniversion jeder Seite direkt auf seiner Startseite: 
+Hyperfinder.ch.
+
+Der Nachteil dabei: die Seite ist tendeziell unübersichtlich. Dagegen nützt 
+auch die Sortierung nach Kategorien (Basic, Navigation, Wetter, 
+Unterhaltung, Handel) nicht wirklich. Auf Hyperfinder das richtige Textfeld 
+zu finden, war dem chronisch ungeduldigen R. bald auch zu mühsam und so 
+erfand er die Hyperfinder Kommandozeile
+"Mit der Kommandozeile spart man sich die Mühe, das richtige Textfeld 
+auszuwählen. Es gibt nur noch ein einziges Feld: die Kommandozeile. An 
+welche Datenbank die Anfrage gerichtet wird, bestimmt das erste Wort der 
+Eingabe." Ein Beispiel: um ein Wort im Deutsch-Englisch-Wörterbuch 
+nachzuschlagen, setzt man also einfach das Kommando "en" vor das Wort. Z.B: 
+"en hyperaktiv". Analog dazu: "fr nonchalance" für Französisch, "it dolce 
+farniente" für Italienisch etc.
+Um sich ÖV-Verbindung von Zürich nach Davos anzuzeigen, und zwar nächsten 
+Freitag um halb 7, schreibt man kurz: "öv zh, davos, fr, 1830"
+Wie das Wetter in Davos wird findet man raus mit: "wetter davos". Den 
+Schneebericht gibts unter "snow davos" und am freitag kann man mit "cam 
+davos" noch kurz selber einen blick auf die piste werfen. Und für unter der 
+Woche liefert das Kommando "tv8" das Fernsehprogramm ab 20:15.
+
+Da diese Art der Eingabe für Handys und PDAs ja ideal ist, gibt es 
+pda.hyperfinder.ch. Mit Firefox oder IE7 kann man sich die Hyperfinder 
+Kommandozeile auch als Search Plugin oben rechts in den Browser integrieren.
+

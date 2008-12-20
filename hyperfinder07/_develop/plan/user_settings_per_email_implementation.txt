@@ -1,0 +1,43 @@
+Was wenn schon Daten für eine Email Adresse bestehen?
+(Szenarien: 
+	1. User hat sein cookie gelöscht, neue Kommandos eingegeben und will diese jetzt speichern
+	2. User hat Kommandos auf mehreren Browsern und will beide speichern.
+
+--> alle Kommandos zusammenfügen
+
+
+*** Implementation "Multiple userids per Email"
+
+- saveAsEmail(userid, Email) {
+	if (exists data for Email) {
+		// Email auch dieser userid zuordnen. 
+	}
+}
+
+Implementation: Damit user persönliche Kommandos auf mehreren Rechnern behalten können, ohne sie sofort zu speichern, müssen persönliche Kommandos so geladen werden: 
+
+getMyData(userid) {
+	// 1. suche Email zu dieser userid
+	// 2. Falls Email gefunden -> suche alle anderen userid zu dieser Email.
+	// 3. Lade alle Kommandos zu allen userid.
+}
+
+*** Implementation "Single userid per Email"
+
+- saveAsEmail(userid, Email) {
+	if (exists data for Email) {
+		// setCookie parameter in Bestätigungs-Link schicken.
+		// Klickt der user den Link, Wird das cookie (per Javascript) auf die single-userid der Email gesetzt.
+	}	
+}
+
+Vorteil: Überschaubarere Daten
+
+Warum erst im Bestätigungs-Link zurücksetzen?
+1. Sonst könnte man die persönlichen Kommandos eines anderen user klauen (das eigene cookie würde auf die fremde userid gesetzt, sobald man eine fremde Email adresse eingibt.
+
+Nachteil: Es ist nicht möglich, den Bestätigungs-Link von einem anderen PC aus bzw. mit einem anderen Standard-Browser zu setzen.
+
+---
+Fazit: Es braucht mehrere userid pro Email. Kommandos von allen userids müssen angezeigt werden.
+

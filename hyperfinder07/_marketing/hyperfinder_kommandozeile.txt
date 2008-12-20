@@ -1,0 +1,13 @@
+Brainstorming:
+
+PDA, schnell geladen, einfach, übersichtlich
+
+kein scrollen, kein klicken, einfach nur tippen.
+
+"ein wort ist immer noch die einfachste art, etwas zu sagen. darum ermöglicht hyperfinder.ch nun suchanfragen über eine kommandozeile."
+
+
+Firefox Plugin (oben rechts)
+
+Beispiel: "tv8" "Was läuft heute Abend um 89 im Fernseher?"
+

@@ -1,0 +1,1 @@
+<?php $pda = "y"; include("../cmd/index.php"); ?>

@@ -1,0 +1,18 @@
+Dank dem WWW und dem Internet stehen uns allen heute eine bisher ungekannte Fülle an Informationen per Tastendruck zur Verfügung.
+Die Herausforderung die sich dabei stellt ist nun, diese Informationen auch kreativ und mit Leichtigkeit im Alltag nutzen zu können. 
+Die Webseite Hyperfinder.ch bietet eine Schnittstelle ins Internet, die genau das zu optimieren versucht. 
+Hyperfinder zu beherrschen bedeutet, virtuos auf der Klaviatur des Internets zu spielen zu können.
+
+Wie funktioniert's? Im Prinzip ist es ganz einfach und die Informations-Abfrage funktioniert noch fast genau so wie bisher... mit dem Unterschied, dass Hyperfinder viel schneller und leichter zu bedienen ist.
+Anstatt erst eine URL in die Adresszeile einzugeben, zu warten, bis die Seite geladen ist, und dann die Suchanfrage einzugeben, 
+geht das mit der Hyperfinder Kommandozeile alles in einem einzigen Schritt.
+
+Jede Abfrage besteht aus zwei Teilen: Dem Such-Kommando-Kürzel und der eigentlichen Suchanfrage. 
+Das Kürzel gibt an, auf welcher Webseite man suchen will. 
+Die eigentliche Suchanfrage wird hinter das Kürzel geschrieben und besteht aus einzelnen Suchbegriffen, die durch Kommas getrennt sind.
+
+Ein Beispiel: um ein Wort im Deutsch-Englisch Wörterbuch nachzuschlagen schreibt man "en (und dann das Wort)".
+Analog für Französisch: "fr" und "it" für Italienisch etc, also zum Beispiel "fr haus", um nach der französischen Übersetzung des Wortes "Haus" zu suchen.
+Um sich ÖV-Verbindung von Zürich nach davos anzuzeigen, und zwar nächsten Freitag um halb 7, schreibt man "öv zh, davos, fr, 1830"
+Um wie das Wetter in davos wird am Wochenende: "wetter davos". den schneebericht gibts unter "snow davos" und am freitag kann man mit "cam davos" noch kurz selber einen blick auf die piste werfen.
+

@@ -1,0 +1,10 @@
+<search
+version="7.1"
+name="hyperfinder"
+description="Kommandozeile von hyperfinder.ch"
+action="http://cmd.hyperfinder.ch/do.php"
+searchForm="http://cmd.hyperfinder.ch/help.php"
+method="GET"
+>
+<input name="find" user>
+</search>

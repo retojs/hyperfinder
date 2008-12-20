@@ -1,0 +1,39 @@
+User Kommando DB
+================
+
+Kommando- Komponenten 
+---------------------
+
+0. Kommando-Kürzel
+1. URL
+2. Method (GET / POST)
+3. Liste mit Namen der Parameter des Suchformulars
+4. Dokumentation
+
+
+Wie soll man seine eigenen Definieren?
+Ganz einfach: 
+
+1. Klicke Neu oder wähle ein bestehendes Kommando aus
+2. Verändere Kürzel URL, Method, Parameter-Liste und Dokumentation
+3. Klicke Save oder Delete
+
+
+Einzelne Kommandos teilen
+-------------------------
+
+Per Email einen Link verschicken.
+Dein Freund öffnet es. Sodann kann er es akzeptieren.
+
+
+Seine settings abspeichern
+--------------------------
+
+Sind per default einem cookie zugeordnet.
+Um das Kookie an eine Email-Adresse zu binden, muss man den Email-Check durchführen (Confirm)
+
+Zu den Settings gehören
+-----------------------
+
+1. Design
+2. Kürzel

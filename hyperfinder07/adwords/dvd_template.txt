@@ -1,0 +1,50 @@
+%SERIES% 1
+%SERIES% s01
+%SERIES% s01e01
+%SERIES% s01e02
+%SERIES% s01e03
+%SERIES% s01e04
+%SERIES% s01e05
+%SERIES% s01e06
+%SERIES% s01e07
+%SERIES% s01e08
+%SERIES% s01e09
+%SERIES% s01e10
+%SERIES% s01e11
+%SERIES% s01e12
+%SERIES% s01e13
+%SERIES% s01e14
+%SERIES% s01e15
+%SERIES% s01e16
+%SERIES% s01e17
+%SERIES% s01e18
+%SERIES% s01e19
+%SERIES% s01e20
+%SERIES% s01e21
+%SERIES% s1
+%SERIES% s1 dvd
+%SERIES% saison 1
+%SERIES% saison 1 dvd
+%SERIES% saison one
+%SERIES% saison one dvd
+%SERIES% saison1
+%SERIES% saison1 dvd
+%SERIES% season 1
+%SERIES% season 1 dvd
+%SERIES% season one
+%SERIES% season one dvd
+%SERIES% season1
+%SERIES% season1 dvd
+%SERIES% staffel 01
+%SERIES% staffel 01 dvd
+%SERIES% staffel 1
+%SERIES% staffel 1 dvd
+%SERIES% staffel eins
+%SERIES% staffel eins dvd
+%SERIES% staffel1
+%SERIES% staffel1 dvd
+-episode
+-episodes
+-guide
+-schedule
+-transcripts

@@ -1,0 +1,23 @@
+<project name="concat_js" default="concat" basedir=".">
+	
+	<description>
+		Concants all javascript-files together to two files named js.js and new.js.
+		see: http://ant.apache.org/manual/CoreTasks/concat.html
+	</description>
+	
+	<property name="destdir" location="../../web/js" />
+	
+	<target name="concat">
+		
+		<concat destfile="${destdir}/js.js" append="false">
+			<fileset dir="util" includes="_ajax.js, _cookies.js, _cmdline.js, _util.js"/>
+			<fileset dir="." includes="_gotoUrl.js, _main.js, _settings.js, _userdata.js"/>
+		</concat>
+		
+		<concat destfile="${destdir}/news.js" append="false">
+			<fileset dir="news" includes="_feeds.js, _settings.js, _share.js, _ticker.js, _vars.js"/>
+		</concat>
+   
+	</target>
+
+</project>

@@ -1,0 +1,140 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #fff;
+	color: #000;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans;
+	font-size: small;
+	margin: 0px;
+}
+
+table {
+	font-family: Verdana;
+	width: 99%;
+	border-collapse: collapse;
+}
+
+input {
+	font-family: Verdana;
+}
+
+td,th {
+	border: 1px solid #aaa;
+	padding: 4px;
+}
+
+th {
+	background-color: #ccc;
+}
+
+.selectedCommands {
+	background-color: #fc6;
+}
+
+#commandline,#commandline td {
+	border-top: 3px solid #f60;
+	padding: 4px;
+	background-image: url(../img/g.gif);
+	background-repeat: repeat-x;
+}
+
+#commandlinemenu {
+	padding-top: 5px;
+	background-image: url(../img/shadow.gif);
+	background-repeat: repeat-x;
+}
+
+#find {
+	padding: 3px;
+	background-image: url(../img/shadow.gif);
+	background-repeat: repeat-x;
+	border: 0px;
+}
+
+#content {
+	width: 90%;
+	padding: 6px;
+	border-top: solid 1px #ccc
+}
+
+.help_bsp {
+	width: 400px;
+	font-family: Verdana;
+}
+
+.rubrik {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 900;
+	color: #060;
+	padding: 12px;
+	border: 0px;
+}
+
+.cmdTable {
+	width: 22%;
+}
+
+.rowEdit td {
+	border: 0px;
+	background-color: #eee;
+}
+
+.rowEdit_ td {
+	border: 0px;
+	background-color: #ddd;
+}
+
+.rowInvisible {
+	background-color: #fff;
+	border: 0px;
+}
+
+.colFront {
+	width: 12%;
+	text-align: right;
+	background-color: #fff;
+	border: 0px;
+	border-right: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+}
+
+.newRow {
+	border: 0px;
+	border-top: 1px solid #aaa;
+}
+
+.newRowColFront {
+	border: 0px;
+	text-align: right;
+}
+
+.assignEmail {
+	padding: 4px;
+	border-top: 2px solid #f60;
+	background-image: url(../img/g.gif);
+	background-repeat: repeat-x;
+	background-color: #595;
+}
+
+.assignEmail_plain {
+	border-top: 2px solid #f60;
+	background-color: #8e4;
+}
+
+.sendToEmail {
+	padding: 4px;
+	border-top: 2px solid #f60;
+	background-image: url(../img/g400.gif);
+	background-repeat: repeat-x;
+}
+
+.sendToEmail td {
+	border: 0px;
+	font-family: Arial;
+}
+
+.borderTop {
+	border-top: 1px solid #ccc;
+}

@@ -1,0 +1,34 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Hyperfinder</ShortName>
+<Description>Kommandozeile von hyperfinder.ch</Description>
+<InputEncoding>ISO-8859-1</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAA
+AAAAAAAE9oz/BPaM/wT2jP8E9oz/BPaM/wT2jP8E9oz/BPaM/wT2jP8E9oz/BPaM/wT2jP8E9oz/
+BPaM/wT2jP8E9oz/DOVz/wzlc/8M5XP/DOVz/wzlc/8M5XP/DOVz/wzlc/8M5XP/DOVz/wzlc/8M
+5XP/DOVz/wzlc/8M5XP/DOVz/xXUWf8V1Fn/GAC1/xgAtf8YALX/GAC1/xgAtf8V1Fn/FdRZ/xgA
+tf8YALX/GAC1/xgAtf8YALX/FdRZ/xXUWf8dwz//HcM//xgAtf8A/vv/AP77/wD++/8YALX/HcM/
+/x3DP/8YALX/AP77/wD++/8A/vv/GAC1/x3DP/8dwz//JrIm/yayJv8YALX/EsD//wC7//8Au///
+GAC1/yayJv8msib/GAC1/wC7//8Au///EMD//xgAtf8msib/JrIm/y6hDP8uoQz/GAC1/wD++/8A
+/vv/AP77/xgAtf8uoQz/LqEM/xgAtf8A/vv/AP77/wD++/8YALX/LqEM/y6hDP/+7Hv//ux7/xgA
+tf8SwP//ALv//wC7//8YALX/GAC1/xgAtf8YALX/ALv//wC7//8QwP//GAC1//7se//+7Hv//ux7
+//7se/8YALX/AP77/wD++/8A/vv/AP77/wD++/8A/vv/AP77/wD++/8A/vv/AP77/xgAtf/+7Hv/
+/ux7//7lb//+5W//GAC1/xLA//8Au///ALv//wC7//8Au///ALv//wC7//8Au///ALv//xDA//8Y
+ALX//uVv//7lb//+3WL//t1i/xgAtf8A/vv/AP77/wD++/8YALX/GAC1/xgAtf8YALX/AP77/wD+
++/8A/vv/GAC1//7dYv/+3WL//tZX//7WV/8YALX/EsD//wC7//8Au///GAC1//7WV//+1lf/GAC1
+/wC7//8Au///EMD//xgAtf/+1lf//tZX//7OSv/+zkr/GAC1/wD++/8A/vv/AP77/xgAtf/+zkr/
+/s5K/xgAtf8A/vv/AP77/wD++/8YALX//s5K//7OSv/+xz7//sc+/xgAtf8SwP//ALv//wC7//8Y
+ALX//sc+//7HPv8YALX/ALv//wC7//8QwP//GAC1//7HPv/+xz7//sc+//7HPv8YALX/GAC1/xgA
+tf8YALX/GAC1//7HPv/+xz7/GAC1/xgAtf8YALX/GAC1/xgAtf/+xz7//sc+///AMv//wDL//8Ay
+///AMv//wDL//8Ay///AMv//wDL//8Ay///AMv//wDL//8Ay///AMv//wDL//8Ay///AMv//uCb/
+/7gm//+4Jv//uCb//7gm//+4Jv//uCb//7gm//+4Jv//uCb//7gm//+4Jv//uCb//7gm//+4Jv//
+uCb/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAA==</Image>
+<Url type="text/html" method="get" template="http://cmd.hyperfinder.ch/do.php?find={searchTerms}">
+	<Param name="find" value="{searchTerms}" />
+</Url>
+<!-- <Url type="application/x-suggestions+json" template="suggestionURL"/> 
+-->
+<moz:SearchForm>http://cmd.hyperfinder.ch/help.php</moz:SearchForm>
+</OpenSearchDescription>

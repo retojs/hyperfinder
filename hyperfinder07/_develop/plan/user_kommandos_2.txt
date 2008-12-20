@@ -1,0 +1,44 @@
+Anpassung des Ziels
+-------------------
+
+Auf POST request wird vorerst verzichtet.
+Begründung:
+
+- Aus Sicherheitsgründen sollen POST requests nicht über hyperfinder laufen.
+- Zeitmangel bzw. viel einfachere Kommando-Editor-Oberfläche ohne POST.
+
+Teil-Schritte 
+=============
+
+1. Editor
+---------
+
+a. Zeigt alle gespeicherten Kommandos so an, wie in der Hilfe. 
+   D.h. 4 Spalten (Kürzel, Parameter, Suchdienst, Beispiel)
+
+b. Neben jeder Zeile ist ein EDIT button. 
+   Wird der geklickt, erscheint eine neue Zeile, wo man die URL eingeben kann plus ein SAVE und ein DELETE button
+   Ausserdem ist die Dokumentation editierbar.
+
+b.2 Parameter in der URL werden angegeben als <1> <2> <3> etc.
+    Grund: Die Zeichen < und > kommen in URLs sonst nicht vor, somit kann es zu keinen Konflikten oder Mehrdeutigkeiten kommen.
+   
+c. Am Ende der Liste gibt es einen NEU-button.
+
+
+2. Integration in Oberflächen
+-----------------------------
+
+a. Hyperfinder Kommando-Zeile
+
+b. Hyperfinder classic
+
+
+3. Speichern der settings
+-------------------------
+
+TODO
+
+
+
+

@@ -1,0 +1,66 @@
+Was muss geprüft werden?
+
+1. Abbildung einer email auf mehrere userids.
+
+   Szenario: User definiert Kommandos in firefox und IE. Er will immer auf jedem Browser alle Kommandos haben.
+   
+   Test: 
+   
+   		1. Erstelle Kommando in IE
+   		2. Erstelle Kommando in Firefox
+   		3. Speichere Kommando in IE
+   		4. Speichere Kommando in Firefox
+   		
+   		Erwartetes Ergebnis: Kommandos sind ge-share-t
+   		OK!
+   
+2. Abbildung neuer userids auf Email
+
+   Szenario1: Wird ein cookie gelöscht, sollen die Kommandos über die Email adresse leicht wiedergefunden werden können.
+   Szenario2: Es soll möglich sein, Kommandos von einem Browser zum anderen zu übertragen.
+   
+   Test: 
+   
+   		1. Kommandos eintragen
+   		2. Cookie löschen
+   		3. Email-Adresse erneut zuordnen.
+   		
+   		Erwartetes Ergebnis: Kommandos sind wieder da!
+   		OK!
+   		
+
+3. Temporäre Zuordnung einer userid mit einer Email
+
+   Szenario: User will seine Kommandos auf einem anderen rechner haben.
+
+   Test: 
+   
+   		1. Kommdos auf Firefox eintragen
+   		2. Email in IE zuordnen
+   		--> Kommandos stehen zur Verfügung
+   		
+   		3. Email wieder Firefox zuordnen
+   		--> Kommandos sind nicht mehr in IE verfügbar
+
+---
+
+Features und Probleme
+=====================
+
+die Datenbank könnte stark anwachsen, da unbenutzte userids nie gelöscht werden.
+
+Frage: Wie kann man feststellen, ob eine userid noch benutzt wird??
+
+
+Idee und Konzept
+================
+
+Man stelle sich die Email-Adresse als chatroom vor. 
+Jeder Browser schreibt Kommandos hinein (unter seiner userid), und die anderen Browser empfangen die Nachricht sofort.
+
+--> Verallgemeinerung zu Chat
+
+"Email zuordnen" entspricht "Chatroom eröffnen".
+Kommando editieren entspricht Nachricht senden.
+
+

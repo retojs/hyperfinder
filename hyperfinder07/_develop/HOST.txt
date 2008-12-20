@@ -1,0 +1,59 @@
+hyperfinder.ch
+
+
+FTP:
+----
+
+Host/Server: 
+	ftp://web225f2@login-2.hoststar.ch
+Benutzername: 
+	web225f2
+Passwort: 
+	g0ldmember
+	
+
+Admin: 
+------
+
+URL:
+	http://login-2.hoststar.ch
+Benutzername: 
+	web225
+Passwort: 
+	9r1tiPGZ
+
+	
+MySQL:
+------
+
+URL:
+	http://login-2.hoststar.ch/phpMyAdmin/?db=usr_web225_2
+login:
+	web225
+password:
+	svenska
+
+
+Wiki:
+-----
+
+Sysop accoutn name:
+	reto
+password:
+	g0ldmember
+
+Superuser: 
+	root
+password:
+	g0ldmember
+
+
+Lokal: 
+------
+
+URL: 
+	http://localhost/phpmyadmin/
+login:
+	root
+passwort:
+	filmguerilla

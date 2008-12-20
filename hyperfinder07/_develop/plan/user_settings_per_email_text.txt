@@ -1,0 +1,37 @@
+### Text falls ungesicherte Daten bestehen (cookie userid kann keiner Email zugeordnet werden.)
+
+Achtung: Diese Kommandos sind nicht gesichert!
+
+Im Moment identifiziert sich ihr Browser nur über ein Cookie (LINK). Es besteht die Gefahr, dass sie oder jemand anders dieses cookie löscht und ihre persönlichen Kommandos unwiederbringlich verloren sind.
+Ausserdem können sie über andere Browser oder andere PCs nicht auf diese Kommandos zugreifen. 
+
+Lösung: Speichern sie ihre persönlichen Daten unter einer Email-Adresse ab!
+
+So funktioniert's: 
+1. Email eingeben und "sichern" klicken. 
+2. Hyperfinder schickt ihnen dann ein Bestätigungs-Email.
+3. Klicken sie den Bestätigungs-Link in diesem Email und ihre Daten sind dieser Email zugeordnet.
+
+Damit sie sich nicht jedesmal in hyperfinder einloggen müssen, identifziert sich ihr Browser auch danach noch über ein cookie. Doch sollte dieses cookie einmal gelöscht werden, können sie es über ihre Email Adresse einfach zurücksetzen, und sie können ihre persönlichen Kommandos auch auf anderen Computern / Browsern verwenden indem sie:
+
+1. Email Adresse eingeben
+2. Hyperfinder schickt ihnen dann ein Bestätigungs-Email.
+3. Klicken sie den Bestätigungs-Link in diesem Email und ihre Daten sind wieder diesem Browser zugeordnet.
+
+Genauso verfahren sie wenn sie ihre persönlichen Daten auf einen anderen Browser oder PC übernehmen wollen.
+
+---
+
+### Text falls keine Daten unter diesem cookie gespeichert sind und cookie userid keiner Email zugeordnet werden kann.
+
+Werden ihre persönlichen Kommandos nicht angezeigt? 
+- Entweder haben sie oder jemand anders das cookie gelöscht, das sie bei hyperfinder identifiziert, oder
+- Sie arbeiten auf einem anderen PC oder einem anderen Browser als sonst. 
+
+Falls sie ihre persönlichen Kommandos unter einer Email Adresse gespeichert haben, können sie sie diesem Computer/Browser zuordnen:
+
+1. Email Adresse eingeben
+2. Hyperfinder schickt ihnen dann ein Bestätigungs-Email.
+3. Klicken sie den Bestätigungs-Link in diesem Email und ihre Daten sind wieder diesem Browser zugeordnet.
+
+
