@@ -21,11 +21,11 @@ function embedMe_executeAction($userid) {
 }
 
 function importPublicCommand($cmdid, $code) {
-	global $commandSet;
+	global $userid_, $commandSet;
 	$result = getCommand($cmdid);
 	if (1 != mysql_num_rows($result) || $code != mysql_result($result, 0, "code")) { return "Code ungültig. Installation fehlgeschlagen."; }
 	
-	$userid = $_COOKIE['userid'];
+	$userid = $userid_;
 	$cmd = mysql_result($result, 0, "cmd");
 	$method = mysql_result($result, 0, "method");
 	$url = mysql_result($result, 0, "url");

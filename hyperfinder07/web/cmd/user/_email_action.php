@@ -17,7 +17,7 @@
  */
 
 function email_executeAction($userid) {
-	global $headline, $feedback, $commandSet;
+	global $userid_, $headline, $feedback, $commandSet;
 
 	if ($_GET["op"] == "saveAs") {
 		$email = $_REQUEST["email_saveAs"];
@@ -41,7 +41,7 @@ function email_executeAction($userid) {
 
 	} elseif ($_GET["op"] == "accept") {
 		$request_userid = $_GET["userid"];
-		$cookie_userid = $_COOKIE["userid"];
+		$cookie_userid = $userid_;
 		$code = $_REQUEST["code"];
 
 		$headline = "Kommandos installieren";

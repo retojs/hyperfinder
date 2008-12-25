@@ -19,6 +19,7 @@ function getUserCommands($userid) {
 		$q .= " WHERE e.emailaddr = '$emailaddr' ";
 		$q .= " AND e.userid = c.userid ";
 		$q .= " AND e.confirmcode = 'ok' ";
+		$q .= " ORDER BY cmd";
 		return execQuery($q);
 	}
 }
@@ -54,7 +55,8 @@ function uniqueCommand($userid, $cmd, $cmdid) {
 }
 
 function insertCommand($userid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel) {
-	authenticate($_COOKIE['userid'], $_COOKIE['userpwd']);
+	global $userid_, $userpwd_;
+	authenticate($userid_, $userpwd_);
 
 	$code = createCode(32);
 	$q = "INSERT INTO commands";
@@ -63,7 +65,8 @@ function insertCommand($userid, $cmd, $method, $url, $params, $suchbegriffe, $su
 }
 
 function updateCommand($cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel) {
-	authenticate($_COOKIE['userid'], $_COOKIE['userpwd']);
+	global $userid_, $userpwd_;
+	authenticate($userid_, $userpwd_);
 	
 	$q = "UPDATE commands";
 	$q .= " SET cmd='$cmd', method='$method', url='$url', params='$params', suchbegriffe='$suchbegriffe', suchdienst='$suchdienst', beispiel='$beispiel'";
@@ -72,14 +75,16 @@ function updateCommand($cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suc
 }
 
 function deleteCommand($userid, $cmdid) {
-	authenticate($userid, $_COOKIE['userpwd']);	
-
+	global $userid_, $userpwd_;
+	authenticate($userid_, $userpwd_);
+	
 	execQuery("DELETE FROM commands WHERE id = '$cmdid'");
 }
 
 /** Copy the specified commands to a new userid */
 function shareCommands($commandSet, $newUserId) {
-	authenticate($_COOKIE['userid'], $_COOKIE['userpwd']);
+	global $userid_, $userpwd_;
+	authenticate($userid_, $userpwd_);
 	
 	if (sizeof(trim($commandSet)) == 0) return false;
 	$q = "INSERT INTO commands (userid, cmd, code, method, url, params, suchbegriffe, suchdienst, beispiel)";

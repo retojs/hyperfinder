@@ -57,6 +57,12 @@ function storeUserPwd($userid, $userpwd) {
 }
 
 /** Returns true, if the specified userid and userpwd match the values in the DB-table userpwd. */
+function isUserPwdMismatch($userid, $userpwd) {
+	$result = execQuery("SELECT id FROM userpwd WHERE userid = '$userid' AND userpwd = '$userpwd'");
+	return (mysql_num_rows($result) == 0);
+}
+
+/** Returns true, if the specified userid and userpwd match the values in the DB-table userpwd. */
 function authenticate($userid, $userpwd) {
 	$result = execQuery("SELECT id FROM userpwd WHERE userid = '$userid' AND userpwd = '$userpwd'");
 	if (mysql_num_rows($result) == 1) {
