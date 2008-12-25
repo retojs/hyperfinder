@@ -50,7 +50,7 @@ function makeHomepage() {
 
 <?php if (isset($_GET['page'])) {include("frontController.php");} ?>
 
-<?php print "<!-- userid = ". $userid . ", userpwd = $userpwd -->\n"; ?>
+<?php print "<!-- userid = ". $userid_ . ", userpwd = $userpwd_ -->\n"; ?>
 
 <?php include ("../analyticsTracking.php"); ?>
 </body>

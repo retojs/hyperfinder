@@ -5,14 +5,14 @@
 
 function editor_executeAction() {
 	global $headline, $feedback;
-	global $userid, $cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel;
+	global $userid_, $cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel;
 	
 	if (isset($_REQUEST["new"])) {
 		editor_clearForm();
 	} elseif (isset($_REQUEST["save"])) {
-		$_feedback = editor_saveCommand($userid, $cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
+		$_feedback = editor_saveCommand($userid_, $cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
 	} elseif (isset($_REQUEST["delete"])) {
-		$_feedback = deleteCommand($userid, $cmdid);
+		$_feedback = deleteCommand($userid_, $cmdid);
 		editor_clearForm();
 	}
 

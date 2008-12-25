@@ -1,8 +1,8 @@
 <?php include ("_global.php"); ?>
 
 <?php editor_executeAction(); ?>
-<?php email_executeAction($userid); ?>
-<?php embedMe_executeAction($userid); ?>
+<?php email_executeAction($userid_); ?>
+<?php embedMe_executeAction($userid_); ?>
 
 <center><h2><?php print $headline ?></h2></center>
 
@@ -16,10 +16,10 @@
 
 <form action="<?php print $BASE_URL ?>" method="POST" id="commandTable">
 	
-	<?php editor_printCommandTable($userid);?>
+	<?php editor_printCommandTable($userid_);?>
 
 	<?php 
-		$confirmedEmail = emailConfirmed($userid);
+		$confirmedEmail = emailConfirmed($userid_);
 		if (!$confirmedEmail) { 
 	?>
 	<br/>
@@ -92,7 +92,7 @@
 		<p>Sie können ihre Kommandos den Besuchern ihrer Webseite zur Verfügung stellen.</p>
 		<p>Fügen sie dazu einfach den entsprechenden HTML-Code in ihre Webseite ein.</p>
 		
-		<?php editor_printEmbedMeCommands($userid);?>
+		<?php editor_printEmbedMeCommands($userid_);?>
 
 	</div>
 	<br/>

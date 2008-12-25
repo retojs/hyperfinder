@@ -3,14 +3,14 @@ require_once("../_db_userdata.php");
 /** 
  * Generate new userid and userpwd if cookie or DB-entry is missing  
  */ 
-$userid = $_COOKIE["userid"];
-$userpwd = $_COOKIE["userpwd"];
-if (!existsUser($userid) || $userid == null || $userid == "" || $userpwd == null || $userpwd == "") {
-	$userid = getNextId();
-	$userpwd = createCode(64);
-	storeUserPwd($userid, $userpwd);
+$userid_ = $_COOKIE["userid"];
+$userpwd_ = $_COOKIE["userpwd"];
+if (!existsUser($userid_) || $userid_ == null || $userid_ == "" || $userpwd_ == null || $userpwd_ == "") {
+	$userid_ = getNextId();
+	$userpwd_ = createCode(64);
+	storeUserPwd($userid_, $userpwd_);
 }
 // renew cookie each time
-setcookie("userid", $userid, time() + 90*24*60*60);
-setcookie("userpwd", $userpwd, time() + 90*24*60*60);
+setcookie("userid", $userid_, time() + 90*24*60*60);
+setcookie("userpwd", $userpwd_, time() + 90*24*60*60);
 ?>
