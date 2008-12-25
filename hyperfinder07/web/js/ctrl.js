@@ -1,3 +1,90 @@
+function replaceLinks(urlBase) {
+	var elements = document.getElementsByTagName('a');
+	replaceHref(elements, urlBase);
+	
+	var elements = document.getElementsByTagName('img');
+	replaceSrc(elements, urlBase);
+}
+
+function replaceHref(elements, urlBase) {
+	for (i = 0; i < elements.length; i++) {
+		alert("got link "+elements[i].href);
+		if (elements[i].href.indexOf("http") >= 0) {
+			elements[i].href = 'controller.php?forward=' + elements[i].href;
+		} else {
+			elements[i].href = 'controller.php?forward=' + urlBase + elements[i].href;
+		}
+		alert("set to "+elements[i].href)
+	}
+}
+
+function replaceSrc(elements, urlBase) {
+	for (i = 0; i < elements.length; i++) {
+		//alert("got link "+elements[i].src);
+		if (elements[i].src.indexOf("http") >= 0) {
+			elements[i].src = 'controller.php?forward=' + elements[i].src;
+		} else {
+			elements[i].src = 'controller.php?forward=' + urlBase + elements[i].src;
+		}
+		//alert("set to "+elements[i].src)
+	}
+}// url to load newsfeeds
+var url_Listener = "_ajax_polling_js.php";
+
+// url to load newsfeeds
+var url_Controller = "_ajax_polling_controller_js.php";
+
+// refreshPeriod
+var refreshPeriod = 1000;
+
+// last page visited by controller
+var currentControllerLocation = "";
+
+function setPollListenerTimeout() {
+	setTimeout("poll_Listener()", refreshPeriod);
+}
+
+function setPollControllerTimeout() {
+	currentControllerLocation = window.frames["content_frame"].location.href;
+	alert("url = "+currentControllerLocation);
+	setTimeout("poll_Controller()", refreshPeriod);
+}
+
+function poll_Listener() {
+	sendRequest(url_Listener, "", 2, "poll_Listener_callback", false);
+}
+
+function poll_Listener_callback(intID) {
+	if ("ok" != checkAjaxResponse(intID)) { return; }
+
+	// alert("poll_Listener_callback "+xmlHttp.responseText);
+
+	forward = eval(xmlHttp.responseText);
+	
+	if (forward.url != null && forward.url != "") {
+		document.location.href = "listener.php?forward=" + forward.url;
+		setPollTimeout();
+	} else {
+		setPollTimeout();
+	}
+}
+
+function poll_Controller() {
+	var contentFrameLocation = window.frames["content_frame"].location.href;
+	alert("url still " + contentFrameLocation);
+	if (currentControllerLocation != contentFrameLocation) {
+		alert("url changed to: " + contentFrameLocation);
+		sendRequest(url_Controller, "setForward=do&forward=contentFrameLocation", 2, "poll_Controller_callback", false);
+	} else {
+		setTimeout("poll_Controller()", refreshPeriod);
+	}
+}
+
+function poll_Controller_callback(intID) {
+	if ("ok" != checkAjaxResponse(intID)) { return; }
+
+	alert("poll_Controller_callback "+xmlHttp.responseText);	
+}
 // global xmlhttprequest object
 var xmlHttp = false;
 
@@ -200,31 +287,3 @@ function checkAjaxResponse(intID) {
 
 /** End AJAX functions **/
 
-// url to load newsfeeds
-var ctrlUrl = "_ajax_polling_js.php";
-
-// refreshPeriod
-var refreshPeriod = 1000;
-
-function setPollTimeout() {
-	setTimeout("doPoll()", refreshPeriod);
-}
-
-function doPoll() {
-	sendRequest(ctrlUrl, "", 2, "doPoll_callback", false);
-}
-
-function doPoll_callback(intID) {
-	if ("ok" != checkAjaxResponse(intID)) { return; }
-
-	//alert("doPoll_callback "+xmlHttp.responseText);
-
-	forward = eval(xmlHttp.responseText);
-	
-	if (forward.url != null && forward.url != "") {
-		document.location.href = "listener.php?forward=" + forward.url;
-		setPollTimeout();
-	} else {
-		setPollTimeout();
-	}
-}
