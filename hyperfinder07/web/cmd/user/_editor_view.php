@@ -10,8 +10,14 @@ function editor_printCommandTable($userid) {
 	$result = getUserCommands($userid);
 	print "<table>";
 	print "<input type=\"hidden\" name=\"nofCmds\" value=\"" . mysql_num_rows($result) . "\" />";
-	editor_printHeader();
 	
+	$newButton = (!isset($newcmd) || $newcmd == null);
+	editor_printHeader($newButton);
+	
+	if (!$newButton) {
+		editor_printRowEdit($cmdid, $newcmd, $cmd, $url, $suchbegriffe, $suchdienst, $beispiel, $method, $params, $constants);
+	}
+
 	for ($i = 0; $i < mysql_num_rows($result); $i++) {
 		$_cmd = mysql_result($result, $i, "cmd");
 		$_suchbegriffe = mysql_result($result, $i, "suchbegriffe");
@@ -42,11 +48,6 @@ function editor_printCommandTable($userid) {
 			$editOnClick = "document.location.href='" . $BASE_URL . "cmdid=" . $_id . "'";
 			editor_printRow($i, $_id, $_cmd, $_suchbegriffe, $_suchdienst, $_beispiel, $editOnClick);
 		}
-	}
-	if (isset($newcmd) && $newcmd != null) {
-		editor_printRowEdit($cmdid, $newcmd, $cmd, $url, $suchbegriffe, $suchdienst, $beispiel, $method, $params, $constants);
-	} else {
-		editor_printNewRow();
 	}
 	print "</table>";
 }

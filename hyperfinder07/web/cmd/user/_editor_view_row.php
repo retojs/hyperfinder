@@ -1,9 +1,14 @@
 <?php
 
-function editor_printHeader() {
+function editor_printHeader($newButton) {
+	global $BASE_URL;
 	?>
 <tr>
-	<th class="colFront"></th>
+	<th class="colFront">
+	<?php if ($newButton) { ?> 
+		<input type="button" value="Neu" onClick="document.location.href='<?php print $BASE_URL ?>newcmd=true'" />
+	<?php } ?>
+	</th>
 	<th class="cmdTable">Kürzel</th>
 	<th class="cmdTable">Suchbegriff(e)</th>
 	<th class="cmdTable">Suchdienst, URL</th>
@@ -136,13 +141,4 @@ function editor_printRowEdit($cmdid, $newcmd, $cmd, $url, $suchbegriffe, $suchdi
 	<?php
 }
 
-function editor_printNewRow() {
-	global $BASE_URL;
-	?>
-<tr>
-	<td class="newRowColFront"><input type="button" value="Neu" onClick="document.location.href='<?php print $BASE_URL ?>newcmd=true'" /></td>
-	<td class="newRow" colspan="4"></td>
-</tr>
-	<?php
-}
 ?>

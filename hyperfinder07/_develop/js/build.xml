@@ -19,7 +19,7 @@
 		</concat>
 		
 		<concat destfile="${destdir}/ctrl.js" append="false">
-			<fileset dir="ctrl" includes="_polling.js"/>
+			<fileset dir="ctrl" includes="_polling.js, _onload.js"/>
 			<fileset dir="util" includes="_ajax.js"/>
 		</concat>
    

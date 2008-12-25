@@ -2,12 +2,10 @@
 
 session_start();
 
-if (isset($_REQUEST["getForward"])) {
-	$key = $_REQUEST["key"];
-	$_SESSION["key"] = $key;
-} else {
-	$key = $_SESSION["key"];
+if (isset($_REQUEST["key"])) {
+	$_SESSION["key"] = $_REQUEST["key"];
 }
+$key = $_SESSION["key"];
 
 $forward = $_REQUEST["forward"];
 if (isset($forward)) {
@@ -21,7 +19,7 @@ if (isset($forward)) {
 <script type="text/javascript" src="../js/ctrl.js"></script>
 <title>IPhone Remote</title>
 </head>
-<body onload="setPollTimeout()" style="margin: 0px; background-image: url(../img/b.png); background-repeat: repeat-x">
+<body onload="setPollListenerTimeout()" style="margin: 0px; background-image: url(../img/b.png); background-repeat: repeat-x">
 
 <form action="listener.php" method="POST"><label>&nbsp;Key:</label><input type="text" name="key"
 	value="<?php if (isset($key)) print $key;?>" />

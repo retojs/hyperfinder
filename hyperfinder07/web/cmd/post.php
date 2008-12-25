@@ -3,7 +3,10 @@
  * Diese Datei enthält verschiedene Varianten, um per PHP
  * Daten an ein POST-formular zu schicken und das Resultat auszugeben.
  */
+
+include ("../util/postRequest.php");
 ?>
+
 <?php
 # usage:
 #  $r = post_it($postdata, 'http://fahrplan.sbb.ch/bin/query.exe/dn?');
@@ -52,112 +55,6 @@ function post_it($postdata, $url) {
 }
 ?>
 
-
-<?php
-#usage:
-# $r = new HTTPRequest('http://www.php.net');
-# echo $r->DownloadToString($postdata);
-
-class HTTPRequest
-{
-	var $_fp;        // HTTP socket
-	var $_url;       // full URL
-	var $_host;      // HTTP host
-	var $_protocol;  // protocol (HTTP/HTTPS)
-	var $_uri;       // request URI
-	var $_port;      // port
-
-	// scan url
-	function _scan_url()
-	{
-		$req = $this->_url;
-
-		$pos = strpos($req, '://');
-		$this->_protocol = strtolower(substr($req, 0, $pos));
-
-		$req = substr($req, $pos+3);
-		$pos = strpos($req, '/');
-		if($pos === false)
-		$pos = strlen($req);
-		$host = substr($req, 0, $pos);
-
-		if(strpos($host, ':') !== false)
-		{
-			list($this->_host, $this->_port) = explode(':', $host);
-		}
-		else
-		{
-			$this->_host = $host;
-			$this->_port = ($this->_protocol == 'https') ? 443 : 80;
-		}
-
-		$this->_uri = substr($req, $pos);
-		if($this->_uri == '')
-		$this->_uri = '/';
-	}
-
-	// constructor
-	function HTTPRequest($url)
-	{
-		$this->_url = $url;
-		$this->_scan_url();
-	}
-
-	// download URL to string
-	function DownloadToString($postdata)
-	{
-		$crlf = "\r\n";
-
-		$reqbody = "";
-		foreach($postdata as $key => $val) {
-			if (!empty($reqbody)) $reqbody .= "&";
-			$reqbody .= $key."=".urlencode($val);
-		}
-
-		// generate request
-		$req = 'POST ' . $this->_uri . ' HTTP/1.1' . $crlf
-		.	'Host: ' . $this->_host . $crlf
-		.	'User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)' . $crlf
-		.	'Content-type: application/x-www-form-urlencoded' . $crlf
-		.	'Content-length: ' . strlen($reqbody) . $crlf
-		.   $crlf
-		.	$reqbody
-		.	$crlf;
-
-		// fetch
-		$this->_fp = fsockopen(($this->_protocol == 'https' ? 'ssl://' : '') . $this->_host, $this->_port);
-		fwrite($this->_fp, $req);
-		while(is_resource($this->_fp) && $this->_fp && !feof($this->_fp))
-		$response .= fread($this->_fp, 1024);
-		fclose($this->_fp);
-
-		// split header and body
-		$pos = strpos($response, $crlf . $crlf);
-		if($pos === false)
-		return($response);
-		$header = substr($response, 0, $pos);
-		$body = substr($response, $pos + 2 * strlen($crlf));
-
-		// parse headers
-		$headers = array();
-		$lines = explode($crlf, $header);
-		foreach($lines as $line)
-		if(($pos = strpos($line, ':')) !== false)
-		$headers[strtolower(trim(substr($line, 0, $pos)))] = trim(substr($line, $pos+1));
-
-		// redirection?
-		if(isset($headers['location']))
-		{
-			$http = new HTTPRequest($headers['location']);
-			return($http->DownloadToString($http));
-		}
-		else
-		{
-			return($body);
-		}
-	}
-}
-?>
 <?php
 
 // siehe: http://ch2.php.net/manual/de/wrappers.http.php
@@ -248,13 +145,10 @@ if (!$this->postRedirect) {
 	 *  Nachteil: Back-button funktioniert so nicht.
 	 *  Vorteil: Links stimmen. Bei Seiten, die Pfade per Javascript setzen, ist der Ansatz mit str_replace aussichtslos.
 	 */
-?>
+	?>
 <body onload="f.submit()">
-<form name="f" action="<?php print $this->url ?>" method="post">
-<?php foreach ($this->postArgs as $argName => $argValue) {
+<form name="f" action="<?php print $this->url ?>" method="post"><?php foreach ($this->postArgs as $argName => $argValue) {
 	print "<input type=\"hidden\" name=\"$argName\" value=\"$argValue\">\n";
-} ?> 
-Anfrage an <i><?php print $this->url; ?></i> wird ausgeführt...
-<input type="submit" value="submit" /></form>
+} ?> Anfrage an <i><?php print $this->url; ?></i> wird ausgeführt... <input type="submit" value="submit" /></form>
 </body>
 <?php } ?>
