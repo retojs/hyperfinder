@@ -1,5 +1,5 @@
 <tr class="<?php echo "css_" . $slotkey; ?>">
-	<td class="bigLabel linkCol"> 
+	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<input type="hidden" name="queryPageDisplayed" value="yes">
 		<input type="hidden" name="REQ0HafasSkipLongChanges" value="0">
 		<input type="hidden" name="REQ0JourneyStops1.0A" value="1">

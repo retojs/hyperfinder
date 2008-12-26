@@ -1,5 +1,5 @@
 <tr class="<?php echo "css_" . $slotkey; ?>">
-	<td class="bigLabel linkCol"> 
+	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<img class="favicon" src="img/favicons/ytube.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://www.youtube.com"><?php echo $labels[$slot]; ?></a>
 	</td>

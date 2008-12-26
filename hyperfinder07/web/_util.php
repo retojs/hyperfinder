@@ -188,7 +188,7 @@ function printLogoHeader($mode) {
 	?>
 	<div id="headline">
 		<span id="headline1"><?php print $topTitle[$mode] ?></span>
-		<span id="headline2">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&nbsp;<a target="_blank" href="http://www.youtube.com/watch?v=L3JTpxaKSsM&fmt=6">YouTube&nbsp;-&nbsp;Clip</a></span>
+		<span id="headline2">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&nbsp;<a target="_blank" href="http://www.youtube.com/watch?v=L3JTpxaKSsM&fmt=6">YouTube&nbsp;-&nbsp;Tutorials</a></span>
 		<span id="logo_desc">
 			<?php if ($mode === "main") { ?>
 			Aussicht: <?php echo getLogoDesc() ?>

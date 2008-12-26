@@ -1,5 +1,5 @@
 <tr class="<?php echo "css_" . $slotkey; ?>">
-	<td class="bigLabel linkCol"> 
+	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<img class="favicon" src="img/favicons/cine.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://cineman.ch"><?php echo $labels[$slot]; ?></a>
 	</td>

@@ -1,5 +1,5 @@
 <tr class="<?php echo "css_" . $slotkey; ?>">
-	<td class="bigLabel linkCol"> 
+	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<img class="favicon" src="img/favicons/ricardo.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://affiliate.ricardo.ch/app/auc_aff/interface/?c=2&c_p=2&affid=10729&campid=19445"><?php echo $labels[$slot]; ?></a>
 		<input type="hidden" name="OrderBy" value="CloseTime">

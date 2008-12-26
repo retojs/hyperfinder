@@ -1,5 +1,5 @@
 <tr class="<?php print "css_" . $slotkey; ?>">
-	<td class="bigLabel linkCol"> 
+	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<img class="favicon" src="img/favicons/amazon.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://amazon.de"><?php echo $labels[$slot]; ?></a>
 	</td>
