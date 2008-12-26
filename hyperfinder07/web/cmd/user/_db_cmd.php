@@ -54,13 +54,13 @@ function uniqueCommand($userid, $cmd, $cmdid) {
 	return true;
 }
 
-function insertCommand($userid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel) {
+function insertCommand($cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel) {
 	global $userid_, $userpwd_;
 	authenticate($userid_, $userpwd_);
 
 	$code = createCode(32);
 	$q = "INSERT INTO commands";
-	$q .= " SET userid = '$userid', cmd='$cmd', code='$code', method='$method', url='$url', params='$params', suchbegriffe='$suchbegriffe', suchdienst='$suchdienst', beispiel='$beispiel'";
+	$q .= " SET userid = '$userid_', cmd='$cmd', code='$code', method='$method', url='$url', params='$params', suchbegriffe='$suchbegriffe', suchdienst='$suchdienst', beispiel='$beispiel'";
 	execQuery($q);
 }
 
@@ -74,7 +74,7 @@ function updateCommand($cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suc
 	execQuery($q);
 }
 
-function deleteCommand($userid, $cmdid) {
+function deleteCommand($cmdid) {
 	global $userid_, $userpwd_;
 	authenticate($userid_, $userpwd_);
 	

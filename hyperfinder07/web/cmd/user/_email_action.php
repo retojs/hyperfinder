@@ -23,7 +23,7 @@ function email_executeAction($userid) {
 		$email = $_REQUEST["email_saveAs"];
 
 		$headline = "Kommandos einer Email Adresse zuordnen (Schritt 2/3)";
-		$feedback = email_saveAs($userid, $email);
+		$feedback = email_saveAs($userid_, $email);
 
 	} elseif ($_GET["op"] == "confirm") {
 		$request_userid = $_GET["userid"];

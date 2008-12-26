@@ -10,9 +10,9 @@ function editor_executeAction() {
 	if (isset($_REQUEST["new"])) {
 		editor_clearForm();
 	} elseif (isset($_REQUEST["save"])) {
-		$_feedback = editor_saveCommand($userid_, $cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
+		$_feedback = editor_saveCommand($cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
 	} elseif (isset($_REQUEST["delete"])) {
-		$_feedback = deleteCommand($userid_, $cmdid);
+		$_feedback = deleteCommand($cmdid);
 		editor_clearForm();
 	}
 
@@ -44,12 +44,12 @@ function editor_clearForm() {
  * If it's invalid, the variable $reloadData is set to false to avoid
  * that the form is populated with the data stored in the database.
  */
-function editor_saveCommand($userid, $cmdid, $cmd, $method, $url, $params,$suchbegriffe, $suchdienst, $beispiel) {
-	global $cmdid, $newcmd, $reloadData;
+function editor_saveCommand($cmdid, $cmd, $method, $url, $params,$suchbegriffe, $suchdienst, $beispiel) {
+	global $userid_, $cmdid, $newcmd, $reloadData;
 
 	// 1. Validation
 
-	if ($userid == "") {
+	if ($userid_ == "") {
 		$reloadData = false;
 		return "keine userid gesetzt.";
 	}
@@ -57,11 +57,11 @@ function editor_saveCommand($userid, $cmdid, $cmd, $method, $url, $params,$suchb
 		$reloadData = false;
 		return "Das Kommando darf nicht leer sein.";
 	}
-	elseif ($cmdid == "" && existsCommand($userid, $cmd)) {
+	elseif ($cmdid == "" && existsCommand($userid_, $cmd)) {
 		$reloadData = false;
 		return "Dieses Kommando ist bereits vergeben.";
 	}
-	elseif (!uniqueCommand($userid, $cmd, $cmdid)) {
+	elseif (!uniqueCommand($userid_, $cmd, $cmdid)) {
 		$reloadData = false;
 		return "Dieses Kommando ist bereits vergeben.";
 	}
@@ -79,7 +79,7 @@ function editor_saveCommand($userid, $cmdid, $cmd, $method, $url, $params,$suchb
 		if ($cmdid != null && sizeof(trim($cmdid)) > 0) {
 			updateCommand($cmdid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
 		} else {
-			insertCommand($userid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
+			insertCommand($cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
 			editor_clearForm();
 		}
 	}
