@@ -1,4 +1,4 @@
-<?php include "_user_cookies.php" ?>
+<?php include "user/_user_cookies.php" ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -51,6 +51,7 @@ function makeHomepage() {
 <?php if (isset($_GET['page'])) {include("frontController.php");} ?>
 
 <?php print "<!-- userid = ". $userid_ . ", userpwd = $userpwd_ -->\n"; ?>
+<?php print "<!-- _COOKIE[userid] = " . $_COOKIE["userid"] . ", COOKIE[userpwd] = " . $_COOKIE["userpwd"] . " -->\n"; ?>
 
 <?php include ("../analyticsTracking.php"); ?>
 </body>
