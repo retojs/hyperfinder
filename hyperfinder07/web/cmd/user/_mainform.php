@@ -65,7 +65,7 @@
 	?>
 	<div class="borderTop">
 		<h3>Kommandos verschicken</h3>
-		<p>Sie können die oben in der Liste ausgewählten Kommandos einem Freund schicken.</p>
+		<p>Sie können oben in der Liste Kommandos auswählen und sie einem Freund schicken.</p>
 		<div class="sendToEmail">
 			<table>
 				<tr>
@@ -89,8 +89,8 @@
 	</div>
 	<div class="borderTop">
 		<h3>Kommandos publizieren</h3>
-		<p>Sie können ihre Kommandos den Besuchern ihrer Webseite zur Verfügung stellen.</p>
-		<p>Fügen sie dazu einfach den entsprechenden HTML-Code in ihre Webseite ein.</p>
+		<p>Wenn Sie den untenstehenden HTML-Code zu einem Kommando in Ihre eigene Webseite integrieren, können die Besucher Ihrer Seite das Kommando per Mausklick importieren.</p>
+		<p>So können Sie Besuchern, die Hyperfinder benutzen, vereinfachten Zugriff auf Ihre Webseite verschaffen.</p>
 		
 		<?php editor_printEmbedMeCommands($userid_);?>
 
