@@ -60,7 +60,7 @@ function editor_printSelectedCommands($commandSet) {
 	
 	print "<table class=\"selectedCommands\">";
 	print "<input type=\"hidden\" name=\"nofCmds\" value=\"" . mysql_num_rows($result) . "\" />";
-	editor_printHeader();
+	editor_printHeader(false);
 	
 	for ($i = 0; $i < mysql_num_rows($result); $i++) {
 		$_cmd = mysql_result($result, $i, "cmd");
@@ -77,9 +77,9 @@ function editor_printEmbedMeCommands($userid) {
 	
 	$result = getUserCommands($userid);
 
-	print "<table>";
+	print "<table width=\"100%\">";
 	print "<input type=\"hidden\" name=\"nofCmds\" value=\"" . mysql_num_rows($result) . "\" />";
-	editor_printHeader();
+	editor_printHeader(false);
 	
 	for ($i = 0; $i < mysql_num_rows($result); $i++) {
 		$_id = mysql_result($result, $i, "id");
