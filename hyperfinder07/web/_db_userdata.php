@@ -2,7 +2,7 @@
 require_once("_db.php");
 
 function getNextId() {
-	$result = execQuery("SELECT max(userid) as userid FROM userdata");
+	$result = execQuery("SELECT max(userid) as userid FROM userpwd");
 	if (mysql_num_rows($result) > 0) {
 		return mysql_result($result, 0, "userid") + 1;
 	} else {

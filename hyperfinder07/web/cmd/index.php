@@ -51,7 +51,7 @@ function makeHomepage() {
 <?php if (isset($_GET['page'])) {include("frontController.php");} ?>
 
 <?php print "<!-- userid = ". $userid_ . ", userpwd = $userpwd_ -->\n"; ?>
-<?php print "<!-- _COOKIE[userid] = " . $_COOKIE["userid"] . ", COOKIE[userpwd] = " . $_COOKIE["userpwd"] . " -->\n"; ?>
+<?php print "<!-- _COOKIE[hyperid] = " . $_COOKIE["hyperid"] . ", COOKIE[hyperpwd] = " . $_COOKIE["hyperpwd"] . " -->\n"; ?>
 
 <?php include ("../analyticsTracking.php"); ?>
 </body>

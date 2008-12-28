@@ -32,7 +32,7 @@ function initPage() {
 <h2>User-ID setzen</h2>
 <?php
 if (isset($_REQUEST["confirm"])) {
-	print "<p><b>User-ID wurde gesetzt auf: " . $_COOKIE["userid"] . "</b></p>";
+	print "<p><b>hyper-ID wurde gesetzt auf: " . $_COOKIE["hyperid"] . "</b></p>";
 }
 ?>
 <p>Das hyperfinder cookie Namens "userid" auf diesem Rechner auf eine bestimmte user-ID setzen.</p> 
