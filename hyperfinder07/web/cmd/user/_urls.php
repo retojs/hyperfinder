@@ -4,7 +4,7 @@
  */
 
 require_once("_db_cmd.php");
-$result = getUserCommands($_COOKIE['userid']);
+$result = getUserCommands($_COOKIE["userid"]);
 
 for ($i = 0; $i < mysql_num_rows($result); $i++) {
 	$cmd = mysql_result($result, $i, "cmd");
