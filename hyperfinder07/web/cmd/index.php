@@ -4,7 +4,7 @@
 <html>
 <head>
 <title>Hyperfinder Kommandozeile</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+<link rel="shortcut icon" href="http://hyperfinder.ch/favicon.ico" type="image/ico" />
 <meta name="keywords" content="hyperfinder, suche, suchen, finden, information, google, internet, 
 leo, dict.leo.org, diktionär, online dix, übersetzen, übersetzung, übersetzungen, 
 wikipedia, lexikon, enzyklopädie,  
@@ -17,8 +17,7 @@ kinoprogramm, cineman, cineman.ch,
 börse, börsenkurs, börsenkurse, smi, swissquote, swissquote.ch">
 
 <link rel="stylesheet" type="text/css" href="http://hyperfinder.ch/css/cmd.css" />
-<link rel="search" type="application/opensearchdescription+xml" title="Hyperfinder"
-	href="http://hyperfinder.ch/OpenSearch/Hyperfinder.xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Hyperfinder" href="http://hyperfinder.ch/OpenSearch/Hyperfinder.xml">
 <script type="text/Javascript">
 function makeHomepage() {
 	var homepage_url = <?php if ($pda == "y") {print "'http://pda.hyperfinder.ch'\n";} else {print "'http://cmd.hyperfinder.ch'\n";} ?>

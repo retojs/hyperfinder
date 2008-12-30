@@ -34,7 +34,7 @@ function importPublicCommand($cmdid, $code) {
 	$suchdienst = mysql_result($result, 0, "suchdienst");
 	$beispiel = mysql_result($result, 0, "beispiel");
 	
-	insertCommand($userid, $cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
+	insertCommand($cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
 	$commandSet = "($cmdid)";
 	return "Kommando <i>$cmd</i> erfolgreich installiert.";
 }
