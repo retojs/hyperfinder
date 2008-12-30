@@ -62,7 +62,7 @@ function editor_printRowEmbedMe($index, $cmdId, $cmd, $suchbegriffe, $suchdienst
 </tr>
 <tr class="rowEdit_">
 	<td class="colFront"><b>HTML-Code:</b></td>
-	<td colspan="4" style="width:99%">
+	<td colspan="4">
 		<input type="text" style="width:98%"
 			value="<a href='<?php print $SERVER_ROOT; ?>index.php?page=user&op=embedMe&id=<?php print $cmdId;?>&code=<?php print $code ?>' title='Hyperfinder Kommando &quot;<?php print $cmd;?>&quot; installieren'><img src='http://hyperfinder.ch/favicon.gif' border=0></a>" 
 			onClick="this.select()"
