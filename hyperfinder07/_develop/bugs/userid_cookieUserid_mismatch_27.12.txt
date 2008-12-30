@@ -1,0 +1,15 @@
+<!-- userid = 			13912, userpwd = 			6IxAGbpF2_2ktS5cx9eLtuHauH8XEI5Lb2VrdJ6fJ9PCcVpYfSuXMA7FSFnhYs18 -->
+<!-- _COOKIE[userid] = 	13840, COOKIE[userpwd] = 	Y88NASA5XMa2kfHX3hXNtq99koIfN3XvBfHL7SRfo1hYgz5jfc6YSGiC40sS3ONE -->
+
+
+Q: What's wrong with _user_cookies.php?
+
+A: TODO
+
+A: DONE. You Cant use $_COOKIE["userid"] and $userid_ interchangeably. The value of $_COOKIES["userid"] is set in the header of the request. It's not updated, if you call setcookie();
+
+Q: Can you update the $_COOKIES array directly with PHP?
+
+A: TODO
+
+A: DONE. Yes you can.

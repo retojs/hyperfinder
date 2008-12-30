@@ -3,6 +3,19 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<title>Hyperfinder Kommandozeile</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+<meta name="keywords" content="hyperfinder, suche, suchen, finden, information, google, internet, 
+leo, dict.leo.org, diktionär, online dix, übersetzen, übersetzung, übersetzungen, 
+wikipedia, lexikon, enzyklopädie,  
+tel.search.ch, map.search.ch, adresse, adressen, telefonnummer, 
+viamichelin, map24, maporama, route, routenplan, routenplaner, routenplanung,
+amazon, amazon.ch, shop, onlineshop, bestellen, kaufen, medien, bücher, cd, video, dvd,  
+ricardo, ricardo.ch, ebay.ch, ebay, versteigerung, versteigerungen, occasion, occasionen,
+imdb.com, imdb, film, filme, kino, movie, movie database,
+kinoprogramm, cineman, cineman.ch,
+börse, börsenkurs, börsenkurse, smi, swissquote, swissquote.ch">
+
 <link rel="stylesheet" type="text/css" href="http://hyperfinder.ch/css/cmd.css" />
 <link rel="search" type="application/opensearchdescription+xml" title="Hyperfinder"
 	href="http://hyperfinder.ch/OpenSearch/Hyperfinder.xml">
