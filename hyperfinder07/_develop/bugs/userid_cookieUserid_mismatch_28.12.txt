@@ -1,0 +1,38 @@
+
+Permission denied (userid='13840', userpwd='m5sP9Wg2KpGPmYx6wnPdDFLXuCOvotaaySz7yf9HTPhEydLuPlXd_s9u4XotQOSN')
+
+
+ohne neu setzen: 
+
+<!-- userid = 		13840, userpwd = 		9ckSiIz2I5w2joy1rRGwwiAQKFK63AQCm9eUSdWliRnRFlS5Bj07QBXlRssU1Iho -->
+<!-- _COOKIE[userid] = 	13840, COOKIE[userpwd] = 	9ckSiIz2I5w2joy1rRGwwiAQKFK63AQCm9eUSdWliRnRFlS5Bj07QBXlRssU1Iho -->
+
+
+mit neu setzen:
+
+
+<!-- userid = 		13973, userpwd = 		u2V0YbBJKRD072Q781eL8Q8z4ydwT_UM1_NaaZuu_6v69KEHLsdUIlTMj5IC5mZ7 -->
+<!-- _COOKIE[userid] = 	13973, COOKIE[userpwd] = 	u2V0YbBJKRD072Q781eL8Q8z4ydwT_UM1_NaaZuu_6v69KEHLsdUIlTMj5IC5mZ7 -->
+
+<!-- userid = 		13973, userpwd = 		dNR0rEAQFuLFSHYHMYo7tEXS_VZD3h9g3bgvprK3lgJDyrUJPHQHWyjWSIjWztB2 -->
+<!-- _COOKIE[userid] = 	13973, COOKIE[userpwd] = 	dNR0rEAQFuLFSHYHMYo7tEXS_VZD3h9g3bgvprK3lgJDyrUJPHQHWyjWSIjWztB2 -->
+
+
+<!-- userid = 		13973, userpwd = 		PhOQf_pZTfzNCQlg5U64en7CjefKACQZto_Xop6HT4egVPMatSfXFmjyQOHaah9T -->
+<!-- _COOKIE[userid] = 	13973, COOKIE[userpwd] = 	PhOQf_pZTfzNCQlg5U64en7CjefKACQZto_Xop6HT4egVPMatSfXFmjyQOHaah9T -->
+
+
+--- änderung getNExtId
+
+<!-- userid = 		13975, userpwd = 		BR59o1jnbgTYtI6e5HmUmnoftnPxWIHijNsXPaK0GnY94fn9wZehLSLEElAl2SSm -->
+<!-- _COOKIE[userid] = 	13975, COOKIE[userpwd] = 	BR59o1jnbgTYtI6e5HmUmnoftnPxWIHijNsXPaK0GnY94fn9wZehLSLEElAl2SSm -->
+
+<!-- userid = 		13977, userpwd = 		y7NGrUb2rAX_yoieteTJhXKqVr1IbxZZ4xpvQQyGbUGYIyCAcgUJCp8ifA_G6ZpB -->
+<!-- _COOKIE[userid] = 	13977, COOKIE[userpwd] = 	y7NGrUb2rAX_yoieteTJhXKqVr1IbxZZ4xpvQQyGbUGYIyCAcgUJCp8ifA_G6ZpB -->
+
+
+--- ohne neu setzen
+
+<!-- userid = 		13840, userpwd = 		y7NGrUb2rAX_yoieteTJhXKqVr1IbxZZ4xpvQQyGbUGYIyCAcgUJCp8ifA_G6ZpB -->
+<!-- _COOKIE[userid] = 	13840, COOKIE[userpwd] = 	y7NGrUb2rAX_yoieteTJhXKqVr1IbxZZ4xpvQQyGbUGYIyCAcgUJCp8ifA_G6ZpB -->
+
