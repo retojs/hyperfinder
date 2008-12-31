@@ -1,0 +1,136 @@
+Screen Capture Movies for Youtube
+=================================
+
+Für die YouTube "high quality" option brauchst du
+
+ 1. video in DivX, XVid, H.264 (super awesome)  WMV oder HuffYUV
+ 2. auflösung 480×360 pixel oder höher 
+ 3. über 600kbps oder höher (Audio spielt keine Rolle)
+ 4. 24 oder 25fps (30 geht jedenfalls nicht)
+ 5. file grösse < 100 MB
+
+So kriegst du das von deinem Bildschirm:
+
+ 1. Mit der Gratis-Software CamStudio filmst du deinen eigenen Bildschirm im Format 480x360 
+    >> das Tool generiert ein AVI file, das du auf den Mac kopierst.
+
+ 2. Öffne ein neues DV-IMovie-Projekt (Nicht MPEG, dabei geht die Bildqualität flöten. IMovie kann nur im DV-Format abrbeiten.)
+    >> Hier kannst du einzelne Szenen zusammenschneiden und Sound dazumischen
+
+ 3. Exportiere die Daten im oben genannten Format. (H.264, 480x360, 35fps, >600bps)
+    Die Grösse der Datei soll scheints nicht mehr als 100MB betragen, ansonsten komprimiert YouTube das Ganze.
+
+=======
+Script:
+=======
+
+title: hyperfinder basics
+
+---
+
+hyperfinder
+>> Link in Google zu hyperfinder
+>>> hyperfinder zu meiner startseite machen
+
+wiki kommandozeile
+>> Link im Wikipedia
+
+"ALT-HOME" (font: Arial; size: 120px;)
+>> cmd.hyperfinder.ch (select)
+
+en shortcut
+>> Englisch Tastenkürzel
+
+fr traduire
+(es übersetzen) das direkt im leo, denn es ist schneller
+
+"ALT-HOME" (font: Arial Bold; size: 140;) 
+>> cmd.hyperfinder.ch
+
+it fussball
+
+tel marta, zürich
+
+wo klaraweg, bern
+
+route martastr, zürich, klaraweg, bern
+
+(google-kann-es-besser--pointe:)
+maps martastr zürich
+route berechnen von...
+klaraweg bern
+
+LINK: Gelände Darstellung
+
+sbb zh, bern, mo, 8:30
+sbb zh, bern, mo, 9:30 an
+
+maps hotels bern
+
+notfall bern
+{ eigenes kommando: http://www.bern.ch/bernsearch?SearchableText=notruf 
+
+ dieses Kommando ist am Ende in Youtube eingeblendet. man kann es anklicken.
+}
+
+gelbe lungenarzt, bern
+
+----
+
+title: hyperfinder and beyond
+
+----
+
+
+bild merkel
+
+präsident von iran
+>> Wikipedia Link Ahmadinedschad
+bild obama
+bild borat
+news baywatch
+>> David HAsselhoff
+bild hasselhoff
+yt hasselhoff
+>> 
+bild der schrei
+>> Google bilder
+>bild schrei
+>> Google bilder
+>schrei
+>> Google bilder
+
+
+wetter zürich
+meteo
+radar
+webcam hardbrücke
+snow laax
+
+
+
+buch potter
+cd amy
+dvd prison break
+
+
+tv8
+imdb austin powers
+
+kinowo 8000
+filme
+film panda
+yt panda
+
+
+ricardo iphone
+ebay iphone
+vergleich iphone
+
+geld 100 CHF EUR
+
+börse SMI
+
+? börse
+
+

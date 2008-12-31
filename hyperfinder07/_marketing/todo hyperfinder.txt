@@ -1,0 +1,183 @@
+Pressemitteilungen an Lokalzeitungen: 
+
+http://www.freierschweizer.ch/re_index.html
+ gesendet an Frau Kündig und Herr Rühle am: 27.8.2007
+http://www.druckereikalberer.ch/xml_1/internet/de/application/f4.cfm
+ an Peter Brändle am: 27.8.2007
+http://www.rigianzeiger.ch/redaktion_team.html
+ an Kolly-Bisch am: 27.8.2007
+http://www.avwa.ch/de/impressum.html
+ an Markus Lorbe am: 27.8.2007
+http://www.gstaadonline.ch/anzeiger/team.cfm
+ an Müller, Moser, Gfeller am: 27.8.2007
+http://www.oltnertagblatt.ch/?srv=static&pg=redaktion&menId=38
+ an von Arx, Bader am: 27.8.2007
+http://www.szonline.ch/pages/index.cfm?id=101531955
+ an Eckert, Byland, Liechti am: 27.8.2007
+http://www.szonline.ch/pages/index.cfm?id=101531957
+ an Fiore, Genini am: 27.8.2007
+http://www.zeitung.ch/zeitungen/detail.php?medienid=528
+ (Eckert) 
+http://verlagshaus.zehnder.ch/17wn.htm
+ an Rüegg am: 27.8.2007
+http://www.tagblatt.ch/index.php?ressort=tagblattheute/wil/frontseite&ms=wil&start=1
+ an Rolf App (Ressortleiter Wissen)  am: 27.8.2007
+http://www.tagblatt.ch/index.php?ressort=kontakt/redaktion/aussenredaktionen/altstaetten&ms=kontakt
+ an Fritz Bichsel
+ an Monika Egli
+ an Stefan Borkert
+ an Nicole Schaffner
+ an Bruno Scheible
+ an Rita Kohn
+ an Philipp Landmark
+ an Toni Hässig
+ an Stefan Hauser
+ an Gert Bruderer
+ am: 27.8.2007
+
+---
+
+http://www.zeitung.ch/jugend/index.php
+
+http://www.workcamp.ch/e/texts/press_releases.htm  (links)
+http://www.espace.ch/index.html (links unten hat's jenste links)
+
+
+
+latest TODO: 
+------------
+
+
+21.7.07
+
+- Exception bei asynchronem laden...
+- DONE. reload obwohl der ticker angehalten ist?? leider ja...
+- bindestrich wird als ? dargestellt...
+- IE7 testen! MAc testen!
+---> DONE. gibt n fehler... scheint ein async problem zu sein, denn sobald alerts dazwischen geschaltet werden, klappts...
+
+
+
+is that interesting?
+http://blogs.nitobi.com/dave/index.php/2005/12/21/json-benchmarking-beating-a-dead-horse/
+
+
+updated "news fertig":
+- DONE. IE7: nach wechsel der page wird die liste der feeds nicht neu geladen...
+- DONE. IE7: Stichwort wird nicht aus cookie wieder hergestellt...
+- IE7: Weltwoche (Podcast) kann nicht angezeigt werden...
+- podcasts prominenter (als eigener radiobutton?)
+---> nach Webseite, nach Thema, nach Stichwort, Podcasts
+     und dabei entweder nur Webseiten oder nur Themen auflisten... 
+
+z.B. nach Webseite: NZZ -> Ausland, Sport, ...
+     nach Thema: Ausland -> NZZ, Tagi, Blick, ...
+
+TODO: 
+ - vier Layer anstatt nur zwei...
+ - organisation der newsfeeds muss erneuert werden, damit das laden der feeds einfacher wird.
+   --> jeder feed gehört zu einer website, einem thema, ist podcast oder nicht.
+
+- navigation grösser
+- test-szenario...? (brainstorming)
+- podcasts abspielen (kein play/stop)
+- source_code: cookie namen minimieren, element ids logischer und als variablen
+  ist aller obsoleter code weg?
+  rename files: 
+ - parser_rss.php, parser_atom.php (zusammenfassen??)
+ - newsByChannel.php, newsByKeyword.php
+ - feedlist.php
+ - char_encoding.php
+
+- deploy und geschwindigkeit messen.
+- rafi und joinup links
+
+- youtube.com... slots besser implementieren? (dont repeat yourself...)
+
+---
+
+news fertig: 
+- source_code überarbeiten, überflüssiges weg!
+  DONE. brauchts einen button? (z.B. beim wechsel von stichwort nach channel Ansicht... nach wechsel des newsfeed automatisch, ebenso nach wechsel der page)
+- DONE. wann werden news neu geladen?
+- DONE. sollte das stichwort nicht gepeichert bleiben trotz umschalten nach channels?
+- navigation mit grösseren buttons (links)
+- umlaute!
+- DONE. sind news tempi korrekt?
+- DONE. was ist, wenn keine cookies existieren?
+---> Test-Szenario für später erstellen
+
+- podcasts abspielen...
+
+
+check this out:
+- hyperwords.net (http://www.youtube.com/watch?v=Ao8tWn8Gqis)
+
+1. Layout check
+
+2. News refactoring
+
+TODO: 23.5.2007
+
+Die verschiedenen settings sollten lokal gespeichert sein anstatt über das file verstreut. Wo könnte dieses modul reinpassen? Was soll es können?
+
+--> slot_rss.php: Hier muss bereits der searchMode sowie der gewählte Newsfeed bzw. das Stichwort vorliegen. 
+--> rss.php: 
+
+display-settings: zusammenklappbare teile sichtbar oder nicht? -> das kann man im php-file speichern
+newsfeed-settings: $_COOKIE['pageselect'], $_COOKIE['feedurl']
+
+der HTML-code kann sicher vereinfacht werden...
+
+logischere benamsung: 
+ - parser_rss.php, parser_atom.php (zusammenfassen??)
+ - newsByChannel.php, newsByKeyword.php
+ - feedlist.php
+ - char_encoding.php
+
+3. Speed up and squeeze
+
+4. deploy
+
+5. add friendship links
+
+6. Marketing offensive. Ziel: 1000 User pro Tag
+
+
+
+----
+
+9. ALT-HOME pages
+
+
+----
+
+10. Hyper Communicator
+
+Idee: Analog zu den Newsfeeds kann man auch verschiedene private channels anzeigen lassen: 
+- seine Emails (ein Account)
+- persönliche Notizen
+- TODO-listen und Termine
+- gesharte channels mit anderen (chat)
+- der eigene blog bzw der eines anderen.
+
+Alles, was die Form von Listen hat ist möglich......
+
+
+---
+
+11. Vereinfachtes Formular (essential hyperfinder oder so)
+
+d.h. Textfelder für... 
+ (1) Stichwort 
+ (2) Name einer Person / Telefonnummer
+ (3) Adresse / Ort (von nach)
+
+suchanfrage kann entweder per Tastenkombination oder button ausgeführt werden:
+
+"Suchen in..." 
+ (1) Ricardo, Ebay, Amazon, Fernsehprogramm, 
+ (2) IMDB, Telefonbuch
+ (3) SBB, Routenplan
+
+

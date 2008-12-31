@@ -1,0 +1,90 @@
+Mitteilung über hyperfinder.ch
+
+Sehr geehrte ...
+
+Ich möchte Sie gerne über www.hyperfinder.ch informieren, die Abkürzung zu den Online-Informationen, die man ständig braucht.
+
+Mit Hyperfinder ist eine einfache aber effiziente Idee zum ersten Mal für die Deutschschweiz realisiert worden: Die Eingabefelder verschiedener wichtiger  Informationsdienste (wie Fahrplan, Adressverzeichnis, Wörterbücher u.v.m.) sind auf einer Seite versammelt. Anstatt zuerst auf die jeweilige Internetseite zu surfen, (was mit Ladezeiten - oft für unerwünschte Werbung - verbunden ist,) führt man über Hyperfinder seine Anfragen direkt aus. 
+
+Daher eignet sich Hyperfinder vor allem als Browser-Startseite, denn so entfällt in vielen Fällen jegliches Stöbern in den eigenen Favoriten oder in den Google Suchresultaten, und Hyperfinder entfaltet sein volles Potential.
+
+Hyperfinder hat mehrere Vorteile: 
+
+a)	Hyperfinder präsentiert Ihnen interessante Informations-Dienste, von denen Sie ev. noch nicht einmal wussten, dass es sie gibt.
+b)	Für Informations-Dienste, die Sie bereits vom Hörensagen kennen, erspart Ihnen Hyperfinder die Suche nach der richtigen Internet-Adresse (URL).
+c)	Für Informations-Dienste, die Sie schon kennen und regelmässig brauchen, erspart Ihnen Hyperfinder einiges an unnötiger Wartezeit und unnötigen Klicks.
+
+Den letzten Punkt soll das folgende Beispiel illustrieren: Selbst wenn Sie schon wissen, dass Sie auf sbb.ch den SBB-Fahrplan finden, müssen Sie dennoch:
+
+1.	die URL http://www.sbb.ch eintippen oder aus den eigenen Favoriten heraussuchen.
+2.	warten bis die Seite geladen ist 
+3.	Dann erst können Sie ihre Suchanfrage eingeben und zum Server schicken
+4.	und dann erst bekommen Sie, was Sie suchen.
+
+Mit Hyperfinder als Startseite dauert das alles nur halb so lange: 
+
+1.	Sie geben ihre Suchanfrage an sbb.ch auf Hyperfinder ein und drücken ENTER
+2.	Sie bekommen, was Sie suchen.
+
+Noch hilfreicher ist Hyperfinder, wenn Sie nicht den allgemein bekannten SBB-Fahrplan brauchen, sondern z.B. ausrechnen wollen, wieviel 27.- Euro in Schweizer Franken sind. Ohne Hyperfinder müssten Sie:
+
+1.	einen geeigneten Suchbegriff für die Suche mit Google oder einer anderen Suchmaschine finden
+2.	sich einige Zeit nehmen, um das Suchresultat zu analysieren, bis sie eine geeignete Seite finden, über die man Wechselkurse ausrechnen kann. 
+3.	warten bis die Seite geladen ist 
+4.	Dann erst können Sie ihre Suchanfrage eingeben und zum Server schicken
+5. 	und dann erst bekommen Sie, was Sie suchen.
+
+Mit Hyperfinder als Startseite geben Sie einfach „27“ in das richtige Suchfeld ein, drücken ENTER und bekommen, was Sie wissen wollten.
+
+
+Hyperfinder bietet Ihnen direkten Zugriff auf die folgenden Informations-Dienste:
+
+Basic: 
+
+1.	Google
+2.	Wörterbücher von Deutsch nach Englisch, Französisch, Spanisch und Italienisch
+3.	Wikipedia, das Online Lexikon
+4.	News und Podcasts über 200 News-Quellen, Von NZZ, Tagesanzeiger, Blick über Online News-Agenture wie news.ch oder google news bis zu sämtlichen Sendungen von Radio DRS. 
+
+Navigation: 
+
+1.	Der Fahrplan von Zug, Tram und Bus
+2.	Routenplaner zum Anzeigen des schnellsten Wegs von A nach B mit dem Auto
+3.	Das Adressverzeichnis map.search.ch, mit jeder Adresse der Schweiz im Satellitenbild oder auf der Karte
+4.	Das elektronische Telefonbuch tel.search.ch
+5.	Die gelben Seiten der Swisscom mit Adressen von Anbietern von Produkten und Dienstleistungen
+
+Wetter:
+
+1.	Die Wetterprognose einer frei wählbaren Quelle plus das Niederschlagsradar
+2.	Aktuelle Bilder von über 900 Gebieten der Schweiz via Webcams 
+3.	Lokale Schneeberichte
+
+Unterhaltung: 
+
+1.	Das Fernsehprogramm
+2.	Das Kinoprogramm
+3.	YouTube die Internet-Fernseh-Platform und grösste Video-Clip Sammlung der Welt
+4.	Die Filmdatenbank IMDB.com mit allen Informationen über Filme, Schauspieler, Regisseure etc.
+
+Handel:
+
+1.	Online Auktionen von Ricardo
+2.	Online Auktionen von Ebay
+3.	Amazon, der grösste Online-Shop der Welt
+4.	Die aktuellen Börsenkurse
+5.	Die Wechselkurse zwischen allen Währungen der Welt
+6.	Verschiedene Preisvergleich--Plattformen zum finden des günstigsten Angebots eines beliebigen Produktes.
+
+
+Ich hoffe, dass Sie Hyperfinder für sich selber und Ihre Leser interessant finden. Ich und viele meiner Freunde verwenden die Seite schon seit langem und möchten nicht mehr darauf verzichten, und es würde mich freuen, wenn noch viel mehr Leute von Hyperfinder erfahren und die Seite verwenden würden. 
+
+mit freundlichen Grüssen
+Reto Lamprecht
+
+
+Reto Lamprecht
+Heinrichstrasse 227
+8005 Zürich
+reto.lamprecht@gmx.ch
+076 368 63 34
