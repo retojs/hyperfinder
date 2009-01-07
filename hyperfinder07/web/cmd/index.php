@@ -52,7 +52,7 @@ function makeHomepage() {
 	<a href="?page=help">Wie funktioniert's?</a>&nbsp;-&nbsp; 
 	<a href="javascript:makeHomepage()">Als Startseite</a>&nbsp;-&nbsp; 
 	<a href="?page=user">Meine Kommandos</a>&nbsp;-&nbsp; 
-	<a href="http://hyperfinder.ch">Hyperfinder Classic</a> 
+	<a href="http://hyperfinder.ch">Hyperfinder.ch</a> 
 	<br/>
 	<br/>
 </div>

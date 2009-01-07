@@ -1,5 +1,5 @@
 <tr class="<?php echo "css_" . $slotkey; ?>" id="commandline_slot">
-	<td class="bigLabel linkCol2"> 
+	<td class="bigLabel linkCol2" title="http://cmd.hyperfinder.ch"> 
 		<img src="img/favicons/_leer.gif" />&nbsp;
 		<a href="http://cmd.hyperfinder.ch"><?php echo $labels[$slot]; ?></a>
 	</td>
