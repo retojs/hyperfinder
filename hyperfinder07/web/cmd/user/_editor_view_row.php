@@ -4,11 +4,8 @@ function editor_printHeader($newButton) {
 	global $BASE_URL;
 	?>
 <tr>
-	<th class="colFront">
-	<?php if ($newButton) { ?> 
-		<input type="button" value="Neu" onClick="document.location.href='<?php print $BASE_URL ?>newcmd=true'" />
-	<?php } ?>
-	</th>
+	<th class="colFront"><?php if ($newButton) { ?> <input type="button" value="Neu"
+		onClick="document.location.href='<?php print $BASE_URL ?>newcmd=true'" /> <?php } ?></th>
 	<th class="cmdTable">Kürzel</th>
 	<th class="cmdTable">Suchbegriff(e)</th>
 	<th class="cmdTable">Suchdienst, URL</th>
@@ -20,10 +17,10 @@ function editor_printHeader($newButton) {
 
 function editor_printCmdCols($cmd, $suchbegriffe, $suchdienst, $beispiel) {
 	?>
-	<td><?php print $cmd ?>&nbsp;</td>
-	<td><?php print $suchbegriffe ?>&nbsp;</td>
-	<td><?php print $suchdienst ?>&nbsp;</td>
-	<td><?php print $beispiel ?>&nbsp;</td>
+<td><?php print $cmd ?>&nbsp;</td>
+<td><?php print $suchbegriffe ?>&nbsp;</td>
+<td><?php print $suchdienst ?>&nbsp;</td>
+<td><?php print $beispiel ?>&nbsp;</td>
 	<?php
 }
 
@@ -36,7 +33,8 @@ function editor_printRow($index, $cmdId, $cmd, $suchbegriffe, $suchdienst, $beis
 <tr>
 	<td class="colFront"><input type="button" value="ändern" onClick="<?php print $editOnClick ?>" /></td>
 	<?php editor_printCmdCols($cmd, $suchbegriffe, $suchdienst, $beispiel) ?>
-	<td class="assignEmail_plain" style="width:20px"><input type="checkbox" name="myCmd_<?php print $index ?>" value="<?php print $cmdId ?>" /></td>
+	<td class="assignEmail_plain" style="width: 20px"><input type="checkbox" name="myCmd_<?php print $index ?>"
+		value="<?php print $cmdId ?>" /></td>
 </tr>
 	<?php
 }
@@ -46,7 +44,7 @@ function editor_printRowSelected($cmd, $suchbegriffe, $suchdienst, $beispiel) {
 <tr class=selectedCommands>
 	<td class="colFront"></td>
 	<?php editor_printCmdCols($cmd, $suchbegriffe, $suchdienst, $beispiel) ?>
-	<td class="rowInvisible" style="width:20px"><input type="checkbox" style="visibility:hidden"></td>
+	<td class="rowInvisible" style="width: 20px"><input type="checkbox" style="visibility: hidden"></td>
 </tr>
 	<?php
 }
@@ -54,21 +52,25 @@ function editor_printRowSelected($cmd, $suchbegriffe, $suchdienst, $beispiel) {
 function editor_printRowEmbedMe($index, $cmdId, $cmd, $suchbegriffe, $suchdienst, $beispiel, $code) {
 	global $SERVER_ROOT;
 	?>
-<tr><td colspan="6" style="border:0px"></td></tr>
+<tr>
+	<td colspan="6" style="border: 0px"></td>
+</tr>
 <tr>
 	<td class="colFront"></td>
 	<?php editor_printCmdCols($cmd, $suchbegriffe, $suchdienst, $beispiel) ?>
 	<td class="rowInvisible"></td>
 </tr>
-<tr class="rowEdit_">
-	<td class="colFront"><b>HTML-Code:</b></td>
-	<td colspan="4">
-		<input type="text" style="width:98%"
-			value="<a href='<?php print $SERVER_ROOT; ?>index.php?page=user&op=embedMe&id=<?php print $cmdId;?>&code=<?php print $code ?>' title='Hyperfinder Kommando &quot;<?php print $cmd;?>&quot; installieren'><img src='http://hyperfinder.ch/favicon.gif' border=0></a>" 
-			onClick="this.select()"
-		/>
+<tr>
+	<td class="colFront"></td>
+	<td class="rowEmbed">
+		<b>Import-Icon Vorschau:</b>
+		<?php print getEmbedMeIcon($cmdId, $code, $cmd);?>
 	</td>
-	<td class="rowInvisible" style="width:20px;background-color:#fff"></td>
+	<td colspan="3" class="rowEmbed">
+		<b>HTML-Code:</b>
+		<input type="text" value="<?php print getEmbedMeIcon($cmdId, $code, $cmd);?>" onClick="this.select()" style="vertical-align:middle; width: 320px"/>
+	</td>
+	<td class="rowInvisible" style="width: 20px; background-color: #fff"></td>
 </tr>
 	<?php
 }
@@ -123,7 +125,7 @@ function editor_printRowEdit($cmdid, $newcmd, $cmd, $url, $suchbegriffe, $suchdi
 </tr>
 <tr class="rowEdit_">
 	<td class="colFront">POST Parameter:</td>
-	<td colspan="4"><input type="text" style="width: 97%" id="params" name="params" value="<?php print $params ?>" 
+	<td colspan="4"><input type="text" style="width: 97%" id="params" name="params" value="<?php print $params ?>"
 	<?php print $postDisabled; ?> /></td>
 </tr>
 <tr class="rowEdit_">
@@ -137,8 +139,14 @@ function editor_printRowEdit($cmdid, $newcmd, $cmd, $url, $suchbegriffe, $suchdi
 	<td colspan="4"><input type="submit" name="save" value="Speichern" /> <input type="submit" name="delete" value="Löschen"
 		id="deleteBtn" onclick="return confirm('Aktuellen Eintrag wirklich löschen');" /></td>
 </tr>
-<tr><td colspan="6" style="border:0px"></td></tr>
+<tr>
+	<td colspan="6" style="border: 0px"></td>
+</tr>
 	<?php
 }
 
+function getEmbedMeIcon($cmdId, $code, $cmd){
+	global $SERVER_ROOT;
+	return "<a href='$SERVER_ROOT/index.php?page=user&op=embedMe&id=$cmdId&code=$code' title='Hyperfinder Kommando &quot;$cmd&quot; installieren'><img src='http://hyperfinder.ch/favicon.gif' border=0 style='vertical-align:text-bottom;'></a>";
+}
 ?>

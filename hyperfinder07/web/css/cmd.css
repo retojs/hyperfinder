@@ -81,6 +81,11 @@ th {
 	background-color: #eee;
 }
 
+td.rowEmbed {
+	border-bottom: 0px;
+	background-color: #eee;
+}
+
 .rowEdit_ td {
 	border: 0px;
 	background-color: #ddd;

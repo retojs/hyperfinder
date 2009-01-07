@@ -16,7 +16,6 @@ function embedMe_executeAction($userid) {
 
 		$headline = "Kommando installieren";
 		$feedback = importPublicCommand($id, $code);
-		
 	}
 }
 
@@ -33,10 +32,14 @@ function importPublicCommand($cmdid, $code) {
 	$suchbegriffe = mysql_result($result, 0, "suchbegriffe");
 	$suchdienst = mysql_result($result, 0, "suchdienst");
 	$beispiel = mysql_result($result, 0, "beispiel");
-	
-	insertCommand($cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
-	$commandSet = "($cmdid)";
-	return "Kommando <i>$cmd</i> erfolgreich installiert.";
+
+	if (!existsCommand($userid_, $cmd)) {	
+		insertCommand($cmd, $method, $url, $params, $suchbegriffe, $suchdienst, $beispiel);
+		$commandSet = "($cmdid)";
+		return "Kommando <i>$cmd</i> erfolgreich installiert.";
+	} else {
+		return "<font color=red>Ein Kommando mit dem Kürzel '<i>". $cmd ."</i>' existiert bereits.</font>";
+	}
 }
 ?>
 
