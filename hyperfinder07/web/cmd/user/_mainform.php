@@ -89,8 +89,9 @@
 	</div>
 	<div class="borderTop">
 		<h3>Kommandos publizieren</h3>
-		<p>Wenn Sie den untenstehenden HTML-Code zu einem Kommando in Ihre eigene Webseite integrieren, können die Besucher Ihrer Seite das Kommando per Mausklick importieren.</p>
-		<p>So können Sie Besuchern, die Hyperfinder benutzen, vereinfachten Zugriff auf Ihre Webseite verschaffen.</p>
+		<p>Wenn Sie den untenstehenden HTML-Code zu einem Kommando in Ihre eigene Webseite integrieren, können die Besucher Ihrer Seite das Kommando per Mausklick importieren.
+		So können Sie Besuchern, die Hyperfinder benutzen, vereinfachten Zugriff auf Ihre Webseite verschaffen.</p>
+		<p>Sie können ihr Kommando auch demnächst auf Hyperfinder veröffentlichen...</p>
 		
 		<?php editor_printEmbedMeCommands($userid_);?>
 

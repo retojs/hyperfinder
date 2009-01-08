@@ -1,6 +1,11 @@
 <center><div id="content" style="text-align:left"><br/>
 <center><a href="index.php">Hilfe schliessen</a><h2>Hilfe zur Hyperfinder Kommandozeile</h2></center>
 
+Die Hyperfinder Kommandozeile erlaubt es, all jene Anfragen auszuführen, die auch über die einzelnen Slots von <a href="http://hyperfinder.ch" target="_blank">Hyperfinder.ch</a> 
+abgesetzt werden können. 
+<br/>Da sämtliche Anfragen über die Kommandozeile abgesetzt werden, erspart man sich damit das ärgerliche Klicken mit der Maus.
+<br/><br/>
+
 <center>
 <!-- width und height sind *inklusive* Rahmen. Die Breite (width) des Clips selbst ist um 20px, die Höhe (height) um 45px kleiner. Für ein Clip-Format von 640x360 muss also width=660 und height=405 sein. -->
 <object width="660" height="405"><param name="movie" value="http://www.youtube.com/v/L3JTpxaKSsM&hl=en&fs=1&color1=0x234900&color2=0x4e9e00&border=1&ap=%2526fmt%3D18"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/L3JTpxaKSsM&hl=en&fs=1&color1=0x234900&color2=0x4e9e00&border=1&ap=%2526fmt%3D18" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="660" height="405"></embed></object>

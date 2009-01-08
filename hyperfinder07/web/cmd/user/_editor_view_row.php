@@ -62,13 +62,15 @@ function editor_printRowEmbedMe($index, $cmdId, $cmd, $suchbegriffe, $suchdienst
 </tr>
 <tr>
 	<td class="colFront"></td>
-	<td class="rowEmbed">
+	<td class="rowEmbed" colspan="4">
 		<b>Import-Icon Vorschau:</b>
 		<?php print getEmbedMeIcon($cmdId, $code, $cmd);?>
-	</td>
-	<td colspan="3" class="rowEmbed">
+		&nbsp;
+		&nbsp;
 		<b>HTML-Code:</b>
-		<input type="text" value="<?php print getEmbedMeIcon($cmdId, $code, $cmd);?>" onClick="this.select()" style="vertical-align:middle; width: 320px"/>
+		<input type="text" value="<?php print getEmbedMeIcon($cmdId, $code, $cmd);?>" onClick="this.select()" style="vertical-align:middle"/>
+		&nbsp;
+		&nbsp;<span class="nobr">Kommando auf Hyperfinder&nbsp;<button style="vertical-align:middle" onclick="alert('Dokumentation ausgefüllt?')"><b>Veröffentlichen</b></button></span>
 	</td>
 	<td class="rowInvisible" style="width: 20px; background-color: #fff"></td>
 </tr>
@@ -87,7 +89,7 @@ function editor_printRowEdit($cmdid, $newcmd, $cmd, $url, $suchbegriffe, $suchdi
 	<td class="colFront">Kommando:</td>
 	<td><input type="text" style="width: 97%" name="cmd" value="<?php print $cmd ?>" /></td>
 	<td colspan="3">Die Angaben "<i>Suchbegriff(e)</i>", "<i>Suchdienst, URL</i>" und "<i>Beispiel</i>" sind optional. Sie dienen nur
-	der Dokumentation ihres Kommandos. Die Felder sollten ausgefüllt werden, bevor Sie ein Kommando an Freunde weiterschicken.</td>
+	der Dokumentation ihres Kommandos. Die Felder sollten ausgefüllt werden, bevor Sie ein Kommando an Freunde weiterschicken oder es veröffentlichen.</td>
 </tr>
 <tr class="rowEdit">
 	<td class="colFront">Dokumentation:</td>
