@@ -1,0 +1,61 @@
+http://www.seniorweb.ch/index.php?option=com_content&task=blogcategory&id=521&Itemid=482
+
+Surfen per Tastendruck
+
+Surfen im Internet kann einfacher und schneller sein, als wir es gewohnt sind, dank Hyperfinder und Hyperfinder-Kommandos.
+
+Das Anliegen der Webseite Hyperfinder.ch ist es, den Zugriff auf alle möglichen Informationen im Internet zu vereinfachen, d.h. uns möglichst direkt und ohne Umwege zu den Informationen zu bringen, die uns interessieren. Wer verbringt nicht auch immer wieder Zeit damit, Google-Suchergebnisse zu durchstöbern oder in seiner eigenen Sammlung abgespeicherter Internetseiten nach dem richtigen Link zu suchen? Egal wie versiert wir beim Surfen im Internet sind: Wäre es nicht viel angenehmer, wenn wir zumindest diejenigen Seiten, die wir oft benutzen, mit nur wenigen Fingerbewegungen erreichen und bedienen könnten? Anstatt uns zuerst an die Internet-Adresse erinnern zu müssen (hiess sie jetzt ".com" oder ".ch" oder vielleicht sogar ".org"? Ich hatte sie doch irgendwann mal als Favorit gespeichert... am besten such ich einfach mit Google..!)
+und dann zu warten, bis die Seite geladen ist, bis wir überhaupt erst damit beginnen können, auf der Seite nach dem Inhalt zu suchen, der uns interessiert?
+
+Das oben beschriebene Prozedere kann man mit Hyperfinder im Prinzip auf das Drücken einer einzigen Taste reduzieren, und zwar für soviele Webseiten, wie sich Tasten auf der Tastatur befinden.
+Natürlich verwendet man eher selten einzelne Buchstaben, sondern vielmehr Kürzel (Kommandos), die man sich einfach merken kann. Jedem Kommando können zudem bis zu 6 Suchbegriffe folgen, nach denen dann auf der angesteuerten Seite gesucht wird. 
+
+Neben der Möglichkeit, für seine Lieblingsseiten eigene Tasten-Kürzel zu definieren, bringt Hyperfinder auch eine ganze Reihe von vordefinierten Kommandos mit. Hier ein paar Beispiele: 
+
+- Das beliebte Englisch-Deutsch-Wörterbuch Names Leo lässt sich mit dem Kürzel "leo" ansteuern. Tippt man z.B. "leo Wort" ein, gelangt man direkt zur englischen Übersetzung des Wortes "Wort". Dasselbe funktioniert auch mit dem Kürzel "en" (für "Englisch") und analog dazu mit "fr" für Französisch, "it" für Italienisch und "es" für Español.
+- Nach Büchern, CDs und DVDs sucht man normalerweise auf Amazon. Mit Hyperfinder tippt man nur "buch Titel" ein und gelangt direkt zu den Angeboten zum Stichwort "Titel" auf Amazon. Das funktioniert genauso gut mit den Kürzeln "dvd" oder "cd".
+- Wer gern auf Schnäppchenjagd geht, gibt "ricardo Schnäppchen" ein und findet direkt die günstigsten Angebote zu diesem Stichwort auf Ricardo. Die Kürzel "ric" und "ebay" stehen ebenso zur Verfügung.
+- Eine Adresse auf einer Karte im Internet nachschlagen? Mit Hyperfinder reicht dazu "wo Adresse".
+
+Man kann sich leicht ausdenken, wofür z.B. die Kommandos "news", "wiki", "wetter", "sbb", "tel", "bild", "kino" oder "tv" gut sind. Die vollständige Liste der vordefinierten Kommandos - inklusive ein Video zur Einführung für Einsteiger - finden Sie hier: http://cmd.hyperfinder.ch/?page=help
+
+Sobald man das Prinzip einmal verstanden hat und einige Kommandos kennt, bewegt man sich fast so leicht und schnell durch den virtuellen Raum wie seine eigenen Gedanken.
+
+Unter der Adresse hyperfinder.ch befindet sich übrigens zu jedem vordefinierten Kommando auch ein komprimiertes Suchformular. Darüber lassen sich dieselben Internetseiten fast genauso einfach ansteuern wie über Suchkommandos. Um das Kommando für die entsprechenden Seite zu lernen, drückt man einfach auf das grüne Icon am Kopf des Formulars. Dadurch wird das Kommando automatisch in die Kommandozeile eingefügt. Hyperfinder.ch zeigt zudem auch die Schlagzeilen einer persönlich ausgewählten Zeitung an.
+
+Die Seite cmd.hyperfinder.ch dagegen ist reduziert auf ein einziges Kommando-Textfeld. Daher ist sie so gut wie sofort geladen, sobald man sie z.B. mit der einfachen Tastenkombination ALT-HOME öffnet. Dazu muss cmd.hyperfinder.ch allerdings als Startseite des Browsers abgespeichert sein.
+
+
+----
+
+Begleit-Schreiben
+
+
+Guten Tag Herr Wüst
+
+Für den Fall, dass Sie irgendwann wieder Bedarf nach einem neuen Artikel für die Rubrik "Linktipps der Woche" o.ä. haben, möchte ich Ihnen die Seite Hyperfinder.ch vorstellen. 
+Ich habe die Seite entwickelt, um mir selber das tägliche Surfen im Internet zu erleichtern, und natürlich würde es mich freuen, wenn auch andere von den Möglichkeiten profitieren könnten, die Hyperfinder bietet.
+
+Hier ist eine kurze Beschreibung, die sie gerne direkt so abdrucken dürfen, sofern sie Ihren Anforderungen entspricht. 
+Natürlich bin ich auch ganz generell an einem Feedback von Ihnen interessiert!
+
+Mit freundlichen Grüssen
+Reto Lamprecht
+
+
+---
+
+Emails verschickt an:
+- hugo.wuest@seniorweb.ch
+- info@plustreff.ch
+- admin@senioren.ch
+
+----
+
+http://www.oldies.ch/dir/suggest-link.php?id=23
+
+Surfen per Tastendruck
+
+Surfen im Internet kann einfacher und schneller sein, als wir es gewohnt sind, dank Hyperfinder und Hyperfinder-Kommandos. Hier ein Beispiel: Das Englisch-Deutsch-Wörterbuch Names Leo lässt sich mit dem Kürzel "leo" ansteuern. Tippt man z.B. "leo Wort" ein, gelangt man direkt zur englischen Übersetzung des Wortes "Wort". Dasselbe funktioniert auch mit dem Kürzel "en" (für "Englisch") und analog dazu mit "fr" für Französisch, "it" für Italienisch und "es" für Español. Man kann sich leicht ausdenken, wofür z.B. die Kommandos "news", "wiki", "wetter", "sbb", "tel", "bild", "kino" oder "tv" gut sind.
+
+
