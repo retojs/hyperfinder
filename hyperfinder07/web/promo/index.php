@@ -1,0 +1,1 @@
+<?php include "../cmd/index.php" ?>
