@@ -5,24 +5,27 @@
 	</td>
 	<td>
 		<a name="snow"></a>
-		<input type="text" name="rn" id="snow_arg1" onFocus="selectField('snow_arg1')" onKeyDown="onPressKey('snow');setLastField('snow_arg1')">
+		<input type="text" id="snow_arg1" onFocus="selectField('snow_arg1')" onKeyDown="onPressKey('snow');setLastField('snow_arg1')">
 		PLZ / Ort
 	</td>
 	<td colspan="2">
-		<select name="rr" id="snow_arg2" class="wideinput" onkeydown="onPressKey('snow');setLastSnowField('snow_arg2');submitForm(event)">
-			<option value="0">Alle Regionen</option>
-			<option value="1" >Graub&uuml;nden</option>
-			<option value="2" >Ostschweiz / Liechtenstein</option>
-			<option value="3" >Region Z&uuml;rich</option>
-			<option value="4" >Zentralschweiz</option>
-			<option value="5" >Region Basel</option>
-			<option value="6" >Schweizer Mittelland</option>
-			<option value="7" >Berner Oberland</option>
-			<option value="8" >Freiburg / Neuenburg / Jura / Berner Jura</option>
-			<option value="9" >Genferseegebiet</option>
-			<option value="11" >Wallis</option>
-			<option value="12" >Tessin</option>
+		<!-- <select id="snow_arg2" class="wideinput" onkeydown="onPressKey('snow');setLastSnowField('snow_arg2');submitForm(event)">
+			<option value="CH">Ganze Schweiz</option>
+			<option value="top30">Top 30</option>
+			<option value="reg7" >Berner Oberland</option>
+			<option value="reg9" >Genferseegebiet</option>
+			<option value="reg1" >Graub&uuml;nden</option>
+			<option value="reg8" >NE / Jura / Berner Jura</option>
+			<option value="reg2" >Ostschweiz / Liechtenstein</option>
+			<option value="reg5" >Region Basel</option>
+			<option value="reg13">Region Fribourg</option>
+			<option value="reg3" >Region Z&uuml;rich</option>
+			<option value="reg6" >Schweizer Mittelland</option>
+			<option value="reg12">Tessin</option>
+			<option value="reg11">Wallis</option>
+			<option value="reg4" >Zentralschweiz</option>
 		</select>
+		 -->
 	</td>
 	<td align="right" valign="top">
 		<input type="button" class="gobutton" value="<?php print $TXT["FIND"] ?>" onClick="onPressKey('snow');gotoURL()">

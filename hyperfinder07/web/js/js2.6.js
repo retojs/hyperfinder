@@ -524,13 +524,13 @@ urls['cineman_all'] = "http://cineman.ch/search/global/index.php?search=arg4&sea
 
 urls['swissquote'] = "http://www.swissquote.ch/cgi-bin/redirector/go?cb&arg1&self&d";
 
-urls['snow'] = "http://snow.search.ch/index.php?sc=rl&rn=arg1&rr=arg2&search_button=Suche+Starten";
+urls['snow'] = "http://snow.myswitzerland.com/requests/SearchSearchRequest.jsp?AdminSearchTerms=arg1";
 
 urls['webcams'] = "http://www.swisswebcams.ch/deutsch/search.php";
 
 urls['fx'] = "http://www.oanda.com/convert/classic?lang=de";
 
-urls['meteo'] = "http://www.meteoschweiz.ch/web/de/wetter/Detailprognose/lokalprognose.html?language=de&plz=arg1";
+urls['meteo'] = "http://www.meteoschweiz.admin.ch/web/de/wetter/detailprognose/lokalprognose.html?language=de&plz=arg1";
 
 urls['tv'] = "http://www.teleboy.ch/programm/jetzt_im_tv.php?showtime=arg1&stations=top&order_by=label";
 urls['tv_fuzzy'] = "http://www.teleboy.ch/programm/process.php?fuzzy=arg2";
@@ -603,6 +603,11 @@ function gotoURL(usethisUrlKey) {
 	if (null != value6Obj) {
 		var value6 = value6Obj.value;
 	}
+	
+	for (i = 1; i <= 6; i++) {
+		val = "value" + i;
+		eval(val + " = escape("+val+")");
+	}
 
 	urlKey = target;
 	if (usethisUrlKey != null) {
@@ -660,18 +665,15 @@ function gotoURL(usethisUrlKey) {
 		if (value2 == '') {
 			value2 = '-';
 		}
-		value1 = mapsearch_replace(value1);
-		value2 = mapsearch_replace(value2);
 	
 	} else if ('gelbe' == target) {
 		storeUserData('gelbe_arg2', $('gelbe_arg2').value);
 	
 	} else if ('meteo' == target) {
-		if (lastField != 'meteo_plz') {
+		if (lastField == 'meteo_prognosen') {
 			linkTo($('prognosen').options[$('prognosen').selectedIndex].value);
 			return;
 		}
-		
 		storeUserData('meteo_arg1', $('meteo_arg1').value);
 		
 	} else if ('snow' == target) {
@@ -752,14 +754,6 @@ function gotoURL(usethisUrlKey) {
 		form.submit();
 		return false;
 	}
-}
-
-function mapsearch_replace(value) {
-	value = value.replace("ü", "ue");
-	value = value.replace("ä", "ae");
-	value = value.replace("ö", "oe");
-	value = value.replace(" ", "-");
-	return value;
 }
 
 // Select-Eingabefelder sollten onkeydown diese methode aufrufen, damit RETURNs die Anfrage ausführt. 

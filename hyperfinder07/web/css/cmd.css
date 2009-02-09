@@ -143,3 +143,7 @@ td.rowEmbed {
 .borderTop {
 	border-top: 1px solid #ccc;
 }
+
+.nobr {
+	white-space: nowrap;
+}

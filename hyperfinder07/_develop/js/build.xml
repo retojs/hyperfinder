@@ -6,15 +6,16 @@
 	</description>
 	
 	<property name="destdir" location="../../web/js" />
+	<property name="version" value="2.6" />
 	
-	<target name="concat">
+	<target name="concat" description="Generiert die JS-Dateien jsX.Y.js, newsX.Y.js und ctrl.js. (Version X.Y wird über das property ${version} gesetzt">
 		
-		<concat destfile="${destdir}/js.js" append="false">
+		<concat destfile="${destdir}/js${version}.js" append="false">
 			<fileset dir="util" includes="_ajax.js, _cookies.js, _cmdline.js, _util.js"/>
 			<fileset dir="." includes="_gotoUrl.js, _main.js, _settings.js, _userdata.js"/>
 		</concat>
 		
-		<concat destfile="${destdir}/news.js" append="false">
+		<concat destfile="${destdir}/news${version}.js" append="false">
 			<fileset dir="news" includes="_feeds.js, _settings.js, _share.js, _ticker.js, _vars.js"/>
 		</concat>
 		
@@ -23,6 +24,11 @@
 			<fileset dir="util" includes="_ajax.js"/>
 		</concat>
    
+   		<echo message="Generierte Version: ${version}" />
+   		<echo message="NICHT VERGESSEN:" />
+   		<echo message="   1.) In gzip.php die aktuelle Versions-Nummer nachführen." />
+   		<echo message="   2.) Gegebenenfalls sowohl die neuen JS-Skipts als auch gzip.php auf dem Server deployen." />
+   		<echo message="   2.) Version-Property in diesem build.xml schon provisorisch um eins erhöhen." />
 	</target>
 
 </project>
