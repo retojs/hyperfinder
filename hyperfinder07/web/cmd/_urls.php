@@ -79,7 +79,7 @@ $cmds["tel"] = createGetCmd("http://tel.search.ch/result.html?was=<1>&wo=<2>&pri
 /////
 // WETTER
 
-$cmds["wetter"] = createGetCmd("http://www.meteoschweiz.ch/web/de/wetter/Detailprognose/lokalprognose.html?language=de&plz=<1>");
+$cmds["wetter"] = createGetCmd("http://www.meteoschweiz.admin.ch/web/de/wetter/detailprognose/lokalprognose.html?language=de&plz=<1>");
 $links["meteo"] = createLink("http://meteo.sf.tv/sfmeteo/");
 
 $links["radar"] = createLink("http://www.meteoschweiz.admin.ch//web/de/wetter/aktuelles_wetter/radarbild.Par.0004.Image.gif");
