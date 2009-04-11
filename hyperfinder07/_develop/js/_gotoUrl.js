@@ -2,6 +2,10 @@ var urls = new Array();
 
 // Keys need to correspond to the target values
 
+//
+// (!!!) Bei Änderungen nicht vergessen auch die URLS in der Kommandozeile anzupassen! (cmd/_urls.php)
+//
+
 urls['commandline'] = "http://cmd.hyperfinder.ch/do.php?find=arg1";
 
 // AdSense
