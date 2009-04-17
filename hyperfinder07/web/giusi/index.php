@@ -1,3 +1,13 @@
+<?php
+
+$menu_url = "http://www.paradox.ch/giusi/menu.php";
+$content_url = "http://www.paradox.ch/giusi/giusi.php";
+
+if (strtolower($_SERVER["HTTP_HOST"]) == 'localhost') {
+	$menu_url = "http://localhost/giusi/menu.php";
+	$content_url = "http://localhost/giusi/giusi.php";
+}
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
 <head>
@@ -6,10 +16,12 @@
 </head>
 
 <frameset rows="95,*" frameborder="NO" border="0" framespacing="0">
-  <frame src="http://www.paradox.ch/giusi/menu.htm" name="menu" scrolling="NO" noresize >
-  <frame src="http://www.paradox.ch/giusi/giusi.php?jahr=2005" name="content">
+	<frame src="<?php print $menu_url; ?>" name="menu" scrolling="NO" noresize />
+	<frame src="<?php print $content_url; ?>" name="content" />
 </frameset>
-<noframes><body>
 
-</body></noframes>
+<noframes>
+<body>
+</body>
+</noframes>
 </html>
