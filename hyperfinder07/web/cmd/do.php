@@ -100,9 +100,14 @@ function addDefaults($params, $cmdName) {
 // Execute request
 
 $find = trim($_REQUEST["find"]);
+
 $cmd = substr($find, 0, strpos($find, " "));
 $cmd = strtolower($cmd);
-$paramString = substr($find, strpos($find, " ") + 1);
+
+if (strpos($find, " ") > 0) {
+	$paramString = substr($find, strpos($find, " ") + 1);
+}
+
 $params = explode(",", $paramString);
 
 if (isset($cmd) && null != $cmds[$cmd]) {
