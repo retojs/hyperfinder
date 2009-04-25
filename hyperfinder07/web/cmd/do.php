@@ -109,6 +109,7 @@ if (strpos($find, " ") > 0) {
 }
 
 $params = explode(",", $paramString);
+$find = strtolower($find);
 
 if (isset($cmd) && null != $cmds[$cmd]) {
 	$cmds[$cmd]->execRequest(addDefaults($params, $cmd));

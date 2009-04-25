@@ -1,5 +1,10 @@
 hyperfinder.ch
 
+Unfuddle: https://hyperfinder.unfuddle.com/session/new
+
+login: hyperfinder
+pwd: g0ldmember
+
 
 FTP:
 ----
