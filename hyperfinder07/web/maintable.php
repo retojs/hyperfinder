@@ -44,4 +44,9 @@
 		<td align="center"><input type="submit" style="width:0px;height:0px;"></td>
 		<td align="right">&nbsp;<!-- <iframe src="counter.htm" name="counterframe" height="20" scrolling="no" frameborder="0"></iframe> --></td>
 	</tr>
+	<tr>
+		<td colspan="3">
+			   <a href="http://www.fraktale.ch/atsphp-5.2.1/"><img src="http://www.fraktale.ch/atsphp-5.2.1/button.php?u=hyperfinder" alt="Topliste Schweiz" border="0" /></a>
+		</td>
+	</tr>
 </table>
