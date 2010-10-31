@@ -4,15 +4,24 @@ Adsense
 Privatdetektiv
 	Durchschn. CPC:  6,18 SFr. - 17,91 SFr
 
+Analytics
+	Durchschn. CPC:  6,56 SFr. - 11,69 SFr 
+
+Kredit
+	Durchschn. CPC:  5,89 SFr. - 14,43 SFr
+
 Forex
 	Durchschn. CPC:  5,43 SFr. - 16,67 SFr 
 
-Kredit
-	Durchschn. CPC:  5,31 SFr. - 14,43 SFr
+best forex trading
+	7,19 CHF
 
-Analytics
-	Durchschn. CPC:  5,19 SFr. - 11,69 SFr 
-
+Viagra
+	Durchschn. CPC:  3,19 SFr 
+	
+google adsense optimiren
+	3,06
+	
 Trading
 	Durchschn. CPC:  2,49 SFr. - 11,11 SFr 
 
@@ -69,5 +78,23 @@ Treuhänder
 
 
 
+---
 
+Plan zum Online Editor: 
+
+1. DB aufsetzen:
+
+create table wordvalues (
+	word int
+	cpc double
+)
+
+2. CRUD-Operationen
+
+read:
+	select * from wordvalues
+	
+write:
+	update wordvalues set()
+	
 
