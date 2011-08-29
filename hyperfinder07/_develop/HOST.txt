@@ -3,7 +3,10 @@ hyperfinder.ch
 Unfuddle: https://hyperfinder.unfuddle.com/session/new
 
 login: hyperfinder
-pwd: g0ldmember
+pwd: G0ldmember
+
+login: retoj
+pwd: G0ldmember
 
 
 FTP:
@@ -14,7 +17,7 @@ Host/Server:
 Benutzername: 
 	web225f2
 Passwort: 
-	g0ldmember
+	G0ldmember
 	
 
 Admin: 
