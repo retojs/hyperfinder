@@ -6,7 +6,7 @@
 	</description>
 	
 	<property name="destdir" location="../../web/js" />
-	<property name="version" value="2.6" />
+	<property name="version" value="2.9" />
 	
 	<target name="concat" description="Generiert die JS-Dateien jsX.Y.js, newsX.Y.js und ctrl.js. (Version X.Y wird über das property ${version} gesetzt">
 		
@@ -25,6 +25,7 @@
 		</concat>
    
    		<echo message="Generierte Version: ${version}" />
+   		<echo message="Generierte JavaScript-files: web/js/js${version}.js, web/js/news${version}.js (alle auf Server kopieren!)" />
    		<echo message="NICHT VERGESSEN:" />
    		<echo message="   1.) In gzip.php die aktuelle Versions-Nummer nachführen." />
    		<echo message="   2.) Gegebenenfalls sowohl die neuen JS-Skipts als auch gzip.php auf dem Server deployen." />
