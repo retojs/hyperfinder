@@ -9,15 +9,16 @@ var urls = new Array();
 urls['commandline'] = "http://cmd.hyperfinder.ch/do.php?find=arg1";
 
 // AdSense
-urls['google'] = "http://www.google.ch/custom";
-urls['google'] += "?hl=de";
-urls['google'] += "&ie=ISO-8859-1";
-urls['google'] += "&oe=ISO-8859-1";
-urls['google'] += "&client=pub-3941083662020418";
-urls['google'] += "&cof=FORID%3A1%3BGL%3A1%3BBGC%3AFFFFFF%3BT%3A%23000000%3BLC%3A%230000cc%3BVLC%3A%23660099%3BALC%3A%230000cc%3BGALT%3A%23009900%3BGFNT%3A%239999cc%3BGIMP%3A%239999cc%3BDIV%3A%230000cc%3BLBGC%3AFFFFFF%3BAH%3Acenter%3B";
-urls['google'] += "&q=arg1";
-urls['google'] += "&btnG=Suche";
-urls['google'] += "&meta=arg3";
+// urls['google'] = "http://www.google.ch/custom";
+// urls['google'] += "?hl=de";
+// urls['google'] += "&ie=ISO-8859-1";
+// urls['google'] += "&oe=ISO-8859-1";
+// urls['google'] += "&client=pub-3941083662020418";
+// urls['google'] += "&cof=FORID%3A1%3BGL%3A1%3BBGC%3AFFFFFF%3BT%3A%23000000%3BLC%3A%230000cc%3BVLC%3A%23660099%3BALC%3A%230000cc%3BGALT%3A%23009900%3BGFNT%3A%239999cc%3BGIMP%3A%239999cc%3BDIV%3A%230000cc%3BLBGC%3AFFFFFF%3BAH%3Acenter%3B";
+// urls['google'] += "&q=arg1";
+// urls['google'] += "&btnG=Suche";
+// urls['google'] += "&meta=arg3";
+urls['google'] = "http://www.google.ch/#sclient=psy&hl=de&site=&source=hp&q=test&rlz=1R2GGLL_de&pbx=1&oq=arg1&aq=f&aqi=g5&aql=&gs_sm=e&gs_upl=1672l1922l0l2062l4l3l0l0l0l0l234l391l0.1.1l2l0&bav=on.2,or.r_gc.r_pw.&fp=15452f08c0b66d7&biw=1296&bih=603";
 
 urls['google_2'] = "http://www.google.ch/arg2?hl=de&q=arg1&meta=arg3";
 urls['googleDir'] = "http://www.google.ch/arg2?hl=de&cat=gwd%2FTop&q=arg1";
