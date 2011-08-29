@@ -244,6 +244,9 @@ kinoprogramm, cineman, cineman.ch,
 börse, börsenkurs, börsenkurse, smi, swissquote, swissquote.ch">
 
 		<link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+		<link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png" />
 		<link rel="stylesheet" type="text/css" href="css/css.css">
 		<link rel="stylesheet" type="text/css" href="css/bg.css">
 		<link rel="search" type="application/opensearchdescription+xml" title="Hyperfinder" href="http://hyperfinder.ch/OpenSearch/Hyperfinder.xml">
