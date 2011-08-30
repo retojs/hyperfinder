@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Enthält die URLS aller Suchdienste, sortiert nach Kommando-Kürzeln
- * Um URLS speziell für PDAs zu definieren, einfach die Entsprechende Zeile nach _urls_pda.php kopiern und anpassen.
+ * Enthï¿½lt die URLS aller Suchdienste, sortiert nach Kommando-Kï¿½rzeln
+ * Um URLS speziell fï¿½r PDAs zu definieren, einfach die Entsprechende Zeile nach _urls_pda.php kopiern und anpassen.
  */
 
 $cmds = array ();
@@ -20,7 +20,7 @@ $links = array ();
 //$goorl .= "&q=<1>";
 //$goorl .= "&btnG=Suche";
 //$goorl .= "&meta=on";
-$goorl = "http://www.google.ch/#sclient=psy&hl=de&site=&source=hp&q=test&rlz=1R2GGLL_de&pbx=1&oq=<1>&aq=f&aqi=g5&aql=&gs_sm=e&gs_upl=1672l1922l0l2062l4l3l0l0l0l0l234l391l0.1.1l2l0&bav=on.2,or.r_gc.r_pw.&fp=15452f08c0b66d7&biw=1296&bih=603";
+$goorl = "http://www.google.ch/#sclient=psy&hl=de&site=&source=hp&q=<1>&rlz=1R2GGLL_de&pbx=1&oq=<1>&aq=f&aqi=g5&aql=&gs_sm=e&gs_upl=1672l1922l0l2062l4l3l0l0l0l0l234l391l0.1.1l2l0&bav=on.2,or.r_gc.r_pw.&fp=15452f08c0b66d7&biw=1296&bih=603";
 
 $cmds["google"] = createGetCmd($goorl);
 $cmds["find"] = $cmds["google"];
@@ -65,7 +65,7 @@ $cmds["sbb"] = createPostCmd("http://fahrplan.sbb.ch/bin/query.exe/dn?", "http:/
 $cmds["zug"] = $cmds["sbb"];
 $cmds["bus"] = $cmds["sbb"];
 $cmds["tram"] = $cmds["sbb"];
-$cmds["öv"] = $cmds["sbb"];
+$cmds["ï¿½v"] = $cmds["sbb"];
 
 $cmds["route"] = createGetCmd("http://www.viamichelin.de/viamichelin/deu/dyn/controller/ItiWGPerformPage?E_wg=210506008kS6J506007214242232805ITIWG2i11133deu0026110h10041010041010010010072006007039.004-1.00110001001001001001001003deu011011&pim=true&strStartAddress=<1>&strStartCP=&strStartCity=<2>&strStartCityCountry=<5>&strDestAddress=<3>&strDestCP=&strDestCity=<4>&strDestCityCountry=<6>&strStep1Address=&strStep1CP=&strStep1City=&strStep1CityCountry=EUR&strStep3Address=&strStep3CP=&strStep3City=&strStep3CityCountry=EUR&strStep2Address=&strStep2CP=&strStep2City=&strStep2CityCountry=EUR&dtmDeparture=07%2F01%2F2006&intItineraryType=1&intOneCountryCheck=true&unit=km&vh=CAR&conso=6&carbCost=1.00&devise=1.0%7CEUR&devise2=Andere&image.x=37&image.y=12");
 $cmds["weg"] = $cmds["route"];
@@ -107,8 +107,8 @@ $cmds["buch"] = $cmds["amazon"];
 $cmds["dvd"] = $cmds["amazon"];
 $cmds["cd"] = $cmds["amazon"];
 
-$cmds["börse"] = createGetCmd("http://www.swissquote.ch/cgi-bin/redirector/go?cb&<1>&self&d");
-$cmds["boerse"] = $cmds["börse"];
+$cmds["bï¿½rse"] = createGetCmd("http://www.swissquote.ch/cgi-bin/redirector/go?cb&<1>&self&d");
+$cmds["boerse"] = $cmds["bï¿½rse"];
 
 $cmds["wechselkurs"] = createPostCmd("http://www.oanda.com/convert/classic?lang=de", "http://www.oanda.com", array("value" => "<1>", "exch" => "<2>", "expr" => "<3>"));
 $cmds["kurs"] = $cmds["wechselkurs"];
