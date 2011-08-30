@@ -3,7 +3,7 @@ var urls = new Array();
 // Keys need to correspond to the target values
 
 //
-// (!!!) Bei Änderungen nicht vergessen auch die URLS in der Kommandozeile anzupassen! (cmd/_urls.php)
+// (!!!) Bei ï¿½nderungen nicht vergessen auch die URLS in der Kommandozeile anzupassen! (cmd/_urls.php)
 //
 
 urls['commandline'] = "http://cmd.hyperfinder.ch/do.php?find=arg1";
@@ -18,7 +18,7 @@ urls['commandline'] = "http://cmd.hyperfinder.ch/do.php?find=arg1";
 // urls['google'] += "&q=arg1";
 // urls['google'] += "&btnG=Suche";
 // urls['google'] += "&meta=arg3";
-urls['google'] = "http://www.google.ch/#sclient=psy&hl=de&site=&source=hp&q=test&rlz=1R2GGLL_de&pbx=1&oq=arg1&aq=f&aqi=g5&aql=&gs_sm=e&gs_upl=1672l1922l0l2062l4l3l0l0l0l0l234l391l0.1.1l2l0&bav=on.2,or.r_gc.r_pw.&fp=15452f08c0b66d7&biw=1296&bih=603";
+urls['google'] = "http://www.google.ch/#sclient=psy&hl=de&site=&source=hp&q=arg1&rlz=1R2GGLL_de&pbx=1&oq=arg1&aq=f&aqi=g5&aql=&gs_sm=e&gs_upl=1672l1922l0l2062l4l3l0l0l0l0l234l391l0.1.1l2l0&bav=on.2,or.r_gc.r_pw.&fp=15452f08c0b66d7&biw=1296&bih=603";
 
 urls['google_2'] = "http://www.google.ch/arg2?hl=de&q=arg1&meta=arg3";
 urls['googleDir'] = "http://www.google.ch/arg2?hl=de&cat=gwd%2FTop&q=arg1";
@@ -91,14 +91,14 @@ function setLastField(field) {
 	lastField = field;
 }
 
-// diese funktion führt die suchanfragen aus.
-// die url für die anfrage muss im array urls[] definiert sein.
-// vor dem öffnen eines neuen fensters mit dieser url werden die strings 
+// diese funktion fï¿½hrt die suchanfragen aus.
+// die url fï¿½r die anfrage muss im array urls[] definiert sein.
+// vor dem ï¿½ffnen eines neuen fensters mit dieser url werden die strings 
 //  "argn" (n = 1..6) ersetzt durch die werte der inputfelder mit id 
 //  "<target>_argn" (n = 1..6).
 // also beim target "google" z.B. mit dem wert des feldes mit id "google_arg1".
 // 
-// für anfragen via ein web form muss das target unten im IF-statement aufgeführt sein.
+// fï¿½r anfragen via ein web form muss das target unten im IF-statement aufgefï¿½hrt sein.
 // 
 function gotoURL(usethisUrlKey) {
 	
@@ -205,7 +205,7 @@ function gotoURL(usethisUrlKey) {
 		storeUserData('meteo_arg1', $('meteo_arg1').value);
 		
 	} else if ('snow' == target) {
-		// falls region gewählt, ignoriere ort
+		// falls region gewï¿½hlt, ignoriere ort
 		if (lastField == 'snow_arg1') {
 			value2 = "";
 		} else if (lastField == 'snow_arg2') {
@@ -284,7 +284,7 @@ function gotoURL(usethisUrlKey) {
 	}
 }
 
-// Select-Eingabefelder sollten onkeydown diese methode aufrufen, damit RETURNs die Anfrage ausführt. 
+// Select-Eingabefelder sollten onkeydown diese methode aufrufen, damit RETURNs die Anfrage ausfï¿½hrt. 
 function submitForm(e, usethisUrlKey) {
 	if (!e) e = window.event;
 	// open result window on ENTER
@@ -293,7 +293,7 @@ function submitForm(e, usethisUrlKey) {
 	}
 }
 
-// Öffnet einen Link bei bedarf in einem neuen Fenster
+// ï¿½ffnet einen Link bei bedarf in einem neuen Fenster
 function linkTo(ziel, target) {
 	if (openNewWin) {
 		var win = window.open(ziel, target);	

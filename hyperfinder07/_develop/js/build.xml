@@ -6,7 +6,7 @@
 	</description>
 	
 	<property name="destdir" location="../../web/js" />
-	<property name="version" value="2.9" />
+	<property name="version" value="2.8.1" />
 	
 	<target name="concat" description="Generiert die JS-Dateien jsX.Y.js, newsX.Y.js und ctrl.js. (Version X.Y wird über das property ${version} gesetzt">
 		
