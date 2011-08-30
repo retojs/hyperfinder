@@ -57,7 +57,7 @@ function loadFeedPages_callback(intID) {
 /** Loads the newsfeeds of the selected page from the server. */
 function loadFeeds() {
 	var s1id = feedPanels[newsMode].id_select1;
-	if ($(s1id).selectedIndex < 0) { $(s1id).selectedIndex = 0; } // Extrawurst für Safari
+	if ($(s1id).selectedIndex < 0) { $(s1id).selectedIndex = 0; } // Extrawurst fï¿½r Safari
 	var select = $(s1id).options[$(s1id).selectedIndex].value;
 	if (select != null) {
 		//httpRequest("POST", feedsUrl, false, "loadFeeds_callback", "mode=" + newsMode + "&select=" + select);
@@ -279,7 +279,7 @@ function shareNews_callback(intID) {
 		alert("Bitte geben Sie an, wer Sie sind. (Ihr Name oder ihre EMail-Adresse)");
 	
 	} else {
-		alert("Leider konnte das Email nicht verschickt werden. Bitte überprüfen Sie die Email-Adresse und versuchen Sie es später nochmal...");
+		alert("Leider konnte das Email nicht verschickt werden. Bitte ï¿½berprï¿½fen Sie die Email-Adresse und versuchen Sie es spï¿½ter nochmal...");
 	}
 }/**
  *
@@ -440,7 +440,7 @@ function ticker() {
 }
 
 // die Variable stopped zeigt an, dass der ticker gestoppt ist und verhindert den reload der newsfeeds.
-// Sie wird auf true gesetzt, solange sich der mauspointer über dem news bereich befindet.
+// Sie wird auf true gesetzt, solange sich der mauspointer ï¿½ber dem news bereich befindet.
 
 var tickerStopped = false;
 
@@ -462,7 +462,7 @@ function startTicker(setTickerTempo, setStartTempo) {
 	startNewsReload();
 }
 
-// wird aufgerufen, sobald sich der mauszeiger über den news-bereich bewegt
+// wird aufgerufen, sobald sich der mauszeiger ï¿½ber den news-bereich bewegt
 function stopTicker() {
 	clearTimeout(tickerTimeout);
 	clearTimeout(reloadNewsTimeout);
@@ -472,7 +472,7 @@ function stopTicker() {
 
 // Die Variable suspended blockiert den start des tickers.
 // Sie wird auf true gesetzt, wenn ein Artikel angeklickt wird 
-// und wird erst auf false zurückgesetzt, wenn ein button der navigation geklickt wird.
+// und wird erst auf false zurï¿½ckgesetzt, wenn ein button der navigation geklickt wird.
 
 var suspended = false;
 
