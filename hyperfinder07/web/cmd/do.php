@@ -1,17 +1,17 @@
-<?php
+ï»¿<?php
 
 /**
- * Diese Klasse führt eine Kommandozeilen-Suchanfrage aus.
+ * Diese Klasse fÃ¼hrt eine Kommandozeilen-Suchanfrage aus.
  * Dazu benutzt sie die PHP-Klasse Command (definiert in Commnd.php).
  *
  * In der Datei _urls.php werden die beiden arrays $cmds und $link definiert.
- * Diese beiden assoziativen Arrays enthalten die URLs für die Suchanfragen.
- * Dabei ist der array-key jeweils das Kürzel.
+ * Diese beiden assoziativen Arrays enthalten die URLs fÃ¼r die Suchanfragen.
+ * Dabei ist der array-key jeweils das KÃ¼rzel.
  * Die Suchparameter in den URLs sind arg0, arg1, arg2 etc. benannt.
  * Diese werden jeweils mit den Parameter-Werten der konkreten Suchanfrage ersetzt.
- * Falls ein Suchdienst eine spezielle URL für PDAs bereitstellt, kann diese in _urls_pda.php definert werden.
+ * Falls ein Suchdienst eine spezielle URL fÃ¼r PDAs bereitstellt, kann diese in _urls_pda.php definert werden.
  *
- * Ausgeführt wird eine Anfrag über die methode execRequest der Klasse Command.
+ * AusgefÃ¼hrt wird eine Anfrag Ã¼ber die methode execRequest der Klasse Command.
  * Vorher werden ev. default Parameter-Werte gesetzt in der funktion addDefaults (siehe unten).
  *
  */
@@ -27,14 +27,14 @@ if (trim($_REQUEST["pda"]) == "y") {
 // Special default settings
 
 function addDefaults($params, $cmdName) {
-	if ($cmdName =="sbb" || $cmdName =="tram" ||$cmdName =="bus" ||$cmdName =="öv") {
+	if ($cmdName =="sbb" || $cmdName =="tram" ||$cmdName =="bus" ||$cmdName =="Ã¶v") {
 		// 1. default date: heute
 		if (sizeof($params) == 2) {
 			$params[2]= date("d.m.Y");
 		}
 		// 2. falls nur Zeit angegeben ist: default date heute setzen
 		if (sizeof($params) == 3) {
-			// prüfen, ob es sich bei param[2] um ein datum handelt
+			// prÃ¼fen, ob es sich bei param[2] um ein datum handelt
 			$p2 = trim($params[2]);
 			$lastword = trim(substr($p2, strrpos($p2, " ")));
 			$endswithAnAb = strtolower($lastword) == "an" || strtolower($lastword) == "ab";
@@ -48,7 +48,7 @@ function addDefaults($params, $cmdName) {
 				$params[3]= date("H:i");
 			}
 		}
-		// "ab" und "an" können am schluss der zeitangabe stehen (z.B. 1200 ab)
+		// "ab" und "an" kÃ¶nnen am schluss der zeitangabe stehen (z.B. 1200 ab)
 		if (isset($params[3]) && strpos(trim($params[3]), " ") > 0) {
 			$p3 = trim($params[3]);
 			$lastword = trim(substr($p3, strrpos($p3, " ")));
@@ -81,7 +81,7 @@ function addDefaults($params, $cmdName) {
 		$params = $newparams;
 
 	} else if ($cmdName =="weg" || $cmdName =="route") {
-		// 1. Adressen dürfen fehlen
+		// 1. Adressen dÃ¼rfen fehlen
 		if (sizeof($params) == 2) {
 			$von = $params[0];
 			$nach = $params[1];

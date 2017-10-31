@@ -1,4 +1,4 @@
-<?php
+Ôªø<?php
 require_once("../_db.php");
 
 function emailConfirmed($userid) {
@@ -17,10 +17,10 @@ function existsUserId($userid) {
 
 /**
  * Assoziiert diese userid mit dieser Email-Adresse.
- * Es kann vorkommen, dass diese Operation mehrmals hintereinander ausgef¸hrt wird
- * (z.B. wenn der user das Best‰tigungs-Email versehentlich gelˆscht oder vorher eine falsche Adresse eingegeben hat),
- * darum muss gepr¸ft werden, ob bereits ein Eintrag in der DB vorhanden ist.
- * --> Jede userid kommt nur ein einziges mal for in der Tabelle emailaddrs (Schl¸sselattribut).
+ * Es kann vorkommen, dass diese Operation mehrmals hintereinander ausgef√ºhrt wird
+ * (z.B. wenn der user das Best√§tigungs-Email versehentlich gel√∂scht oder vorher eine falsche Adresse eingegeben hat),
+ * darum muss gepr√ºft werden, ob bereits ein Eintrag in der DB vorhanden ist.
+ * --> Jede userid kommt nur ein einziges mal for in der Tabelle emailaddrs (Schl√ºsselattribut).
  */
 function saveAsEmail($userid, $email, $confirmcode) {
 	if (!existsUserId($userid)) {
@@ -44,14 +44,14 @@ function confirmEmail($userid, $code) {
 		if (trim($code) == trim($confirmcode)) {
 			$result = execQuery("UPDATE emailaddrs SET confirmcode ='ok' WHERE userid = '$userid'");
 			if (!$result){
-				return "Fehler: Emailadresse konnte nicht best‰tigt werden. Sorry, bitte versuchen Sei es noch einmal!";
+				return "Fehler: Emailadresse konnte nicht best√§tigt werden. Sorry, bitte versuchen Sei es noch einmal!";
 			} else {
-				return "Emailadresse erfolgreich best‰tigt. <p>Ihre Kommandos sind nun der Email-Adresse <i>$emailaddr</i> zugeordnet.</p>";
+				return "Emailadresse erfolgreich best√§tigt. <p>Ihre Kommandos sind nun der Email-Adresse <i>$emailaddr</i> zugeordnet.</p>";
 			}
 		} else if (trim($confirmcode) == "ok") {
-			return "Die Emailadresse wurde bereits best‰tigt. <br/>Ihre Kommandos sind nun der Email-Adresse <i>$emailaddr</i> zugeordnet.";
+			return "Die Emailadresse wurde bereits best√§tigt. <br/>Ihre Kommandos sind nun der Email-Adresse <i>$emailaddr</i> zugeordnet.";
 		} else {
-			return "Fehler: Falscher Best‰tigungscode. Benutzen Sie den Link im zuletzt gesendeten Email.";
+			return "Fehler: Falscher Best√§tigungscode. Benutzen Sie den Link im zuletzt gesendeten Email.";
 		}
 	}
 }

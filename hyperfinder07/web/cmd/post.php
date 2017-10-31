@@ -1,6 +1,6 @@
-<?php
+ï»¿<?php
 /**
- * Diese Datei enthält verschiedene Varianten, um per PHP
+ * Diese Datei enthÃ¤lt verschiedene Varianten, um per PHP
  * Daten an ein POST-formular zu schicken und das Resultat auszugeben.
  */
 
@@ -149,6 +149,6 @@ if (!$this->postRedirect) {
 <body onload="f.submit()">
 <form name="f" action="<?php print $this->url ?>" method="post"><?php foreach ($this->postArgs as $argName => $argValue) {
 	print "<input type=\"hidden\" name=\"$argName\" value=\"$argValue\">\n";
-} ?> Anfrage an <i><?php print $this->url; ?></i> wird ausgeführt... <input type="submit" value="submit" /></form>
+} ?> Anfrage an <i><?php print $this->url; ?></i> wird ausgefÃ¼hrt... <input type="submit" value="submit" /></form>
 </body>
 <?php } ?>

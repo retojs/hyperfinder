@@ -1,13 +1,13 @@
-<center><div id="content" style="text-align:left"><br/>
+ï»¿<center><div id="content" style="text-align:left"><br/>
 <center><a href="index.php">Hilfe schliessen</a><h2>Hilfe zur Hyperfinder Kommandozeile</h2></center>
 
-Die Hyperfinder Kommandozeile erlaubt es, all jene Anfragen auszuführen, die auch über die einzelnen Slots von <a href="http://hyperfinder.ch" target="_blank">Hyperfinder.ch</a> 
-abgesetzt werden können. 
-<br/>Da sämtliche Anfragen über die Kommandozeile abgesetzt werden, erspart man sich damit das ärgerliche Klicken mit der Maus.
+Die Hyperfinder Kommandozeile erlaubt es, all jene Anfragen auszufÃ¼hren, die auch Ã¼ber die einzelnen Slots von <a href="http://hyperfinder.ch" target="_blank">Hyperfinder.ch</a> 
+abgesetzt werden kÃ¶nnen. 
+<br/>Da sÃ¤mtliche Anfragen Ã¼ber die Kommandozeile abgesetzt werden, erspart man sich damit das Ã¤rgerliche Klicken mit der Maus.
 <br/><br/>
 
 <center>
-<!-- width und height sind *inklusive* Rahmen. Die Breite (width) des Clips selbst ist um 20px, die Höhe (height) um 45px kleiner. Für ein Clip-Format von 640x360 muss also width=660 und height=405 sein. -->
+<!-- width und height sind *inklusive* Rahmen. Die Breite (width) des Clips selbst ist um 20px, die HÃ¶he (height) um 45px kleiner. FÃ¼r ein Clip-Format von 640x360 muss also width=660 und height=405 sein. -->
 <object width="660" height="405"><param name="movie" value="http://www.youtube.com/v/L3JTpxaKSsM&hl=en&fs=1&color1=0x234900&color2=0x4e9e00&border=1&ap=%2526fmt%3D18"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/L3JTpxaKSsM&hl=en&fs=1&color1=0x234900&color2=0x4e9e00&border=1&ap=%2526fmt%3D18" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="660" height="405"></embed></object>
 <br/><br/>
 <a href="http://www.youtube.com/watch?v=GXdkWR-GRcA&fmt=6" target="_blank">Hyperfinder Tutorial, Teil 2</a>
@@ -16,28 +16,28 @@ abgesetzt werden können.
 <h3>1. Such-Kommandos und ihre Bestandteile</h3>
 Suchanfragen werden als Worte (Kommandos) formuliert. Jedes Kommando besteht 
 <ol>
-<li>aus dem <i><b>Kürzel</b> für den Suchdienst</i> </li>
-<li>aus den <i>mit Kommas getrennten <b>Suchbegriffen</b></i>, die dem Suchdienst übergeben werden sollen</li>
+<li>aus dem <i><b>KÃ¼rzel</b> fÃ¼r den Suchdienst</i> </li>
+<li>aus den <i>mit Kommas getrennten <b>Suchbegriffen</b></i>, die dem Suchdienst Ã¼bergeben werden sollen</li>
 </ol>
-<p><center><input type="text" value="Such-Kürzel  Suchbegriff 1 , Suchbegriff 2 , ..." class="help_bsp" /></center></p><br/>
+<p><center><input type="text" value="Such-KÃ¼rzel  Suchbegriff 1 , Suchbegriff 2 , ..." class="help_bsp" /></center></p><br/>
 
-<h3>2. Beispiele für Such-Kommandos</h3>
-<p>Das Such-Kürzel für das Deutsch-Englisch Wörterbuch lautet <strong>en</strong>. 
+<h3>2. Beispiele fÃ¼r Such-Kommandos</h3>
+<p>Das Such-KÃ¼rzel fÃ¼r das Deutsch-Englisch WÃ¶rterbuch lautet <strong>en</strong>. 
 <br/>Das Kommando, um das Wort "Haus" nachzuschlagen, lautet also zum Beispiel:</p>
 <p><center><input type="text" value="en haus" class="help_bsp" /></center></p>
-<p>Das Kürzel für den SBB Fahrplan (auch ein Fahrplan für Tram und Bus) lautet <strong>sbb</strong>. 
-<br/>Das Kommando, um ÖV-Verbindungen von Bern nach Zürich Hardbrücke nachzuschlagen, lautet also zum Beispiel:</p>
-<p><center><input type="text" value="sbb bern, zürich hardbrücke" class="help_bsp" /></center></p>
-<p>Für eine Verbindung von Bern nach Zürich HB am nächsten Mittwoch um 12:30 schreiben Sie:</p>
+<p>Das KÃ¼rzel fÃ¼r den SBB Fahrplan (auch ein Fahrplan fÃ¼r Tram und Bus) lautet <strong>sbb</strong>. 
+<br/>Das Kommando, um Ã–V-Verbindungen von Bern nach ZÃ¼rich HardbrÃ¼cke nachzuschlagen, lautet also zum Beispiel:</p>
+<p><center><input type="text" value="sbb bern, zÃ¼rich hardbrÃ¼cke" class="help_bsp" /></center></p>
+<p>FÃ¼r eine Verbindung von Bern nach ZÃ¼rich HB am nÃ¤chsten Mittwoch um 12:30 schreiben Sie:</p>
 <p><center><input type="text" value="sbb bern, zh, mi, 1230" class="help_bsp" /></center></p>
 <br/>
-<p>Google ist der Standard Suchdienst. Alle Eingaben, die nicht mit einem Such-Kürzel beginnen, werden an Google weitergeleitet. 
-<br/>Falls Sie in Google nach einem Begriff suchen möchten, der gleichzeitig ein Kürzel ist, stellen sie einfach das Kürzel <strong>google</strong> oder <strong>find</strong> vor den Suchbegriff. 
+<p>Google ist der Standard Suchdienst. Alle Eingaben, die nicht mit einem Such-KÃ¼rzel beginnen, werden an Google weitergeleitet. 
+<br/>Falls Sie in Google nach einem Begriff suchen mÃ¶chten, der gleichzeitig ein KÃ¼rzel ist, stellen sie einfach das KÃ¼rzel <strong>google</strong> oder <strong>find</strong> vor den Suchbegriff. 
 <br/>
-Beispiel: Die Eingabe "SBB Billetpreise" würde zum SBB Fahrplan verweisen, da "sbb" ein Such-Kürzel ist. 
+Beispiel: Die Eingabe "SBB Billetpreise" wÃ¼rde zum SBB Fahrplan verweisen, da "sbb" ein Such-KÃ¼rzel ist. 
 Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p>
 <p><center><input type="text" value="google SBB Billetpreise" class="help_bsp" /></center></p>
-<p>Die Kommandos <strong>bild</strong> und <strong>maps</strong> führen zu zwei spezielle Suchdienste von Google. 
+<p>Die Kommandos <strong>bild</strong> und <strong>maps</strong> fÃ¼hren zu zwei spezielle Suchdienste von Google. 
 <br/>Um z.B. alle Angebote zum Stichwort "Velo" in der Region Davos auf einer Landkarte anzuzeigen, schreiben Sie:</p>
 <p><center><input type="text" value="maps velo davos" class="help_bsp" /></center></p>
 <p>Um z.B. Bilder von den Malediven anzuzeigen, schreiben Sie:</p>
@@ -48,7 +48,7 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 <table>
 	<tr><td colspan="4" class="rubrik">BASIC:</td></tr>
 	<tr>
-		<th>Kürzel</th>
+		<th>KÃ¼rzel</th>
 		<th>Suchbegriff(e)</th>
 		<th>Suchdienst, URL</th>
 		<th>Beispiel</th>
@@ -80,8 +80,8 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 	<tr>
 		<td>fr</td>
 		<td>Stichwort</td>
-		<td>Französisch Dix (dict.leo.org)</td>
-		<td>fr appareil photo numérique</td>
+		<td>FranzÃ¶sisch Dix (dict.leo.org)</td>
+		<td>fr appareil photo numÃ©rique</td>
 	</tr>
 	<tr>
 		<td>es</td>
@@ -103,7 +103,7 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 	</tr>
 	<tr><td colspan="4" class="rubrik">NAVIGATION:</td></tr>
 	<tr>
-		<th>Kürzel</th>
+		<th>KÃ¼rzel</th>
 		<th>Suchbegriff(e)</th>
 		<th>Suchdienst, URL</th>
 		<th>Beispiel</th>
@@ -115,10 +115,10 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 		<td>sbb zh, lenzerheide, sa, 800 ab</td>
 	</tr>
 	<tr>
-		<td>bus / tram / öv</td>
+		<td>bus / tram / Ã¶v</td>
 		<td>Von, Nach (, Datum) (, Zeit (ab))</td>
 		<td>Tram & Bus Fahrplan (www.sbb.ch)</td>
-		<td>öv basel sbb, basel st jakob, 2000</td>
+		<td>Ã¶v basel sbb, basel st jakob, 2000</td>
 	</tr>
 	<tr>
 		<td>route / weg</td>
@@ -140,7 +140,7 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 	</tr>
 	<tr><td colspan="4" class="rubrik">WETTER:</td></tr>
 	<tr>
-		<th>Kürzel</th>
+		<th>KÃ¼rzel</th>
 		<th>Suchbegriff(e)</th>
 		<th>Suchdienst, URL</th>
 		<th>Beispiel</th>
@@ -171,7 +171,7 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 	</tr>
 	<tr><td colspan="4" class="rubrik">UNTERHALTUNG:</td></tr>
 	<tr>
-		<th>Kürzel</th>
+		<th>KÃ¼rzel</th>
 		<th>Suchbegriff(e)</th>
 		<th>Suchdienst, URL</th>
 		<th>Beispiel</th>
@@ -185,31 +185,31 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 	<tr>
 		<td>tvjetzt / tvj / tvnow</td>
 		<td>-</td>
-		<td>Fernsehprogramm, was läuft jetzt?</td>
+		<td>Fernsehprogramm, was lÃ¤uft jetzt?</td>
 		<td>tvjetzt</td>
 	</tr>
 	<tr>
 		<td>tv8 / tv20 / tv2015</td>
 		<td>-</td>
-		<td>Fernsehprogramm, was läuft heute um 20:15?</td>
+		<td>Fernsehprogramm, was lÃ¤uft heute um 20:15?</td>
 		<td>tv8</td>
 	</tr>
 	<tr>
 		<td>tv9 / tv21 / tv2115</td>
 		<td>-</td>
-		<td>Fernsehprogramm, was läuft heute um 21:15?</td>
+		<td>Fernsehprogramm, was lÃ¤uft heute um 21:15?</td>
 		<td>tv21</td>
 	</tr>
 	<tr>
 		<td>tv10 / tv22 / tv2215</td>
 		<td>-</td>
-		<td>Fernsehprogramm, was läuft heute um 22:15?</td>
+		<td>Fernsehprogramm, was lÃ¤uft heute um 22:15?</td>
 		<td>tv2215</td>
 	</tr>
 	<tr>
 		<td>tv11 / tv23 / tv2315</td>
 		<td>-</td>
-		<td>Fernsehprogramm, was läuft heute um 23:15?</td>
+		<td>Fernsehprogramm, was lÃ¤uft heute um 23:15?</td>
 		<td>tv23:15</td>
 	</tr>
 	<tr>
@@ -278,7 +278,7 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 	</tr>
 	<tr><td colspan="4" class="rubrik">HANDEL:</td></tr>
 	<tr>
-		<th>Kürzel</th>
+		<th>KÃ¼rzel</th>
 		<th>Suchbegriff(e)</th>
 		<th>Suchdienst, URL</th>
 		<th>Beispiel</th>
@@ -302,15 +302,15 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 		<td>cd james blunt</td>
 	</tr>
 	<tr>
-		<td>börse</td>
+		<td>bÃ¶rse</td>
 		<td>Titel</td>
-		<td>Börsenkurse (www.swissquote.ch)</td>
-		<td>börse smi</td>
+		<td>BÃ¶rsenkurse (www.swissquote.ch)</td>
+		<td>bÃ¶rse smi</td>
 	</tr>
 	<tr>
 		<td>wechselkurs / kurs / geld</td>
 		<td>Betrag, von, nach</td>
-		<td>Währungskurse (www.oanda.com)</td>
+		<td>WÃ¤hrungskurse (www.oanda.com)</td>
 		<td>kurs 100, USD, CHF</td>
 	</tr>
 	<tr>
@@ -323,14 +323,14 @@ Um mit Google nach dem Stichwort "SBB Billetpreise" zu suchen, schreiben Sie:</p
 		<td>gelbe</td>
 		<td>Stichwort / Ort</td>
 		<td>Gelbe Seiten (www.directories.ch)</td>
-		<td>gelbe velo, zürich</td>
+		<td>gelbe velo, zÃ¼rich</td>
 	</tr>
 </table>
 
-<p>Bei Anfragen mit mehreren Suchbegriffen können einige Suchbegriffe auch weggelassen werden.</p>
+<p>Bei Anfragen mit mehreren Suchbegriffen kÃ¶nnen einige Suchbegriffe auch weggelassen werden.</p>
 
 <h3>Wann braucht es Kommas und wann nicht?</h3>
-<p>Es gilt die Faustregel: Kommas trennen die verschiedenen Textfelder der alten Hyperfinder-Suchformulare. Was bisher ins selbe Textfeld geschrieben wurde, bleibt unverändert ohne Kommas. 
+<p>Es gilt die Faustregel: Kommas trennen die verschiedenen Textfelder der alten Hyperfinder-Suchformulare. Was bisher ins selbe Textfeld geschrieben wurde, bleibt unverÃ¤ndert ohne Kommas. 
 </p>
 <br/>
 

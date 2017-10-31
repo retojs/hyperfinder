@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $cmds["en"] = createGetCmd("http://pda.leo.org/?lp=ende&lang=de&searchLoc=0&cmpType=relaxed&relink=on&sectHdr=on&spellToler=std&search=arg0");
 $cmds["fr"] = createGetCmd("http://pda.leo.org/?lp=frde&search=arg0");

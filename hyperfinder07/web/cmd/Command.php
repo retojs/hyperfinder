@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 function createGetCmd($url) {
 	return new Command("get", $url, $url, null);
 }
@@ -15,7 +15,7 @@ function createLink($url) {
  * A Command instance has
  * - a request method (either GET or POST),
  * - a target URL
- * - an array of post arguments if it�s a POST request
+ * - an array of post arguments if it´s a POST request
  */
 class Command {
 

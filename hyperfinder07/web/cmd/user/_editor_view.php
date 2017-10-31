@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 require_once("_editor_view_row.php");
 

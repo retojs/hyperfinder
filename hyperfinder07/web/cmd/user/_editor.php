@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // If true, data is reloaded from DB.
 // Should be set to false, if validation fails

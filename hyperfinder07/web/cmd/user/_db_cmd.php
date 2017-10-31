@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 require_once("../_db.php");
 
 function getCommand($cmdid) {
@@ -6,8 +6,8 @@ function getCommand($cmdid) {
 }
 
 /**
- * Lädt Kommandos zu einer userid.
- * Falls der userid eine emailaddr zugeordnet ist, werden auch die Kommandos für all jene userids geladen
+ * LÃ¤dt Kommandos zu einer userid.
+ * Falls der userid eine emailaddr zugeordnet ist, werden auch die Kommandos fÃ¼r all jene userids geladen
  * die mit dieser emailaddr sonst noch assoziiert sind.
  */
 function getUserCommands($userid) {

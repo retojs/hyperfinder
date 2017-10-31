@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+ï»¿-- phpMyAdmin SQL Dump
 -- version 2.8.0.4
 -- http://www.phpmyadmin.net
 -- 
@@ -13,7 +13,7 @@
 -- --------------------------------------------------------
 
 -- 
--- Tabellenstruktur für Tabelle `commands`
+-- Tabellenstruktur fÃ¼r Tabelle `commands`
 -- 
 
 DROP TABLE IF EXISTS `commands`;
@@ -29,12 +29,12 @@ CREATE TABLE `commands` (
   `suchdienst` varchar(255) default NULL,
   `beispiel` varchar(255) default NULL,
   PRIMARY KEY  (`id`)
-) TYPE=MyISAM AUTO_INCREMENT=105 ;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 -- 
--- Tabellenstruktur für Tabelle `emailaddrs`
+-- Tabellenstruktur fÃ¼r Tabelle `emailaddrs`
 -- 
 
 DROP TABLE IF EXISTS `emailaddrs`;
@@ -44,12 +44,12 @@ CREATE TABLE `emailaddrs` (
   `emailaddr` varchar(255) NOT NULL default '',
   `confirmcode` varchar(128) default NULL,
   PRIMARY KEY  (`id`)
-) TYPE=MyISAM AUTO_INCREMENT=19 ;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 -- 
--- Tabellenstruktur für Tabelle `userdata`
+-- Tabellenstruktur fÃ¼r Tabelle `userdata`
 -- 
 
 DROP TABLE IF EXISTS `userdata`;
@@ -59,12 +59,12 @@ CREATE TABLE `userdata` (
   `name` varchar(255) NOT NULL default '',
   `value` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`id`)
-) TYPE=MyISAM AUTO_INCREMENT=31899 ;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 -- 
--- Tabellenstruktur für Tabelle `userpwd`
+-- Tabellenstruktur fÃ¼r Tabelle `userpwd`
 -- 
 
 DROP TABLE IF EXISTS `userpwd`;
@@ -73,4 +73,4 @@ CREATE TABLE `userpwd` (
   `userpwd` varchar(128) NOT NULL default '',
   `userid` bigint(20) NOT NULL default '0',
   PRIMARY KEY  (`id`)
-) TYPE=MyISAM AUTO_INCREMENT=13 ;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;

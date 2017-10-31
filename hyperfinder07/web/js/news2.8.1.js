@@ -1,4 +1,4 @@
-/** 
+﻿/** 
  * Contains the functions to load newsfeedpage- and newsfeed-lists.
  * 
  * requires: _vars.js, util/*.js

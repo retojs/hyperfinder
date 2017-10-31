@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /**
  * Contains functions to execute email actions:
  *
@@ -22,7 +22,7 @@ function embedMe_executeAction($userid) {
 function importPublicCommand($cmdid, $code) {
 	global $userid_, $commandSet;
 	$result = getCommand($cmdid);
-	if (1 != mysql_num_rows($result) || $code != mysql_result($result, 0, "code")) { return "Code ungültig. Installation fehlgeschlagen."; }
+	if (1 != mysql_num_rows($result) || $code != mysql_result($result, 0, "code")) { return "Code ungÃ¼ltig. Installation fehlgeschlagen."; }
 	
 	$userid = $userid_;
 	$cmd = mysql_result($result, 0, "cmd");
@@ -38,7 +38,7 @@ function importPublicCommand($cmdid, $code) {
 		$commandSet = "($cmdid)";
 		return "Kommando <i>$cmd</i> erfolgreich installiert.";
 	} else {
-		return "<font color=red>Ein Kommando mit dem Kürzel '<i>". $cmd ."</i>' existiert bereits.</font>";
+		return "<font color=red>Ein Kommando mit dem KÃ¼rzel '<i>". $cmd ."</i>' existiert bereits.</font>";
 	}
 }
 ?>

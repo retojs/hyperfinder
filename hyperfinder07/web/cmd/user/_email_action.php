@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /**
  * Contains functions to execute email actions:
  *
@@ -6,10 +6,10 @@
  * 				Die dem Cookie zugeordneten Kommandos einer Email-Adresse zuordnen.
  *
  *   op = confirm:
- * 				Email-Adresse bestätigen
+ * 				Email-Adresse bestÃ¤tigen
  *
  *   op = sendTo:
- * 				Selektierte Kommandos kopieren (mit temporärer userid='share_xxx') und einem Freund eine Installier-Einladung schicken.
+ * 				Selektierte Kommandos kopieren (mit temporÃ¤rer userid='share_xxx') und einem Freund eine Installier-Einladung schicken.
  *
  *   op = accept:
  * 				Installier-Einladung annehmen.
@@ -66,16 +66,16 @@ function email_saveAs($userid, $email) {
 
 		$from_header = "From: $email";
 		$subject = "Hyperfinder Kommandos dieser Email Adresse zuordnen";
-		$message = "Klicken Sie diesen Link, um ihre Email-Adresse zu bestätigen: \n\n";
+		$message = "Klicken Sie diesen Link, um ihre Email-Adresse zu bestÃ¤tigen: \n\n";
 		$message .= $SERVER_ROOT . $BASE_URL . "op=confirm&userid=" . $userid . "&code=" . $confirmcode;
 
 		// print "message " . $message;
 		
 		mail($email, $subject, $message, $from_header);
 
-		return "Es wurde ein Email an die Adresse <i>$email</i> geschickt.</p><p>Bitte klicken Sie zur Bestätigung den Link in diesem Email.";
+		return "Es wurde ein Email an die Adresse <i>$email</i> geschickt.</p><p>Bitte klicken Sie zur BestÃ¤tigung den Link in diesem Email.";
 	} else {
-		return "Die Email-Adresse <i>$email</i> ist ungültig. Es wurde kein Email verschickt.";
+		return "Die Email-Adresse <i>$email</i> ist ungÃ¼ltig. Es wurde kein Email verschickt.";
 	}
 }
 
@@ -124,11 +124,11 @@ function email_sendTo($email_sendTo, $email_from) {
 	if (!$email_sendToOk) {
 		return "Die Email-Adresse <i>$email_sendTo</i> Ihres Freundes kann nicht stimmen. Es wurde kein Email verschickt.";
 	} elseif (!$email_fromOk) {
-		return "Die Absender-Adresse <i>$email_from</i> ist ungültig. Es wurde kein Email verschickt.";
+		return "Die Absender-Adresse <i>$email_from</i> ist ungÃ¼ltig. Es wurde kein Email verschickt.";
 	} elseif ($anyCommands) {
-		return "Ein Email wurde geschickt an <i>$email_sendTo</i>.</p><p>Ihr Freund muss nun den Link in diesem Email öffnen, um die Kommandos in seinen Browser zu installieren.";
+		return "Ein Email wurde geschickt an <i>$email_sendTo</i>.</p><p>Ihr Freund muss nun den Link in diesem Email Ã¶ffnen, um die Kommandos in seinen Browser zu installieren.";
 	} else  {
-		return "<font color=red>Keine Kommandos ausgewählt. Es wurde kein Email verschickt.</font>";
+		return "<font color=red>Keine Kommandos ausgewÃ¤hlt. Es wurde kein Email verschickt.</font>";
 	}
 }
 

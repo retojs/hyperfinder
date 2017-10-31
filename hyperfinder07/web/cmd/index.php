@@ -1,4 +1,4 @@
-<?php include "user/_user_cookies.php" ?>
+ï»¿<?php include "user/_user_cookies.php" ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -6,15 +6,15 @@
 <title>Hyperfinder Kommandozeile</title>
 <link rel="shortcut icon" href="http://hyperfinder.ch/favicon.ico" type="image/ico" />
 <meta name="keywords" content="hyperfinder, suche, suchen, finden, information, google, internet, 
-leo, dict.leo.org, diktionär, online dix, übersetzen, übersetzung, übersetzungen, 
-wikipedia, lexikon, enzyklopädie,  
+leo, dict.leo.org, diktionÃ¤r, online dix, Ã¼bersetzen, Ã¼bersetzung, Ã¼bersetzungen, 
+wikipedia, lexikon, enzyklopÃ¤die,  
 tel.search.ch, map.search.ch, adresse, adressen, telefonnummer, 
 viamichelin, map24, maporama, route, routenplan, routenplaner, routenplanung,
-amazon, amazon.ch, shop, onlineshop, bestellen, kaufen, medien, bücher, cd, video, dvd,  
+amazon, amazon.ch, shop, onlineshop, bestellen, kaufen, medien, bÃ¼cher, cd, video, dvd,  
 ricardo, ricardo.ch, ebay.ch, ebay, versteigerung, versteigerungen, occasion, occasionen,
 imdb.com, imdb, film, filme, kino, movie, movie database,
 kinoprogramm, cineman, cineman.ch,
-börse, börsenkurs, börsenkurse, smi, swissquote, swissquote.ch">
+bÃ¶rse, bÃ¶rsenkurs, bÃ¶rsenkurse, smi, swissquote, swissquote.ch">
 
 <link rel="stylesheet" type="text/css" href="http://hyperfinder.ch/css/cmd.css" />
 <link rel="search" type="application/opensearchdescription+xml" title="Hyperfinder" href="http://hyperfinder.ch/OpenSearch/Hyperfinder.xml">
@@ -28,14 +28,14 @@ function makeHomepage() {
 		netscape.security.PrivilegeManager.enablePrivilege('UniversalPreferencesWrite');
 		navigator.preference('signed.applets.codebase_principal_support', true);
 		navigator.preference('browser.startup.homepage', homepage_url);
-		alert('Voilà! '+ homepage_url + ' ist nun Ihre Startseite.');
+		alert('VoilÃ ! '+ homepage_url + ' ist nun Ihre Startseite.');
 	} else if ((browser=='Microsoft Internet Explorer') && (version >= 4)) {
 		// MSIE 4.x, 5.x Version
 		document.body.style.behavior='url(#default#homepage)';
 		document.body.setHomePage(homepage_url);
 	} else {
-		// Manuelle Einstellung nötig
-		alert('Wenn sie <?php if ($pda == "y") {print "pda.hyperfinder.ch";} else {print "cmd.hyperfinder.ch";} ?> (Kommandozeile) zu ihrer Startseite machen möchten, gehen sie ins Menu Extras -> Einstellungen -> Startseite.');
+		// Manuelle Einstellung nÃ¶tig
+		alert('Wenn sie <?php if ($pda == "y") {print "pda.hyperfinder.ch";} else {print "cmd.hyperfinder.ch";} ?> (Kommandozeile) zu ihrer Startseite machen mÃ¶chten, gehen sie ins Menu Extras -> Einstellungen -> Startseite.');
 	}
 }
 </script>
@@ -52,7 +52,7 @@ function makeHomepage() {
 	<a href="?page=help">Wie funktioniert's?</a>&nbsp;-&nbsp; 
 	<a href="javascript:makeHomepage()">Als Startseite</a>&nbsp;-&nbsp; 
 	<a href="?page=user">Meine Kommandos</a>&nbsp;-&nbsp; 
-	<a href="http://hyperfinder.ch" title="Mit separaten Eingabefeldern für alle Standard-Kommandos">Hyperfinder.ch</a> 
+	<a href="http://hyperfinder.ch" title="Mit separaten Eingabefeldern fÃ¼r alle Standard-Kommandos">Hyperfinder.ch</a> 
 	<br/>
 	<br/>
 </div>

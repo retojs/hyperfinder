@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // page definitions
 $pages['help'] = "help.php";
 $pages['user'] = "user/index.php";

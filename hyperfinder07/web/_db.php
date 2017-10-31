@@ -1,27 +1,23 @@
 ﻿<?php
 
-if (strtolower($_SERVER["HTTP_HOST"]) == 'localhost') {
-	$HOST = "localhost";
-	$LOGIN = "root";
-	$PWD = "filmguerilla";
-	$DB_NAME = "hyperfinder";
-} else {
-	$HOST = "localhost";
-	$LOGIN = "web225";
-	$PWD = "svenska";
-	$DB_NAME = "usr_web225_2";
-}
+//if (strtolower($_SERVER["HTTP_HOST"]) == 'localhost') {
+//	$HOST = "localhost";
+//	$LOGIN = "root";
+//	$PWD = "filmguerilla";
+//	$DB_NAME = "hyperfinder";
+//} else {
+//	$HOST = "localhost";
+//	$LOGIN = "web119123";
+//	$PWD = "calopterix";
+//	$DB_NAME = "usr_web119_2";
+//}
 
 // opens database connection and return the $link
 function openDB() {
-	global $HOST, $LOGIN, $PWD, $DB_NAME;
-
-	$link = mysql_connect($HOST, $LOGIN, $PWD);
-	if (!$link) {
-		die("Couldn't connect to MySQL");
-	}
-	mysql_select_db($DB_NAME) or die($DB_NAME);
-	return $link;
+    $link = mysql_connect("localhost", "web119", "calopterix");
+    if (!$link) die ("Could not connect to MySQL server");
+    mysql_select_db("usr_web119_2", $link) or die ("Could not open database");
+    return $link;
 }
 
 $db_link = openDB();

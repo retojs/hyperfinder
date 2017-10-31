@@ -1,4 +1,4 @@
-// global xmlhttprequest object
+﻿// global xmlhttprequest object
 var xmlHttp = false;
 
 // association of URL to callback function

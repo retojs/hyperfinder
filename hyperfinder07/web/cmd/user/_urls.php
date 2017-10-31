@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /** 
  * Reads user commands from the DB and makes them available for the file do.php 
  */

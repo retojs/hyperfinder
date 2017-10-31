@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * Enth�lt die URLS aller Suchdienste, sortiert nach Kommando-K�rzeln

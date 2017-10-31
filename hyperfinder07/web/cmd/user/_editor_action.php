@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Contains functions to execute editor actions
  */
@@ -67,7 +67,7 @@ function editor_saveCommand($cmdid, $cmd, $method, $url, $params,$suchbegriffe, 
 	}
 	elseif (!strpos($url, ".")) {
 		$reloadData = false;
-		return "Die URL ist ung�ltig.";
+		return "Die URL ist ungültig.";
 	}
 
 	// 2. If OK: Save command

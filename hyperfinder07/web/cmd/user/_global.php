@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 
 if (strtolower($_SERVER["HTTP_HOST"]) == 'localhost') {
 	$SERVER_ROOT = "http://localhost/hyperfinder07/cmd/";
@@ -7,7 +7,7 @@ if (strtolower($_SERVER["HTTP_HOST"]) == 'localhost') {
 }
 
 $headline = "Meine Kommandos";
-$feedback = "<p>Hier können Sie Ihre eigenen Kommandos definieren. Drücken Sie dazu auf <i>Neu</i></p>";
+$feedback = "<p>Hier kÃ¶nnen Sie Ihre eigenen Kommandos definieren. DrÃ¼cken Sie dazu auf <i>Neu</i></p>";
 $commandSet = "";
 
 require_once ("_db_email.php");
