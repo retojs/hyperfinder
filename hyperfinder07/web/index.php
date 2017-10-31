@@ -1,4 +1,4 @@
-<?php require_once ("_util.php"); ?>
+﻿<?php require_once ("_util.php"); ?>
 
 <?php
 $op = (isset($_REQUEST["op"]))? "'".$_REQUEST["op"]."'" : null;

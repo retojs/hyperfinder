@@ -1,4 +1,4 @@
-<tr class="<?php echo "css_" . $slotkey; ?>">
+ï»¿<tr class="<?php echo "css_" . $slotkey; ?>">
 	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<img class="favicon" src="img/favicons/_cmd.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://www.teleboy.ch"><?php echo $labels[$slot]; ?></a>
@@ -48,9 +48,9 @@
 			<option value="15">tsi2</option>
 			
 			<option value="72">------ Regional</option>
-			<option value="72">TeleZüri</option>
+			<option value="72">TeleZÃ¼ri</option>
 			<option value="21">TeleBasel</option>
-			<option value="22">TeleBärn</option>
+			<option value="22">TeleBÃ¤rn</option>
 			<option value="20">TeleM1</option>
 			<option value="84">TeleTell</option>
 			<option value="85">tvo</option>
@@ -88,7 +88,7 @@
 			<option value="47">EinsPlus</option>
 			<option value="115">EinsExtra</option>
 			
-			<option value="56">------ Français</option>
+			<option value="56">------ FranÃ§ais</option>
 			<option value="56">TF1</option>
 			<option value="57">France2</option>
 			<option value="58">France3</option>

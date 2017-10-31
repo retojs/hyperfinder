@@ -1,4 +1,4 @@
-<?php require_once "_util.php"; ?>
+ï»¿<?php require_once "_util.php"; ?>
 
 <?php printLogoHeader("main") ?>
 
@@ -31,7 +31,7 @@
 			<strong>Wieso?</strong>
 		</td>
 		<td colspan="4" class="info_right">
-			Weil's einfach schneller geht und wir es uns sparen können, jedesmal wenn wir im Internet etwas suchen wollen, einen Browser zu &ouml;ffnen, eine URL einzutippen und zu warten, bis wir endlich unsere Suchanfrage eingeben können. 
+			Weil's einfach schneller geht und wir es uns sparen kÃ¶nnen, jedesmal wenn wir im Internet etwas suchen wollen, einen Browser zu &ouml;ffnen, eine URL einzutippen und zu warten, bis wir endlich unsere Suchanfrage eingeben kÃ¶nnen. 
 			<br>
 			Tip: Wenn hyperfinder.ch als Startseite definiert ist, kann man ihn einfach per <span class="altkey">ALT-HOME</span> aufrufen.
 		</td>

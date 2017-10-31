@@ -1,4 +1,4 @@
-<tr class="<?php echo "css_" . $slotkey; ?>">
+ï»¿<tr class="<?php echo "css_" . $slotkey; ?>">
 	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<img class="favicon" src="img/favicons/ebay.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://ebay.ch"><?php echo $labels[$slot]; ?></a>
@@ -12,7 +12,7 @@
 				Alle Kategorien
 			</option>
 			<option value="353">
-				Antiquitäten &amp; Kunst
+				AntiquitÃ¤ten &amp; Kunst
 			</option>
 			<option value="10614">
 				Audio &amp; Hi-Fi
@@ -30,7 +30,7 @@
 				Briefmarken
 			</option>
 			<option value="267">
-				Bücher
+				BÃ¼cher
 			</option>
 			<option value="160">
 				Computer
@@ -48,7 +48,7 @@
 				Handy &amp; Organizer
 			</option>
 			<option value="20710">
-				Haushaltsgeräte
+				HaushaltsgerÃ¤te
 			</option>
 			<option value="3187">
 				Heimwerker &amp; Garten
@@ -60,10 +60,10 @@
 				Modellbau
 			</option>
 			<option value="11700">
-				Möbel &amp; Wohnen
+				MÃ¶bel &amp; Wohnen
 			</option>
 			<option value="11116">
-				Münzen
+				MÃ¼nzen
 			</option>
 			<option value="11233">
 				Musik

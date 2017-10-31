@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once("_db.php");
 
 function getNextId() {

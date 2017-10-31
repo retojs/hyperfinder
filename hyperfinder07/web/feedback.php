@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 require_once "_util.php";
 

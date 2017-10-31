@@ -1,4 +1,4 @@
-<tr class="<?php echo "css_" . $slotkey; ?>">
+ï»¿<tr class="<?php echo "css_" . $slotkey; ?>">
 	<td class="bigLabel linkCol" title="Kommando anzeigen">
 		<img class="favicon" src="img/favicons/_cmd.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://viamichelin.de"><?php echo $labels[$slot]; ?></a>
@@ -15,7 +15,7 @@
 			<option value="311">Belgien</option>
 			<option value="1025343">Bosnien-Herzegowina</option>
 			<option value="1025340">Bulgarien</option>
-			<option value="1473">Dänemark</option>
+			<option value="1473">DÃ¤nemark</option>
 			<option value="240">Deutschland</option>
 			<option value="1860861">Estland</option>
 			<option value="EUR">Europa</option>
@@ -35,11 +35,11 @@
 			<option value="852">Monaco</option>
 			<option value="285">Niederlande</option>
 			<option value="1574">Norwegen</option>
-			<option value="106">Österreich</option>
+			<option value="106">Ã–sterreich</option>
 			<option value="1743">Polen</option>
 			<option value="669">Portugal</option>
-			<option value="1025349">Rumänien</option>
-			<option value="1851058">Russische Föderation</option>
+			<option value="1025349">RumÃ¤nien</option>
+			<option value="1851058">Russische FÃ¶deration</option>
 			<option value="318">San Marino</option>
 			<option value="1507">Schweden</option>
 			<option value="185" selected>Schweiz</option>
@@ -48,13 +48,13 @@
 			<option value="1746">Slowenien</option>
 			<option value="844">Spanien</option>
 			<option value="1694">Tschechische Republik</option>
-			<option value="2059154">Türkei</option>
+			<option value="2059154">TÃ¼rkei</option>
 			<option value="1749">Ukraine</option>
 			<option value="1741">Ungarn</option>
 			<option value="2066810">Vatikanstaat</option>
 			<option value="1145799">Vereinigte Staaten</option>
-			<option value="1138">Vereinigtes Königreich</option>
-			<option value="1794">Weißrußland</option>
+			<option value="1138">Vereinigtes KÃ¶nigreich</option>
+			<option value="1794">WeiÃŸruÃŸland</option>
 		</select>
 		Start Land
 	</td>
@@ -70,7 +70,7 @@
 			<option value="311">Belgien</option>
 			<option value="1025343">Bosnien-Herzegowina</option>
 			<option value="1025340">Bulgarien</option>
-			<option value="1473">Dänemark</option>
+			<option value="1473">DÃ¤nemark</option>
 			<option value="240">Deutschland</option>
 			<option value="1860861">Estland</option>
 			<option value="EUR">Europa</option>
@@ -90,11 +90,11 @@
 			<option value="852">Monaco</option>
 			<option value="285">Niederlande</option>
 			<option value="1574">Norwegen</option>
-			<option value="106">Österreich</option>
+			<option value="106">Ã–sterreich</option>
 			<option value="1743">Polen</option>
 			<option value="669">Portugal</option>
-			<option value="1025349">Rumänien</option>
-			<option value="1851058">Russische Föderation</option>
+			<option value="1025349">RumÃ¤nien</option>
+			<option value="1851058">Russische FÃ¶deration</option>
 			<option value="318">San Marino</option>
 			<option value="1507">Schweden</option>
 			<option value="185" selected>Schweiz</option>
@@ -103,13 +103,13 @@
 			<option value="1746">Slowenien</option>
 			<option value="844">Spanien</option>
 			<option value="1694">Tschechische Republik</option>
-			<option value="2059154">Türkei</option>
+			<option value="2059154">TÃ¼rkei</option>
 			<option value="1749">Ukraine</option>
 			<option value="1741">Ungarn</option>
 			<option value="2066810">Vatikanstaat</option>
 			<option value="1145799">Vereinigte Staaten</option>
-			<option value="1138">Vereinigtes Königreich</option>
-			<option value="1794">Weißrußland</option>
+			<option value="1138">Vereinigtes KÃ¶nigreich</option>
+			<option value="1794">WeiÃŸruÃŸland</option>
 		</select>
 		Ziel Land
 	</td>

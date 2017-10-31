@@ -1,4 +1,4 @@
-<tr class="<?php print "css_" . $slotkey; ?>">
+﻿<tr class="<?php print "css_" . $slotkey; ?>">
 	<td colspan="5" style="padding-bottom:8px">
 		<span class="bigLabel linkCol"> 
 			<img src="img/favicons/_leer.gif" />&nbsp;

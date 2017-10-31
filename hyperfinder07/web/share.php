@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 require_once "_util.php";
 
@@ -47,7 +47,7 @@ if (isset($feedback) && isset($to) && $to != "" && isset($absender) && $absender
 						<?php if (!isset($mailsent)) { ?>
 						<br/><strong>Wer Hyperfinder praktisch findet, sollte das nicht f&uuml;r sich behalten...</strong>
 						<p>Ihre Freunde k&ouml;nnen Hyperfinder sicher genauso gut gebrauchen wie Sie. 
-						Und ausserdem hilft jeder, der �ber Hyperfinder sucht, die Seite am Leben zu erhalten. Schliesslich m&uuml;ssen die Hosting-Geb&uuml;hren irgendwie bezahlt werden... und genau das k&ouml;nnen Sie tun. Mit Ihrer Maustaste.
+						Und ausserdem hilft jeder, der über Hyperfinder sucht, die Seite am Leben zu erhalten. Schliesslich m&uuml;ssen die Hosting-Geb&uuml;hren irgendwie bezahlt werden... und genau das k&ouml;nnen Sie tun. Mit Ihrer Maustaste.
 						Denn zum Gl&uuml;ck sind Ihre Klicks Geld wert, da Google f&uuml;r jeden vermittelten Klick auf eine Google-Anzeige Provision zahlt.
 						Wenn Sie also Hyperfinder weiterempfehlen und selber ab und zu auf eine Google-Anzeige klicken, bekommen Sie und Ihre Freunde am schnellsten, was sie suchen, und die Hosting-Geb&uuml;hren f&uuml;r hyperfinder.ch sind ganz nebenbei auch gedeckt.
 						</p>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * Set a name/value pair with an URL like

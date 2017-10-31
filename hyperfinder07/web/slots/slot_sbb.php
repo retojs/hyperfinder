@@ -1,4 +1,4 @@
-<tr class="<?php echo "css_" . $slotkey; ?>">
+﻿<tr class="<?php echo "css_" . $slotkey; ?>">
 	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<input type="hidden" name="queryPageDisplayed" value="yes">
 		<input type="hidden" name="REQ0HafasSkipLongChanges" value="0">

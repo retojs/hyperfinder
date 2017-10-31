@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 <title>User-ID setzen</title>
 <script type="text/javascript" src="js/js2.2.js"></script>	
@@ -77,7 +77,7 @@ Schritt 2: Editor schreiben
 
 Schritt 3: Integration in do.php
 
- falls enabled und noch nicht in session: alle commands aus DB in session laden und ebenfalls ber�cksichtigen
+ falls enabled und noch nicht in session: alle commands aus DB in session laden und ebenfalls berücksichtigen
 
 
 Schritt 4: User settings unter Email Adresse abspeichern.

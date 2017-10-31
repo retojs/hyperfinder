@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 
 /////
 // Text constants
@@ -179,8 +179,8 @@ function printJumpMenu($current_slotkey) {
 
 $topTitle = array();
 $topTitle["main"] = "Die ideale Startseite...";
-$topTitle["share"] = "Die ideale Startseite für Freunde...";
-$topTitle["feedback"] = "Die ideale Startseite, die zuhört...";
+$topTitle["share"] = "Die ideale Startseite fÃ¼r Freunde...";
+$topTitle["feedback"] = "Die ideale Startseite, die zuhÃ¶rt...";
 
 /** Mode = "main" | "share" | "feedback" */
 function printLogoHeader($mode) {
@@ -233,15 +233,15 @@ function printHTMLHeader($fade) {
 		<?php } ?>
 		<meta name="keywords" 
 		content="hyperfinder, suche, suchen, finden, information, google, internet, 
-leo, dict.leo.org, diktionär, online dix, übersetzen, übersetzung, übersetzungen, 
-wikipedia, lexikon, enzyklopädie,  
+leo, dict.leo.org, diktionÃ¤r, online dix, Ã¼bersetzen, Ã¼bersetzung, Ã¼bersetzungen, 
+wikipedia, lexikon, enzyklopÃ¤die,  
 tel.search.ch, map.search.ch, adresse, adressen, telefonnummer, 
 viamichelin, map24, maporama, route, routenplan, routenplaner, routenplanung,
-amazon, amazon.ch, shop, onlineshop, bestellen, kaufen, medien, bücher, cd, video, dvd,  
+amazon, amazon.ch, shop, onlineshop, bestellen, kaufen, medien, bÃ¼cher, cd, video, dvd,  
 ricardo, ricardo.ch, ebay.ch, ebay, versteigerung, versteigerungen, occasion, occasionen,
 imdb.com, imdb, film, filme, kino, movie, movie database,
 kinoprogramm, cineman, cineman.ch,
-börse, börsenkurs, börsenkurse, smi, swissquote, swissquote.ch">
+bÃ¶rse, bÃ¶rsenkurs, bÃ¶rsenkurse, smi, swissquote, swissquote.ch">
 
 		<link rel="shortcut icon" href="favicon.ico" type="image/ico" />
 		<link rel="apple-touch-icon" href="touch-icon-iphone.png" />

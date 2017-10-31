@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 if (strtolower($_SERVER["HTTP_HOST"]) == 'localhost') {
 	$HOST = "localhost";

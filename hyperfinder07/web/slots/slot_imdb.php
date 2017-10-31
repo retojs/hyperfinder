@@ -1,4 +1,4 @@
-<tr class="<?php echo "css_" . $slotkey; ?>">
+﻿<tr class="<?php echo "css_" . $slotkey; ?>">
 	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<img class="favicon" src="img/favicons/imdb.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://imdb.com"><?php echo $labels[$slot]; ?></a>

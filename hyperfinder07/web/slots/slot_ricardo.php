@@ -1,4 +1,4 @@
-<tr class="<?php echo "css_" . $slotkey; ?>">
+ï»¿<tr class="<?php echo "css_" . $slotkey; ?>">
 	<td class="bigLabel linkCol" title="Kommando anzeigen"> 
 		<img class="favicon" src="img/favicons/ricardo.gif" onclick="commandHelp('<?php print $slot; ?>')" />&nbsp;
 		<a href="http://affiliate.ricardo.ch/app/auc_aff/interface/?c=2&c_p=2&affid=10729&campid=19445"><?php echo $labels[$slot]; ?></a>
@@ -14,12 +14,12 @@
 		<div id="ricardo_select" style="margin-top:2px;margin-bottom:2px;width:220px">
 			<select name="Catg" class="wideinput" id="ricardo_arg2" onkeydown="onPressKey('ricardo');submitForm(event)">
 				<option value="1" selected>Alle Kategorien</option>
-				<option value="38399">Antiquitäten & Kunst</option>
+				<option value="38399">AntiquitÃ¤ten & Kunst</option>
 				<option value="38488">Audio & HiFi</option>
 				<option value="38567">Auto & Motorrad</option>
 				<option value="38766">Briefmarken</option>
-				<option value="38889">Bücher & Comics</option>
-				<option value="39037">Büro & Papeterie</option>
+				<option value="38889">BÃ¼cher & Comics</option>
+				<option value="39037">BÃ¼ro & Papeterie</option>
 				<option value="39091">Computer & Netzwerk</option>
 				<option value="39349">Filme & DVD</option>
 				<option value="39460">Foto & Optik</option>
@@ -32,7 +32,7 @@
 				<option value="40748">Kleidung & Accessoires</option>
 				<option value="41057">Kosmetik & Pflege</option>
 				<option value="41126">Modellbau & Hobby</option>
-				<option value="41260">Münzen</option>
+				<option value="41260">MÃ¼nzen</option>
 				<option value="41306">Musik</option>
 				<option value="41432">Musikinstrumente</option>
 				<option value="41518">Sammeln & Seltenes</option>

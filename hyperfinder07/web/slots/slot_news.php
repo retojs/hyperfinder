@@ -1,4 +1,4 @@
-<tr class="<?php echo "css_" . $slotkey; ?>">
+﻿<tr class="<?php echo "css_" . $slotkey; ?>">
 	<td colspan="5">
 		<span class="bigLabel linkCol">
 			<a name="newsNPodcasts"></a>
