@@ -1,4 +1,4 @@
-// Functions to create, read and erase a cookie from www.quirksmode.org
+﻿// Functions to create, read and erase a cookie from www.quirksmode.org
 function createCookie(name, value, days) {
 	if (days) {
 		var date = new Date();

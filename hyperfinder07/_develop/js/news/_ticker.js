@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  *
  * requires: _vars.js, util/_ajax.js
  */
@@ -157,7 +157,7 @@ function ticker() {
 }
 
 // die Variable stopped zeigt an, dass der ticker gestoppt ist und verhindert den reload der newsfeeds.
-// Sie wird auf true gesetzt, solange sich der mauspointer über dem news bereich befindet.
+// Sie wird auf true gesetzt, solange sich der mauspointer Ã¼ber dem news bereich befindet.
 
 var tickerStopped = false;
 
@@ -179,7 +179,7 @@ function startTicker(setTickerTempo, setStartTempo) {
 	startNewsReload();
 }
 
-// wird aufgerufen, sobald sich der mauszeiger über den news-bereich bewegt
+// wird aufgerufen, sobald sich der mauszeiger Ã¼ber den news-bereich bewegt
 function stopTicker() {
 	clearTimeout(tickerTimeout);
 	clearTimeout(reloadNewsTimeout);
@@ -189,7 +189,7 @@ function stopTicker() {
 
 // Die Variable suspended blockiert den start des tickers.
 // Sie wird auf true gesetzt, wenn ein Artikel angeklickt wird 
-// und wird erst auf false zurückgesetzt, wenn ein button der navigation geklickt wird.
+// und wird erst auf false zurÃ¼ckgesetzt, wenn ein button der navigation geklickt wird.
 
 var suspended = false;
 

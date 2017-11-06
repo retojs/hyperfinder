@@ -1,4 +1,4 @@
-var enterTextTimeout;
+ï»¿var enterTextTimeout;
 
 /** Enters a string into the input field with the specified id char by char */
 function enterText(id, str, pos, contArg) {
@@ -120,8 +120,8 @@ function getLocationPure() {
 
 
 var quissTimeout; 
-var triesToDisplaySlot; // falls ein Demo für einen Slot gedacht ist, der nicht eingeblendet ist, muss man mehrmals versuchen...
-var submitMsg = "Wenn Sie selber suchen, drücken sie einfach die Taste ENTER, um die Suchanfrage zu starten.";
+var triesToDisplaySlot; // falls ein Demo fÃ¼r einen Slot gedacht ist, der nicht eingeblendet ist, muss man mehrmals versuchen...
+var submitMsg = "Wenn Sie selber suchen, drÃ¼cken sie einfach die Taste ENTER, um die Suchanfrage zu starten.";
 
 // this function executes a single keyword search demo  
 // there needs to be an object of type hyperdemo 
@@ -263,7 +263,7 @@ function playLinkDemo(demoname, state) {
 				triesToDisplaySlot++;
 				quissTimeout = setTimeout("playLinkDemo('"+ demoname +"', 'einblend')", 2000);
 			} else {
-				alert("Keine Verbindung. Versuchen Sie es später nochmals.");
+				alert("Keine Verbindung. Versuchen Sie es spÃ¤ter nochmals.");
 			}
 		} else {
 			// 1. jump to anchor
@@ -392,7 +392,7 @@ function playdemoKonfig(demoname, state) {
 		quissTimeout = setTimeout("playdemoKonfig('"+ demoname +"', 'show')", 1000);
 	}
 	else if ("close" == state) {
-		alert("Ein Klick auf 'schliessen' lässt einen Suchdienst verschwinden und schafft mehr Übersicht.");
+		alert("Ein Klick auf 'schliessen' lÃ¤sst einen Suchdienst verschwinden und schafft mehr Ãœbersicht.");
 		weg(hyperdemo.target);
 		quissTimeout = setTimeout("playdemoKonfig('"+ demoname +"', 'repeat')", 2500);
 	} else if ("show" == state) {
@@ -434,10 +434,10 @@ demos['img2'] = createTextNSelectDemo('google', 'Basic', 'google_arg1', 'Taj Mah
 demos['konfig1'] = createKonfigDemo('michelin', 'Nav');
 demos['change1'] = new hyperdemo('fx', 'Handel', 'fx_arg1', '59.90');
 demos['ricardo1'] = createTextNSelectDemo('ricardo', 'Handel', 'ricardo_arg1', 'Maus', 'ricardo_select', 'ricardo_arg2', 7);
-demos['amazon1'] = new hyperdemo('amazon', 'Handel', 'amazon_arg1', 'Da Vinci Code entschlüsselt');
+demos['amazon1'] = new hyperdemo('amazon', 'Handel', 'amazon_arg1', 'Da Vinci Code entschlÃ¼sselt');
 demos['tv1'] = new hyperdemo('tv', 'Fun', 'tv_jetzt', 'http://www.fernsehen.ch/zeit/index.php');
 demos['tv2'] = new hyperdemo('tv', 'Fun', 'tv_arg1', 'Simpsons');
-demos['gelbe1'] = new hyperdemoDouble('gelbe', 'Nav', 'gelbe_arg1', 'Massage', 'gelbe_arg2', 'Dübendorf');
+demos['gelbe1'] = new hyperdemoDouble('gelbe', 'Nav', 'gelbe_arg1', 'Massage', 'gelbe_arg2', 'DÃ¼bendorf');
 demos['ricardo2'] = new hyperdemo('ricardo', 'Handel', 'ricardo_link', 'http://affiliate.ricardo.ch/app/auc_aff/interface/?c=2&c_p=2&affid=10729&campid=19445');
 demos['cine2'] = createCinemanDemo('cineman', 'Fun', 'cineman_arg4', 'Kidman');
 demos['map2'] = new hyperdemo('mapsearch', 'Nav', 'mapsearch_arg2', 'Luzern');
@@ -449,18 +449,18 @@ var i = 0;
 headMsg[i++] = "Die ideale Startseite... ";
 headMsg[i++] = "wer drauf verzichtet ist selber Schuld.";
 
-headMsg[i++] = "Was heisst 'Pfingsten' auf Französisch?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('leo1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "Was heisst 'Pfingsten' auf FranzÃ¶sisch?";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('leo1') value=\"FÃ¼r die Antwort hier klicken\">";
 
-headMsg[i++] = "Was läuft am TV?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playLinkDemo('tv1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "Was lÃ¤uft am TV?";
+headMsg[i++] = "<input type=button class=demobutton onclick=playLinkDemo('tv1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 headMsg[i++] = "Hyperfinder.ch...";
-headMsg[i++] = "die Abkürzung ins Internet";
+headMsg[i++] = "die AbkÃ¼rzung ins Internet";
 
 headMsg[i++] = "Wie fahr ich mit dem Auto von Bern nach Zermatt?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemoMulti('michelin1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemoMulti('michelin1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 
@@ -468,26 +468,26 @@ headMsg[i++] = "Was Google nicht weiss...";
 headMsg[i++] = "weiss Hyperfinder.";
 
 headMsg[i++] = "Hat es Nebel auf dem Pilatus?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('webcam1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('webcam1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 headMsg[i++] = "Regnet es in Locarno?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playLinkDemo('meteo1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playLinkDemo('meteo1') value=\"FÃ¼r die Antwort hier klicken\">";
 
-headMsg[i++] = "Wer massiert mich in Dübendorf?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemoMulti('gelbe1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "Wer massiert mich in DÃ¼bendorf?";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemoMulti('gelbe1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 headMsg[i++] = "Die ideale Startseite... ";
 headMsg[i++] = "<span class=altkey style=font-weight:normal;font-size:13px class=whitecolor>ALT-Home</span>&nbsp; Sweet Hyperfinder.ch";
 
 headMsg[i++] = "Wann kommen die Simpsons?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('tv2') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('tv2') value=\"FÃ¼r die Antwort hier klicken\">";
 
 headMsg[i++] = "Wer hat die Pizza erfunden?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('wiki1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('wiki1') value=\"FÃ¼r die Antwort hier klicken\">";
 
-headMsg[i++] = "Wie passe ich Hyperfinder meinen Bedürfnissen an?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemoKonfig('konfig1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "Wie passe ich Hyperfinder meinen BedÃ¼rfnissen an?";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemoKonfig('konfig1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 
@@ -495,13 +495,13 @@ headMsg[i++] = "Das Beste aus dem Internet...";
 headMsg[i++] = "auf einen Blick.";
 
 headMsg[i++] = "Was heisst eigentlich HTML?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('define1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('define1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 headMsg[i++] = "Wie sieht ein Labrador aus?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemoWithSelect('img1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemoWithSelect('img1') value=\"FÃ¼r die Antwort hier klicken\">";
 
-headMsg[i++] = "Was läuft in Zürich im Kino?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('cine1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "Was lÃ¤uft in ZÃ¼rich im Kino?";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('cine1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 
@@ -509,31 +509,31 @@ headMsg[i++] = "Wer's praktisch findet, darf's behalten...";
 headMsg[i++] = "als Startseite.";
 
 headMsg[i++] = "Wieviel sind 59.90 Euro?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('change1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('change1') value=\"FÃ¼r die Antwort hier klicken\">";
 
-headMsg[i++] = "Wo schnapp ich mir eine günstige Maus?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemoWithSelect('ricardo1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "Wo schnapp ich mir eine gÃ¼nstige Maus?";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemoWithSelect('ricardo1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 headMsg[i++] = "Der leichte Weg zu weniger Hektik...";
 headMsg[i++] = "hyperfinder.ch.";
 
 headMsg[i++] = "Wie knack ich den Da Vinci-Code?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('amazon1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('amazon1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 
 headMsg[i++] = "Was wichtig ist schneller finden...";
 headMsg[i++] = "Gewusst wo.";
 
-headMsg[i++] = "Wer holt mein altes Sofa ab und zahlt dafür?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playLinkDemo('ricardo2') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "Wer holt mein altes Sofa ab und zahlt dafÃ¼r?";
+headMsg[i++] = "<input type=button class=demobutton onclick=playLinkDemo('ricardo2') value=\"FÃ¼r die Antwort hier klicken\">";
 
 headMsg[i++] = "Wann seh ich Nicole Kidman?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('cine2') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('cine2') value=\"FÃ¼r die Antwort hier klicken\">";
 
 headMsg[i++] = "Wo kann ich in Luzern parkieren?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('map2') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('map2') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 
@@ -541,13 +541,13 @@ headMsg[i++] = "Reduce the internet to the max...";
 headMsg[i++] = "Das Wesentliche schneller finden.";
 
 headMsg[i++] = "Wie wird das Wetter in Interlaken?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('meteo2') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemo('meteo2') value=\"FÃ¼r die Antwort hier klicken\">";
 
 headMsg[i++] = "Wie sieht der Taj Mahal aus?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemoWithSelect('img2') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemoWithSelect('img2') value=\"FÃ¼r die Antwort hier klicken\">";
 
 headMsg[i++] = "Wie lange geht die Zugfahrt von Aarau nach Genf?";
-headMsg[i++] = "<input type=button class=demobutton onclick=playdemoMulti('sbb1') value=\"Für die Antwort hier klicken\">";
+headMsg[i++] = "<input type=button class=demobutton onclick=playdemoMulti('sbb1') value=\"FÃ¼r die Antwort hier klicken\">";
 
 
 /*
@@ -562,13 +562,13 @@ headMsg[5] = "<a href=\"test\">als Startseite.</a>";
 
 
 /*
-headMsg[1] = "Regnet es in Zürich?";
+headMsg[1] = "Regnet es in ZÃ¼rich?";
 headMsg[2] = "<input class=smallinput type=radio onclick=submitQuiss('any')>ja<input class=smallinput type=radio onclick=submitQuiss('any')>nein";
 */
 
 
 /*
-headMsg[5] = "Was heisst 'Frohe Ostern!' auf Französisch?";
+headMsg[5] = "Was heisst 'Frohe Ostern!' auf FranzÃ¶sisch?";
 headMsg[6] = "<input type=text name=xanswer onclick=submitQuiss()>";
 
 headMsg[7] = "Wieviel Franken kostet das Buch xy auf Amazon? (nicht EURO)";
@@ -595,19 +595,19 @@ headMsg[20] = "<input type=text name=xanswer onclick=submitQuiss()>";
 headMsg[21] = " ";
 */
 /*
-headMsg[16] = "Wieviel kostet die günstigste Playstation auf Ricardo?";
+headMsg[16] = "Wieviel kostet die gÃ¼nstigste Playstation auf Ricardo?";
 headMsg[17] = "<a href=\"test\">auf einen Blick</a>";
 
-headMsg[16] = "Wann läuft der Film x in Zürich nächsten Montag Abend?";
+headMsg[16] = "Wann lÃ¤uft der Film x in ZÃ¼rich nÃ¤chsten Montag Abend?";
 headMsg[17] = "<a href=\"test\">auf einen Blick</a>";
 
-headMsg[16] = "Welches Rastaurant liegt in der Nähe der XYStrasse?";
+headMsg[16] = "Welches Rastaurant liegt in der NÃ¤he der XYStrasse?";
 headMsg[17] = "<a href=\"test\">auf einen Blick</a>";
 
-headMsg[16] = "Wieviel kostet das Benzin für eine Fahrt von Zürich nach Zermatt?";
+headMsg[16] = "Wieviel kostet das Benzin fÃ¼r eine Fahrt von ZÃ¼rich nach Zermatt?";
 headMsg[17] = "<a href=\"test\">auf einen Blick</a>";
 
-headMsg[16] = "Wie ist die Telefonnummer von Stefan Studer in Zürich?";
+headMsg[16] = "Wie ist die Telefonnummer von Stefan Studer in ZÃ¼rich?";
 headMsg[17] = "<a href=\"test\">auf einen Blick</a>";
 
 headMsg[16] = "Wer kennt Stefan Studer?";
@@ -621,7 +621,7 @@ headMsg[17] = "<a href=\"test\">auf einen Blick</a>";
 headMsg[16] = "Wie kann ich Suchdienste ausblenden und einblenden?";
 headMsg[17] = "<a href=\"test\">auf einen Blick</a>";
 
-headMsg[16] = "Wie höre ich den neuesten Newfeed der Weltwoche?";
+headMsg[16] = "Wie hÃ¶re ich den neuesten Newfeed der Weltwoche?";
 headMsg[17] = "<a href=\"test\">auf einen Blick</a>";
 
 */
@@ -633,8 +633,8 @@ var epilog = "Was fragst du Google? Google weiss das nicht. Aber hyperfinder wei
 var solutions[] = {"1a", "2b", "3c", "4a"};
 
 
-$replies[] = "falls Lösung korrekt: Gratulation. Sie erhalten als Auszeichnung hyperfinder.ch als Startseite. (jedem anderen ist es untersagt, hyperfinder zu benutzen)";
-$replies[] = "Gratulation. sie dürfen nun hyperfinder als Startseite einrichten und in Zukunft das Internet beherrschen wie ein Magier.";
+$replies[] = "falls LÃ¶sung korrekt: Gratulation. Sie erhalten als Auszeichnung hyperfinder.ch als Startseite. (jedem anderen ist es untersagt, hyperfinder zu benutzen)";
+$replies[] = "Gratulation. sie dÃ¼rfen nun hyperfinder als Startseite einrichten und in Zukunft das Internet beherrschen wie ein Magier.";
 $replies[] = "Gratulation! Sie haben hyperfinder als Startseite gewonnen!";
 
 */

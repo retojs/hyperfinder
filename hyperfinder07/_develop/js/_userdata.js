@@ -1,4 +1,4 @@
-// url to load the data for a userid
+﻿// url to load the data for a userid
 var userdataUrl = "_ajax_userdata_js.php";
 
 // the name of the cookie containing the userid

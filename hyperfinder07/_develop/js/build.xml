@@ -1,4 +1,4 @@
-<project name="concat_js" default="concat" basedir=".">
+﻿<project name="concat_js" default="concat" basedir=".">
 	
 	<description>
 		Concats all javascript-files together to 3 files named js.js, new.js and ctrl.js

@@ -1,4 +1,4 @@
-﻿// global xmlhttprequest object
+// global xmlhttprequest object
 var xmlHttp = false;
 
 // association of URL to callback function
@@ -205,7 +205,7 @@ var cmdhelp = new Array();
 cmdhelp["amazon"] = "amazon / buch / dvd / cd (Suchbegriff)";
 cmdhelp["cineman"] = "kinoin / kinowo (Ort/PLZ) // kino (Stichwort)";
 cmdhelp["ebay"] = "ebay (Stichwort)";
-cmdhelp["fx"] = "wechselkurs / kurs / geld (Betrag), (W�hrung), (Zielw�hrung)";
+cmdhelp["fx"] = "wechselkurs / kurs / geld (Betrag), (W?hrung), (Zielw?hrung)";
 cmdhelp["gelbe"] = "gelbe (Stichwort)";
 cmdhelp["google"] = "(Stichwort) // google / find(e) / ? // bild // maps (Stichwort)";
 cmdhelp["imdb"] = "imdb (Stichwort)";
@@ -215,9 +215,9 @@ cmdhelp["meteo"] = "meteo / wetter (Ort / PLZ) // radar";
 cmdhelp["preisvgl"] = "vergleich / vgl (Stichwort)";
 cmdhelp["ricardo"] = "ric / ricardo (Stichwort)";
 cmdhelp["route"] = "route / weg (von Adresse), (von Ort), (nach Adresse), (nach Ort)";
-cmdhelp["sbb"] = "sbb / �v (von), (nach) (, Datum) (, Zeit (ab))";
+cmdhelp["sbb"] = "sbb / ?v (von), (nach) (, Datum) (, Zeit (ab))";
 cmdhelp["snow"] = "snow / schnee (Ort / PLZ)";
-cmdhelp["swissquote"] = "b�rse (Titel)";
+cmdhelp["swissquote"] = "b?rse (Titel)";
 cmdhelp["telsearch"] = "tel (Was / Wer), (Wo)";
 cmdhelp["tv"] = "tv / tvjetzt / tv8 / tv9 / ...";
 cmdhelp["webcams"] = "cam / webcam (Ort / PLZ)";
@@ -480,7 +480,7 @@ var urls = new Array();
 // Keys need to correspond to the target values
 
 //
-// (!!!) Bei �nderungen nicht vergessen auch die URLS in der Kommandozeile anzupassen! (cmd/_urls.php)
+// (!!!) Bei ?nderungen nicht vergessen auch die URLS in der Kommandozeile anzupassen! (cmd/_urls.php)
 //
 
 urls['commandline'] = "http://cmd.hyperfinder.ch/do.php?find=arg1";
@@ -568,14 +568,14 @@ function setLastField(field) {
 	lastField = field;
 }
 
-// diese funktion f�hrt die suchanfragen aus.
-// die url f�r die anfrage muss im array urls[] definiert sein.
-// vor dem �ffnen eines neuen fensters mit dieser url werden die strings 
+// diese funktion f?hrt die suchanfragen aus.
+// die url f?r die anfrage muss im array urls[] definiert sein.
+// vor dem ?ffnen eines neuen fensters mit dieser url werden die strings 
 //  "argn" (n = 1..6) ersetzt durch die werte der inputfelder mit id 
 //  "<target>_argn" (n = 1..6).
 // also beim target "google" z.B. mit dem wert des feldes mit id "google_arg1".
 // 
-// f�r anfragen via ein web form muss das target unten im IF-statement aufgef�hrt sein.
+// f?r anfragen via ein web form muss das target unten im IF-statement aufgef?hrt sein.
 // 
 function gotoURL(usethisUrlKey) {
 	
@@ -682,7 +682,7 @@ function gotoURL(usethisUrlKey) {
 		storeUserData('meteo_arg1', $('meteo_arg1').value);
 		
 	} else if ('snow' == target) {
-		// falls region gew�hlt, ignoriere ort
+		// falls region gew?hlt, ignoriere ort
 		if (lastField == 'snow_arg1') {
 			value2 = "";
 		} else if (lastField == 'snow_arg2') {
@@ -761,7 +761,7 @@ function gotoURL(usethisUrlKey) {
 	}
 }
 
-// Select-Eingabefelder sollten onkeydown diese methode aufrufen, damit RETURNs die Anfrage ausf�hrt. 
+// Select-Eingabefelder sollten onkeydown diese methode aufrufen, damit RETURNs die Anfrage ausf?hrt. 
 function submitForm(e, usethisUrlKey) {
 	if (!e) e = window.event;
 	// open result window on ENTER
@@ -770,7 +770,7 @@ function submitForm(e, usethisUrlKey) {
 	}
 }
 
-// �ffnet einen Link bei bedarf in einem neuen Fenster
+// ?ffnet einen Link bei bedarf in einem neuen Fenster
 function linkTo(ziel, target) {
 	if (openNewWin) {
 		var win = window.open(ziel, target);	
@@ -832,14 +832,14 @@ function makeHomepage(anchor) {
 		netscape.security.PrivilegeManager.enablePrivilege('UniversalPreferencesWrite');
 		navigator.preference('signed.applets.codebase_principal_support', true);
 		navigator.preference('browser.startup.homepage', homepage_url);
-		alert('Voil�! '+ homepage_url + ' ist nun Ihre Startseite.');
+		alert('Voil?! '+ homepage_url + ' ist nun Ihre Startseite.');
 	} else if ((browser=='Microsoft Internet Explorer') && (version >= 4)) {
 		// MSIE 4.x, 5.x Version
 		document.body.style.behavior='url(#default#homepage)';
 		document.body.setHomePage(homepage_url);
 	} else {
 		// Manuelle Einstellung noetig
-		alert('Wenn sie hyperfinder.ch zu ihrer Startseite machen m�chten, gehen sie ins Menu Extras -> Einstellungen -> Startseite.');
+		alert('Wenn sie hyperfinder.ch zu ihrer Startseite machen m?chten, gehen sie ins Menu Extras -> Einstellungen -> Startseite.');
 	}
 }
 

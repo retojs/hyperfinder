@@ -1,4 +1,4 @@
-/** 
+﻿/** 
  * Contains the functions to load newsfeedpage- and newsfeed-lists.
  * 
  * requires: _vars.js, util/*.js
@@ -57,7 +57,7 @@ function loadFeedPages_callback(intID) {
 /** Loads the newsfeeds of the selected page from the server. */
 function loadFeeds() {
 	var s1id = feedPanels[newsMode].id_select1;
-	if ($(s1id).selectedIndex < 0) { $(s1id).selectedIndex = 0; } // Extrawurst f�r Safari
+	if ($(s1id).selectedIndex < 0) { $(s1id).selectedIndex = 0; } // Extrawurst für Safari
 	var select = $(s1id).options[$(s1id).selectedIndex].value;
 	if (select != null) {
 		//httpRequest("POST", feedsUrl, false, "loadFeeds_callback", "mode=" + newsMode + "&select=" + select);

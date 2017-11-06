@@ -1,4 +1,4 @@
-//
+﻿//
 // user settings
 
 var cookie_googleDE = "googleDE";

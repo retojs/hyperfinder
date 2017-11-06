@@ -1,4 +1,4 @@
-///
+﻿///
 // element ids
 
 var id_div_help = "help";

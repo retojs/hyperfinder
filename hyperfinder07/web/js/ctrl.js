@@ -1,4 +1,4 @@
-﻿function replaceLinks(urlBase) {
+function replaceLinks(urlBase) {
 	var elements = document.getElementsByTagName('a');
 	replaceHref(elements, urlBase);
 	

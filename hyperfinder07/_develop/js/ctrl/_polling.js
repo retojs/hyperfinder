@@ -1,4 +1,4 @@
-// url to load newsfeeds
+﻿// url to load newsfeeds
 var url_Listener = "_ajax_polling_js.php";
 
 // url to load newsfeeds

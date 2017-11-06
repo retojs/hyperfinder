@@ -1,9 +1,9 @@
-
+ï»¿
 var cmdhelp = new Array();
 cmdhelp["amazon"] = "amazon / buch / dvd / cd (Suchbegriff)";
 cmdhelp["cineman"] = "kinoin / kinowo (Ort/PLZ) // kino (Stichwort)";
 cmdhelp["ebay"] = "ebay (Stichwort)";
-cmdhelp["fx"] = "wechselkurs / kurs / geld (Betrag), (Währung), (Zielwährung)";
+cmdhelp["fx"] = "wechselkurs / kurs / geld (Betrag), (WÃ¤hrung), (ZielwÃ¤hrung)";
 cmdhelp["gelbe"] = "gelbe (Stichwort)";
 cmdhelp["google"] = "(Stichwort) // google / find(e) / ? // bild // maps (Stichwort)";
 cmdhelp["imdb"] = "imdb (Stichwort)";
@@ -13,9 +13,9 @@ cmdhelp["meteo"] = "meteo / wetter (Ort / PLZ) // radar";
 cmdhelp["preisvgl"] = "vergleich / vgl (Stichwort)";
 cmdhelp["ricardo"] = "ric / ricardo (Stichwort)";
 cmdhelp["route"] = "route / weg (von Adresse), (von Ort), (nach Adresse), (nach Ort)";
-cmdhelp["sbb"] = "sbb / öv (von), (nach) (, Datum) (, Zeit (ab))";
+cmdhelp["sbb"] = "sbb / Ã¶v (von), (nach) (, Datum) (, Zeit (ab))";
 cmdhelp["snow"] = "snow / schnee (Ort / PLZ)";
-cmdhelp["swissquote"] = "börse (Titel)";
+cmdhelp["swissquote"] = "bÃ¶rse (Titel)";
 cmdhelp["telsearch"] = "tel (Was / Wer), (Wo)";
 cmdhelp["tv"] = "tv / tvjetzt / tv8 / tv9 / ...";
 cmdhelp["webcams"] = "cam / webcam (Ort / PLZ)";

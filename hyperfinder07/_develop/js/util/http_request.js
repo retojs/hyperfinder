@@ -1,4 +1,4 @@
-var request = null;
+﻿var request = null;
 /* Initialize a Request object that is already constructed */
 function initReq(reqType,url,bool,respHandle){
     try{

@@ -1,4 +1,4 @@
-var urls = new Array();
+﻿var urls = new Array();
 
 // Keys need to correspond to the target values
 

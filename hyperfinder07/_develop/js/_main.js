@@ -1,4 +1,4 @@
-var googleFocus = true; 
+ï»¿var googleFocus = true; 
 
 function focusField(id) {
 	var field = document.getElementById(id);
@@ -38,14 +38,14 @@ function makeHomepage(anchor) {
 		netscape.security.PrivilegeManager.enablePrivilege('UniversalPreferencesWrite');
 		navigator.preference('signed.applets.codebase_principal_support', true);
 		navigator.preference('browser.startup.homepage', homepage_url);
-		alert('Voilà! '+ homepage_url + ' ist nun Ihre Startseite.');
+		alert('VoilÃ ! '+ homepage_url + ' ist nun Ihre Startseite.');
 	} else if ((browser=='Microsoft Internet Explorer') && (version >= 4)) {
 		// MSIE 4.x, 5.x Version
 		document.body.style.behavior='url(#default#homepage)';
 		document.body.setHomePage(homepage_url);
 	} else {
 		// Manuelle Einstellung noetig
-		alert('Wenn sie hyperfinder.ch zu ihrer Startseite machen möchten, gehen sie ins Menu Extras -> Einstellungen -> Startseite.');
+		alert('Wenn sie hyperfinder.ch zu ihrer Startseite machen mÃ¶chten, gehen sie ins Menu Extras -> Einstellungen -> Startseite.');
 	}
 }
 

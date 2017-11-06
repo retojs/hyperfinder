@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * share news by Email
  */
 
@@ -61,6 +61,6 @@ function shareNews_callback(intID) {
 		alert("Bitte geben Sie an, wer Sie sind. (Ihr Name oder ihre EMail-Adresse)");
 	
 	} else {
-		alert("Leider konnte das Email nicht verschickt werden. Bitte überprüfen Sie die Email-Adresse und versuchen Sie es später nochmal...");
+		alert("Leider konnte das Email nicht verschickt werden. Bitte Ã¼berprÃ¼fen Sie die Email-Adresse und versuchen Sie es spÃ¤ter nochmal...");
 	}
 }

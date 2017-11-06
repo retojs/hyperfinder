@@ -1,4 +1,4 @@
-/** 
+﻿/** 
  * Contains the functions to display, save and restore news settings.
  * 
  * requires: _vars.js, util/_cookies.js
