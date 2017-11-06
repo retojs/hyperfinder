@@ -250,8 +250,14 @@ börse, börsenkurs, börsenkurse, smi, swissquote, swissquote.ch">
 		<link rel="stylesheet" type="text/css" href="css/css.css">
 		<link rel="stylesheet" type="text/css" href="css/bg.css">
 		<link rel="search" type="application/opensearchdescription+xml" title="Hyperfinder" href="http://hyperfinder.ch/OpenSearch/Hyperfinder.xml">
-		<script type="text/javascript" src="gzip.php?file=js.js"></script>
-		<script type="text/javascript" src="gzip.php?file=news.js"></script>
+
+		<?php
+		    $version = "2.8.1";
+		    $files["js.js"] = "js/js".$version.".js";
+            $files["news.js"] = "js/news".$version.".js";
+		?>
+		<script type="text/javascript" src="<?php print $files['js.js'] ?>"></script>
+		<script type="text/javascript" src="<?php print $files['news.js'] ?>"></script>
 	</head>
 	<?php
 }
